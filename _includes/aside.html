@@ -1,0 +1,25 @@
+<aside id="sidebar">
+	<div class="trigger">
+	{% for my_page in site.pages %}
+	  {% if my_page.title %}
+	  <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+	  {% endif %}
+	{% endfor %}
+	</div>
+	
+	<div>
+		<ul class="social-media-list">
+		  {% if site.github_username %}
+		  <li>
+			{% include icon-github.html username=site.github_username %}
+		  </li>
+		  {% endif %}
+
+		  {% if site.twitter_username %}
+		  <li>
+			{% include icon-twitter.html username=site.twitter_username %}
+		  </li>
+		  {% endif %}
+		</ul>
+	</div>
+</aside>
