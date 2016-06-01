@@ -1072,3 +1072,74 @@ body > header h1 a:hover {
     list-style: none;
     margin-left: 0;
 }
+
+
+
+/** CV section */
+#cv-container {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+#cv-container h1, #cv-container h2, #cv-container h3, #cv-container h4, #cv-container h1:before, #cv-container h2:before, #cv-container h3:before, #cv-container h4:before {
+    font-family: courier;
+}
+
+#cv-container h2 + p.sub {
+    font-family: courier;
+    font-weight: bold;
+    font-size: 13pt;
+
+    margin-left: 5em;
+}
+
+    #cv-container h1:before, #cv-container h2:before, #cv-container h3:before, #cv-container h4:before {
+        margin-right: 1em;
+    }
+
+    #cv-container h1:before {
+        content: '#';
+    }
+
+    #cv-container h2:before {
+        content: '##';
+    }
+
+    #cv-container h3:before {
+        content: '##';
+    }
+
+    #cv-container h4:before {
+        content: '##';
+    }
+
+#cv-container dl dd {
+    margin-left: 50%;
+}
+
+@media (max-width: 500px) {
+    #cv-container dl dt {
+        font-weight: bold;
+    }
+
+    #cv-container dl dd {
+        margin-left: 0;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+    }
+
+    #cv-container h1 + p.sub {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media screen {
+	.trigger ul {
+		padding-left: 0;
+	}
+
+	.trigger li {
+		list-style: none;
+	}	
+}

@@ -3,7 +3,7 @@ function Check-Command($cmdname) {
 }
 
 function Start-Jekyll() {
-    $process = Start-Process -PassThru -FilePath jekyll -ArgumentList serve -WindowStyle Minimized
+    $process = Start-Process -PassThru -FilePath jekyll -ArgumentList @("serve", "--drafts") -WindowStyle Minimized
     Return $process
 }
 

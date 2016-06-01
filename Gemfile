@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-gem 'github-pages'
+gem 'jekyll-seo-tag'
+gem 'jekyll-sass-converter'
 
 group :test do
   gem "html-proofer"

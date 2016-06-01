@@ -7,5 +7,13 @@ url: "http://damsteen.nl" # the base hostname & protocol for your site
 twitter_username: sebazzz91
 github_username:  sebazzz
 
+twitter:
+  username: sebazzz91
+
+permalink: /blog/:year/:month/:day/:slug
+
+gems:
+  - jekyll-seo-tag
+
 # Build settings
 markdown: kramdown
