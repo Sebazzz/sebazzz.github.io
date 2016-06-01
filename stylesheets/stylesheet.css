@@ -1017,6 +1017,7 @@ body > header h1 a:hover {
 .post-list {
     list-style: none;
     margin-left: 0;
+	padding-left: 0;
 }
 
 .post-list > li { margin-bottom: 30px; }
