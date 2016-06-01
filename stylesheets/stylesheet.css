@@ -1026,8 +1026,11 @@ body > header h1 a:hover {
     font-size: 14px;
 }
 
+.post-meta + h2 {
+	margin-top: 0;
+}
+
 .post-link {
-    display: block;
     font-size: 24px;
 }
 
@@ -1142,4 +1145,8 @@ body > header h1 a:hover {
 	.trigger li {
 		list-style: none;
 	}	
+}
+
+.read-more-link {
+	text-align: right;
 }
