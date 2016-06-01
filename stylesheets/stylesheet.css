@@ -755,6 +755,12 @@ aside#sidebar .icon, aside#sidebar .icon svg {
 
 aside#sidebar .icon + span { vertical-align: top; }
 
+body > header h1 a, 
+body > header h1 a:hover {
+	font: inherit;
+	color: inherit;
+}
+
 /* All Mobile Sizes (devices and browser) */
 
 @media only screen and (max-width: 767px) {
