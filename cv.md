@@ -25,7 +25,7 @@ permalink: /cv/
         <dd>1991-07-30 (July 30, 1991)</dd>
 
         <dt>E-mail address</dt>
-        <dd class="invert email">moc.kooltuo@nnammadnaaitsabes</dd>
+        <dd class="email">sebastiaandammann [at] outlook [dot] com</dd>
 
         <dt>Driving License</dt>
         <dd>Yes, B (2012).</dd>

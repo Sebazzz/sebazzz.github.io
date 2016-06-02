@@ -1151,3 +1151,7 @@ body > header h1 a:hover {
 .read-more-link {
 	text-align: right;
 }
+
+.invert {
+	dir: rtl;
+}
