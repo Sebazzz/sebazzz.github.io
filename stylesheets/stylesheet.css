@@ -1155,3 +1155,17 @@ body > header h1 a:hover {
 .invert {
 	dir: rtl;
 }
+
+figure.highlight {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+a .highlighter-rouge {
+	color: inherit;
+}
+
+.highlighter-rouge pre.highlight code {
+	background-color: inherit;
+	color: #000;
+}
