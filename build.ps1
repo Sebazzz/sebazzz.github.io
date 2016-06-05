@@ -3,7 +3,13 @@ function Check-Command($cmdname) {
 }
 
 function Start-Jekyll() {
-    $process = Start-Process -PassThru -FilePath jekyll -ArgumentList @("serve", "--drafts") -WindowStyle Minimized
+	$cmd = "jekyll"
+	$args = @("serve", "--drafts", "--future")
+	
+	$cmdLine = $cmd + " " + [String]::Join(" ", $args)
+	Write-Host $cmdLine
+
+    $process = Start-Process -PassThru -FilePath $cmd -ArgumentList $args -WindowStyle Minimized
     Return $process
 }
 
@@ -29,8 +35,14 @@ switch ([int]$choice) {
 }
 
 if ($process -ne $null) {
-    Write-Host "Launching web browser"
-    Start-Sleep -Seconds 1
+	Write-Host "Launching web browser"
+    Start-Sleep -Seconds 5
+
+    if ($process.Exited) {
+		Write-Error "Error launching jekyll..."
+		Read-Host
+		Exit -1
+	}
 
     Start-Process -FilePath "http://localhost:4000"
 
