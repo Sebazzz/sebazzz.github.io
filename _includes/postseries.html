@@ -1,0 +1,28 @@
+{% comment %}
+Description: Partial to be used for series of posts. Must be pointed to a data file using the "posts" argument.
+
+Data file consists of objects of id/title. Title is optional for posts that are already online.
+{% endcomment %}
+
+<ul>
+{% for post in include.posts %}
+  {% assign post_online = false %}
+  
+  {% for site_post in site.posts %}
+    {% if site_post.id == post.id %}
+	  {% assign post_online = true %}
+	  <li>
+		{% if site_post.id != page.id %}
+		<a href="{{ site_post.url }}">{{ site_post.title }}</a>
+		{% else %}
+		<i>{{ site_post.title }}</i>
+		{% endif %}
+	  </li>
+	{% endif %}
+  {% endfor %}
+  
+  {% if post_online == false %}
+    <li>{{ post.title }} (not yet published)</li>
+  {% endif %}
+{% endfor %}
+</ul>
