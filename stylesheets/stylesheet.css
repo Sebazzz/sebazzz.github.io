@@ -1169,3 +1169,8 @@ a .highlighter-rouge {
 	background-color: inherit;
 	color: #000;
 }
+
+.comment-count {
+	margin-left: 2em;
+	font-size: 8pt;
+}
