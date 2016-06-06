@@ -61,5 +61,16 @@ Total tests: 8. Passed: 8. Failed: 0. Skipped: 0.
 Test Run Successful.
 ```
 
+### Tooling support
+How does the tooling support ordered tests?
+
+**Visual Studio runner:** Since the Test Explorer is unable to show hierarchy, the 'child' tests of an ordered tests are not shown. Also, each test method is shown individually in the Test Explorer. When executing tests, the tests are correctly shown in the results pane at the bottom of the Test Explorer.
+![Test Explorer showing ordered tests](/images/blog/2016-06-06-ordered-tests-with-nunit-mstest-xunit-pt2-mstest-testexplorer.png)
+
+**Resharper runner:** Does not support ordered tests, so no ordered tests are shown. Instead, all test methods are shown in hierarchy and no execution correct order is maintained, as expected.
+![Resharper Test runner](/images/blog/2016-06-06-ordered-tests-with-nunit-mstest-xunit-pt2-mstest-resharper.png)
+
+**Console runner:** Shows (and executes) the tests in the correct order. Need to make sure the `.orderedtest` file is given on the command line. Output is shown in the previous chapter.
+
 ### NUnit
 In the next post we will look at NUnit.
