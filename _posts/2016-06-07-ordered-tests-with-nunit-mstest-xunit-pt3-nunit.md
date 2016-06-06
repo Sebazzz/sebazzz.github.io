@@ -175,3 +175,23 @@ Obvious advantage is that this doesn't need any special configuration when calli
 
 ### Limitations
 When NUnit groups by test fixtures by namespace. That grouping is also considered to be a test by NUnit. This means that when NUnit sorts the tests, it will only sort the tests on the "current level" which may be a fixture or a namespace. In a future post we will reimplement test ordering so it works across namespaces. 
+
+Another limitation is that we currently don't schedule the dependencies of a test to be run when a test is scheduled. We will look at that in a future blog post.
+
+The third obvious limitation is that when a dependency of a test fails, the test is still executed while it should be ignored (marked as 'not runnable') similar to what happens when a test (fixture) setup method fails.
+
+### Tooling support
+How does the tooling support ordered tests?
+
+**Visual Studio runner:** The tests are not correctly ordered in the Test Explorer, but the tests themselves execute in the correct order. When grouping tests by trait, the test fixtures are shown in the correct order but the underlying tests are not. This is not suprising because the test isn't ordered when discovered, but only when executed.
+
+![Visual Studio test explorer showing ordered tests](/images/blog/2016-06-07-ordered-tests-with-nunit-mstest-xunit-pt3-nunit-testexplorer.png)
+
+**Resharper runner:** While the test tree of Resharper does not appear to follow the correct ordering, the tests are actually performed in the correct order. This is not suprising because the test isn't ordered when discovered, but only when executed.
+
+![Resharper test runner showing ordered tests](/images/blog/2016-06-07-ordered-tests-with-nunit-mstest-xunit-pt3-nunit-resharper.png)
+
+**Console runner:** Shows (and executes) the tests in the correct order. The output is shown [earlier](#running-the-tests) in this post.
+
+## XUnit
+In the next post we will take a look at implementing test ordering in XUnit.
