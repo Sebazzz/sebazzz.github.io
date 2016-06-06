@@ -70,7 +70,7 @@ How does the tooling support ordered tests?
 **Resharper runner:** Does not support ordered tests, so no ordered tests are shown. Instead, all test methods are shown in hierarchy and no execution correct order is maintained, as expected.
 ![Resharper Test runner](/images/blog/2016-06-06-ordered-tests-with-nunit-mstest-xunit-pt2-mstest-resharper.png)
 
-**Console runner:** Shows (and executes) the tests in the correct order. Need to make sure the `.orderedtest` file is given on the command line. Output is shown in the previous chapter.
+**Console runner:** Shows (and executes) the tests in the correct order. Need to make sure the `.orderedtest` file is given on the command line. Output is shown in [earlier](#running-the-tests) in this post.
 
-### NUnit
+## NUnit
 In the next post we will look at NUnit.
