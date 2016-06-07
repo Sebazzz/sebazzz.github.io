@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ordered testing with XUnit, NUnit and MSTest part 4: XUnit"
-date:   2016-06-08 00:00:00 +0200
+date:   2016-06-08 10:00:00 +0200
 categories: test-frameworks development
 ---
 
