@@ -11,7 +11,7 @@ This post is part of a series of posts on ordered testing:
 {% include postseries.html posts=site.data.blog_orderedtests %}
 
 ## MSTest
-MSTest is the only framework of the three frameworks which have built-in support for ordered tests. Ordered tests are defined in an `.orderedtest` file, which is an XML file defining each test . This file can be created easily from the Visual Studio IDE using visual editor, as shown below. You can specify that an ordered test should be aborted if one of the tests fail. This is useful if the tests have a functional dependency on one another. If the tests don't have a functional dependency on one another but one test mustn't execute before the other you can leave the option disabled.
+MSTest is the only framework of the three frameworks which have built-in support for ordered tests. Ordered tests are defined in an `.orderedtest` file, which is an XML file containing references to each test. This file can be created easily from the Visual Studio IDE using the visual editor, as shown below. You can specify that an ordered test should be aborted if one of the tests fail. This is useful if the tests have a functional dependency on one another. If the tests don't have a functional dependency on one another but one test mustn't execute before the other you can leave the option disabled.
 
 ![Visual Studio Ordered Test Editor](/images/blog/2016-06-05-ordered-tests-with-nunit-mstest-xunit-pt1-orderedtest-mstest.png)
 
@@ -31,7 +31,7 @@ The editor generates the XML file as shown below.
 The XML file is hard to edit by hand, because every test has a GUID-like as identifier. The identifier is composed like this:
 
 1. Take the name of the test method prefixed with the full name of the test class. For example: `MyNamespace.MyTestType.MyMethod`.
-2. Convert the string to bytes (Unicode)
+2. Convert the string to bytes (using `Encoding.Unicode`)
 3. Run the byte array through the `SHA1CryptoServiceProvider`
 4. Copy the first 128 bits of the hash (16 bytes) to a new array
 5. Initialize a `System.Guid` based on the new array
