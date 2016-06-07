@@ -27,7 +27,7 @@ public void ApplyToTest(Test test) {
 The property which is added to the test is picked up in [`CompositeWorkItem.CreateChildWorkItems`](https://github.com/nunit/nunit/blob/40a0022dc4dd9c92dc6ef1c3fcf936f9ba0e5ba2/src/NUnitFramework/framework/Internal/Execution/CompositeWorkItem.cs#L248). Tests with no order are sorted last, tests with order are sorted according to the `Order` property in the dynamic properties bag.
 
 ### Setting up the boilerplate
-First we set up some general attributes that actually allow us to specify dependencies. We define some attributes for methods, which can be easily applied using the `nameof` language construct in C#:
+First we set up some general attributes that actually allow us to specify dependencies. We define attributes for a method to specify its dependency:
 
 {% highlight c# %}
 public class TestMethodWithoutDependency : NUnitAttribute, IApplyToTest {
@@ -53,9 +53,14 @@ public class TestMethodDependencyAttribute : NUnitAttribute, IApplyToTest {
         }
     }
 }
+
+// This attribute can be easily applied using the `nameof` language construct in C#:
+[TestMethodDependency(nameof(MyOtherMethod))]
+public void MyTestCase() {}
 {% endhighlight %}
 
-And we define roughtly the same attributes for test fixtures, but these accept a `System.Type` instead. 
+
+And we define attributes for test fixtures, but these accept a `System.Type` instead. 
 
 ### Test dependency discovery
 Now we define a component to allow us to find and store the current test methods in the assembly. 
@@ -171,7 +176,7 @@ Test Run Summary
   Test Count: 8, Passed: 8, Failed: 0, Inconclusive: 0, Skipped: 0
 ```
 
-Obvious advantage is that this doesn't need any special configuration when calling the test runner. It "just works".
+Obvious advantage over MSTest is that this doesn't need any special configuration when calling the test runner. It "just works".
 
 ### Limitations
 When NUnit groups by test fixtures by namespace. That grouping is also considered to be a test by NUnit. This means that when NUnit sorts the tests, it will only sort the tests on the "current level" which may be a fixture or a namespace. In a future post we will reimplement test ordering so it works across namespaces. 
@@ -179,6 +184,8 @@ When NUnit groups by test fixtures by namespace. That grouping is also considere
 Another limitation is that we currently don't schedule the dependencies of a test to be run when a test is scheduled. We will look at that in a future blog post.
 
 The third obvious limitation is that when a dependency of a test fails, the test is still executed while it should be ignored (marked as 'not runnable') similar to what happens when a test (fixture) setup method fails.
+
+The fourth limitation, but this is only a small one, is that when you instruct NUnit to run the failed tests first, it will ignore the dependencies of that test (see also limitation two above).
 
 ### Tooling support
 How does the tooling support ordered tests?
