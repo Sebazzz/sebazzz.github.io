@@ -51,6 +51,8 @@ MSTest provides static methods on the [`CollectionAssert`](https://msdn.microsof
 ##### Test class and test case setup / teardown
 Similar to MSTest, NUnit has a [`OneTimeSetUpAttribute`](https://github.com/nunit/docs/wiki/OneTimeSetUp-Attribute) and [`OneTimeTeardownAttribute`](https://github.com/nunit/docs/wiki/OneTimeTearDown-Attribute) for test fixtures and [`Setup` and `Teardown`](https://github.com/nunit/docs/wiki/SetUp-and-TearDown-Changes) for test cases. NUnit allows methods to be static or instance methods and methods from base classes are inherited. The SetUp methods are applied from the base class to the derived class and for TearDown vice versa. Order of execution within the same class is undefined.
 
+In addition to SetUp/TearDown method, NUnit also allows attributes to be applied to test methods and test fixtures which can contain SetUp/TearDown logic itself.
+
 ##### Asserting test results
 NUnit provides "classic" assert capabilities via the [`Assert`](https://github.com/nunit/docs/wiki/Assertions) and `CollectionAssert` class. In the documentation this model is called the *classic model*. This model is very similar to what MSTest offers.
 
