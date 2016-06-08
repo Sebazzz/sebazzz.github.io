@@ -184,3 +184,9 @@ If one test is selected for execution, the dependencies of that test should also
 ![Resharper test runner showing XUnit ordered tests](/images/blog/2016-06-08-ordered-tests-with-nunit-mstest-xunit-pt4-xunit-resharper.png)
 
 **Console runner:** Shows (and executes) the tests in the correct order.
+
+## Conclusion
+
+We have looked at implementing ordered testing in XUnit. Given you don't use test collections at the moment this method may be useful to you. Happy testing! 
+
+*The code for this post can be found on [GitHub](https://github.com/Sebazzz/NetUnitTestComparison/tree/2016-06-05).*

@@ -200,5 +200,11 @@ How does the tooling support ordered tests?
 
 **Console runner:** Shows (and executes) the tests in the correct order. The output is shown [earlier](#running-the-tests) in this post.
 
+## Conclusion
+
+We have looked at implementing ordered testing in NUnit. You probably don't place all your test fixture in the same namespace, so this implementation isn't very useful. In a later post we will look at working around these limitations.
+
+*The code for this post can be found on [GitHub](https://github.com/Sebazzz/NetUnitTestComparison/tree/2016-06-05).*
+
 ## XUnit
 In the next post we will take a look at implementing test ordering in XUnit.
