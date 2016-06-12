@@ -230,6 +230,7 @@ On par with NUnit.
 ```
 
 ## Extensibility
+
 ### MSTest
 ... none? MSTest is not very extensible, and is also a big black box. It does not offer any interfaces to change test discovery or execution behaviour. It is not possible to add custom assertions, other than writing your own class.
 
@@ -247,6 +248,7 @@ XUnit is badly documented, so while there may be many extensibility points, I on
 - Use of `ITestCollectionOrderer` and `ITestCaseOrderer` to allow specifying the order in which tests are run
 
 ## Documentation & community
+
 ### MSTest
 MSTest is documented on MSDN in the [API Reference for Testing Tools for Visual Studio ALM](https://msdn.microsoft.com/en-us/library/dd465178.aspx) section. The documentation is often very brief, especially about the web testing features. 
 
