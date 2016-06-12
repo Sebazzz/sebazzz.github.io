@@ -5,7 +5,7 @@ date:   2016-06-13 5:00:00 +0200
 categories: test-frameworks development
 ---
 
-We have [previously implemented](blog/2016/06/07/ordered-tests-with-nunit-mstest-xunit-pt3-nunit) some basic ordered testing with NUnit. However, it had some severe [blog/2016/06/07/ordered-tests-with-nunit-mstest-xunit-pt3-nunit#limitations](limitations). The biggest limitation was that test fixture ordering across namespaces didn't work. This made the implementation pretty useless. In this blog post we're going to find a solution and implement it.
+We have [previously implemented](blog/2016/06/07/ordered-tests-with-nunit-mstest-xunit-pt3-nunit) some basic ordered testing with NUnit. However, it had some severe [blog/2016/06/07/ordered-tests-with-nunit-mstest-xunit-pt3-nunit#limitations](limitations). The biggest limitation was that test fixture ordering across namespaces didn't work. This made the implementation pretty useless. In this blog post we're going to find a solution and implement it. The code of this blog post can be found on [GitHub](https://github.com/Sebazzz/NetUnitTestComparison/tree/ordered-tests-v2). **Disclaimer:** This code will have rough edges, and may not work for you, kill you cat or blow up in your face. 
 
 ## Test discovery
 Test discovery in NUnit is done by an [`ITestAssemblyBuilder`](https://github.com/nunit/nunit/blob/e4b63406b06f0295a9ae9a0976d4530fbc61a20f/src/NUnitFramework/framework/Api/ITestAssemblyBuilder.cs) implementation. The implementation is invoked by the [`FrameworkController`](https://github.com/nunit/nunit/blob/e4b63406b06f0295a9ae9a0976d4530fbc61a20f/src/NUnitFramework/framework/Api/FrameworkController.cs) when the assembly is loaded. 
@@ -209,3 +209,5 @@ The third limitation, but this is only a small one, is that when you instruct NU
 We've seen how we can use a custom `ITestAssemblyBuilder` to implement ordered testing in NUnit. The only question you might want to ask yourself is: Do I want to use an fork of NUnit to keep use this implementation? If you have a fork, you're responsible to the users of your fork to keep it updated with the main repository of NUnit. 
 
 Also, keep in mind that there is currently [being discussed](https://github.com/nunit/nunit/issues/51) of implementing test ordering in NUnit beyond test methods. Because a working implementation reached NUnit, it may take a while though, these people put their spare time in developing open-source projects!
+
+The code of this blog post can be found on [GitHub](https://github.com/Sebazzz/NetUnitTestComparison/tree/ordered-tests-v2). The code of the NUnit fork can also be found on [GitHub](https://github.com/Sebazzz/nunit/tree/custom-testassemblybuilder) ([Diff](https://github.com/Sebazzz/nunit/commit/337f2412da1eb01932cb6f695feac7861884578c)).
