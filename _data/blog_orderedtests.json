@@ -13,5 +13,9 @@
    {
       "id":"/blog/2016/06/08/ordered-tests-with-nunit-mstest-xunit-pt4-xunit",
 	  "title": "Ordered testing with XUnit, NUnit and MSTest part 4: XUnit"
+   },
+   {
+      "id":"/blog/2016/06/13/ordered-tests-with-nunit-mstest-xunit-pt5-nunit-implementation-revised",
+	  "title": "Ordered testing with XUnit, NUnit and MSTest part 5: NUnit implementation revised"
    }
 ]
