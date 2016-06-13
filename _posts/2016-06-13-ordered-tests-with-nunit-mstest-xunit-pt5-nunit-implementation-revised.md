@@ -208,6 +208,6 @@ The third limitation, but this is only a small one, is that when you instruct NU
 ## Conclusion
 We've seen how we can use a custom `ITestAssemblyBuilder` to implement ordered testing in NUnit. The only question you might want to ask yourself is: Do I want to use an fork of NUnit to keep use this implementation? If you have a fork, you're responsible to the users of your fork to keep it updated with the main repository of NUnit. 
 
-Also, keep in mind that there is currently [being discussed](https://github.com/nunit/nunit/issues/51) of implementing test ordering in NUnit beyond test methods. Because a working implementation reached NUnit, it may take a while though, these people put their spare time in developing open-source projects!
+Also, keep in mind that there is currently [being discussed](https://github.com/nunit/nunit/issues/51) of implementing test ordering in NUnit beyond test methods. Because a working implementation reached NUnit, it may take a while though, these people [put their spare time](http://www.michaelbromley.co.uk/blog/529/why-i-havent-fixed-your-issue-yet) in developing open-source projects!
 
 The code of this blog post can be found on [GitHub](https://github.com/Sebazzz/NetUnitTestComparison/tree/ordered-tests-v2). The code of the NUnit fork can also be found on [GitHub](https://github.com/Sebazzz/nunit/tree/custom-testassemblybuilder) ([Diff](https://github.com/Sebazzz/nunit/commit/337f2412da1eb01932cb6f695feac7861884578c)).
