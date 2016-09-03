@@ -17,6 +17,7 @@ If you've read the previous blog post, you've seen that NUnit uses the `DefaultT
 We can create an attribute to hook in at step 3 and apply our ordering logic. In that case we just modify the existing hierarchy, instead of creating a new one. Let's do that!
 
 Define the attribute:
+
 ```
 [AttributeUsage(AttributeTargets.Assembly)]
 public sealed class EnabledTestFixtureOrderingAttribute : Attribute, IApplyToTest {
@@ -43,6 +44,7 @@ public sealed class EnabledTestFixtureOrderingAttribute : Attribute, IApplyToTes
 In the attribute `IApplyToTest` implementation we call the `OrderedTreeBuilder` we used earlier. We change the `OrderedTreeBuilder` a bit so it now uses the existing hierarchy, instead of creating a new one.
 
 And we add a method to finalize creating the test hierarchy:
+
 ```
 public void Complete() {
     this.Root.Add(this._unorderedTests);
