@@ -16,6 +16,10 @@
    },
    {
       "id":"/blog/2016/06/13/ordered-tests-with-nunit-mstest-xunit-pt5-nunit-implementation-revised",
-	  "title": "Ordered testing with XUnit, NUnit and MSTest part 5: NUnit implementation revised"
+	  "title": "Ordered testing with XUnit, NUnit and MSTest part 5: NUnit implementation revised part 1"
+   },
+   {
+      "id":"/blog/2016/09/03/ordered-tests-with-nunit-mstest-xunit-pt6-nunit-implementation-revised-no-fork",
+	  "title": "Ordered testing with XUnit, NUnit and MSTest part 6: NUnit implementation revised part 2"
    }
 ]
