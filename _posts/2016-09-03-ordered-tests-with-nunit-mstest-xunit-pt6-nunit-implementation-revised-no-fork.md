@@ -7,6 +7,9 @@ categories: test-frameworks development
 
 We have [previously implemented](/blog/2016/06/13/ordered-tests-with-nunit-mstest-xunit-pt5-nunit-implementation-revised) some ordered testing with NUnit. However, it required [forking NUnit](https://github.com/Sebazzz/nunit/tree/custom-testassemblybuilder) to make the ordering possible.. This made the implementation pretty useless, since you'Il be maintaining your own fork forever. In this blog post we're going to find a better solution and implement it. The code of this blog post can be found on [GitHub](https://github.com/Sebazzz/NetUnitTestComparison/tree/ordered-tests-v2b). **Disclaimer:** This code will have rough edges, and may not work for you, kill you cat or blow up in your face. 
 
+This post is part of a series of posts on ordered testing:
+{% include postseries.html posts=site.data.blog_orderedtests %}
+
 ## A new look at DefaultTestAssemblyBuilder
 If you've read the previous blog post, you've seen that NUnit uses the `DefaultTestAssemblyBuilder` to set up the hierarchy of tests. The `DefaultTestAssemblyBuilder` follows these steps to create the test hierarchy:
 
