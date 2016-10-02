@@ -855,9 +855,14 @@ body > header h1 a:hover {
     color: #a61717;
 }
 
-.highlight .k { font-weight: bold; }
+.highlight .k { 
+    font-weight: normal;
+    color: #1E90FF;
+}
 
-.highlight .o { font-weight: bold; }
+.highlight .o { 
+    font-weight: bold;
+}
 
 .highlight .cm {
     color: #998;
@@ -939,7 +944,6 @@ body > header h1 a:hover {
 
 .highlight .nc {
     color: #458;
-    font-weight: bold;
 }
 
 .highlight .no { color: #008080; }
@@ -953,7 +957,6 @@ body > header h1 a:hover {
 
 .highlight .nf {
     color: #900;
-    font-weight: bold;
 }
 
 .highlight .nn { color: #555; }

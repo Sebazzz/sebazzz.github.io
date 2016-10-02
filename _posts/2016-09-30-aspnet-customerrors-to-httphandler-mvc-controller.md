@@ -9,11 +9,11 @@ ASP.NET has built-in error handling that allows certain HTTP errors to be redire
 
 I'm not very fond of doing an actual *redirect* in the form of *302 Found* when such issue occurs. It breaks browser history and it is semantically incorrect. Fortunately, since ASP.NET 4.0 it is possible to specify an `redirectMode` in the `customErrors` element:
 
-``` XML
+{% highlight XML %}
 <customErrors redirectMode="ResponseRewrite">
    <!-- ... -->
 </customErrors>
-```
+{% endhighlight %}
 
 This allows ASP.NET to replace the existing request, with an entire new request to the page specified in the `customErrors` element. Is is [done by calling](https://referencesource.microsoft.com/#System.Web/HttpResponse.cs,2471) [`HttpServerUtility.Execute`](https://msdn.microsoft.com/en-us/library/23e7sy74(v=vs.110).aspx). This works great when you want to rewrite the response to an static file or rewrite the response to an WebForms page!
 
@@ -27,18 +27,18 @@ No wonder I wasn't able to call my handler or ASP.NET MVC controller!
 
 The workaround is easy though, simply derive from `System.Web.UI.Page` and override the `ProcessRequest` method. From within your handler you can either do the work you want, or call another handler using `TransferRequest`.
 
-``` C#
+{% highlight C# %}
 public class MvcProxyHandler : Page {
     public override void ProcessRequest(HttpContext context) {
         string route = context.Request.QueryString["Route"];
         context.Server.TransferRequest(route, false);
     }
 }
-```
+{% endhighlight %}
 
 In your web.config file:
 
-``` XML
+{% highlight XML %}
 <system.web>
   <customErrors redirectMode="ResponseRewrite" mode="On">
     <error statusCode="404" redirect="~/MvcProxy.axd?Route=/Test/Error" />
@@ -52,4 +52,4 @@ In your web.config file:
           verb="GET,HEAD,POST,PATCH,PUT,DELETE,OPTIONS" />
   </handlers>
 </system.webServer>
-```
+{% endhighlight %}

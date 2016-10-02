@@ -21,7 +21,7 @@ We can create an attribute to hook in at step 3 and apply our ordering logic. In
 
 Define the attribute:
 
-```
+{% highlight C# %}
 [AttributeUsage(AttributeTargets.Assembly)]
 public sealed class EnabledTestFixtureOrderingAttribute : Attribute, IApplyToTest {
     public void ApplyToTest(Test test) {
@@ -42,13 +42,13 @@ public sealed class EnabledTestFixtureOrderingAttribute : Attribute, IApplyToTes
         treeBuilder.Complete();
     }
 }
-```
+{% endhighlight %}
 
 In the attribute `IApplyToTest` implementation we call the `OrderedTreeBuilder` we used earlier. We change the `OrderedTreeBuilder` a bit so it now uses the existing hierarchy, instead of creating a new one.
 
 And we add a method to finalize creating the test hierarchy:
 
-```
+{% highlight C# %}
 public void Complete() {
     this.Root.Add(this._unorderedTests);
     this.Root.Add(this._orderedTests);
@@ -56,13 +56,13 @@ public void Complete() {
     this._unorderedTests.Properties.Set(PropertyNames.Order, 0);
     this._orderedTests.Properties.Set(PropertyNames.Order, 1);
 }
-``` 
+{% endhighlight %}
 
 Apply the attribute in the target assembly:
 
-```
+{% highlight C# %}
 [assembly: EnabledTestFixtureOrdering]
-```
+{% endhighlight %}
 
 And we're done!
 

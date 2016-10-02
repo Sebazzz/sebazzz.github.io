@@ -19,9 +19,9 @@ The library offers the following features:
 
 Include the library into your project and include the following code in your AssemblyInfo file:
 
-``` C#
+{% highlight C# %}
 [assembly:EnableTestFixtureOrdering]
-```
+{% endhighlight %}
 
 Now you can start writing ordered tests. You can order both test fixtures and the methods within fixtures themselves.
 
@@ -40,7 +40,7 @@ Let's say we're building a webshop, and want to run an UI automation test on the
 
 We could model this scenario like:
 
-``` C#
+{% highlight C# %}
 [OrderedTestFixture]
 public sealed class WebUITestFixture : TestOrderingSpecification {
     protected override void DefineTestOrdering() {
@@ -51,7 +51,7 @@ public sealed class WebUITestFixture : TestOrderingSpecification {
 
     protected override bool ContinueOnError => false; // Or true, if you want to continue even if a child test fails, but in this case we depend on the workflow to complete, so we don't want to do that.
 }
-```
+{% endhighlight %}
 
 And from the commandline execute this scenario using:
 
@@ -59,17 +59,17 @@ And from the commandline execute this scenario using:
 
 This also allows us to build multiple test scenario's. We might have a smoke test we want to execute when we do a daily deployment to the staging environment:
 
-``` C#
+{% highlight C# %}
 [OrderedTestFixture]
 public sealed class SmokeTestFixture : TestOrderingSpecification {
     // ...
 }
-```
+{% endhighlight %}
 
 ### Ordering test methods within fixtures
 Within test fixtures you'Il often want to order the individual test methods as well. Let's check this scenario:
 
-``` C#
+{% highlight C# %}
 [TestFixture]
 public sealed class EnterProductFixture {
 
@@ -77,13 +77,13 @@ public sealed class EnterProductFixture {
 
 	[Test]public void FindProductInOverview();
 }
-```
+{% endhighlight %}
 
 We need to enter a product before we can look it up in the overview. Sometimes, the test fixture itself may be generated, for example by the excellent [SpecFlow](http://www.specflow.org/) framework. 
 
 In that case you can apply an ordered to the test fixture, to allow test methods to execute in the order you want:
 
-``` C#
+{% highlight C# %}
 partial class EnterProductFixture {
     private sealed class Orderer : TestOrderer<Tests> {
         protected override void DefineOrdering() {
@@ -92,7 +92,7 @@ partial class EnterProductFixture {
         }
     }
 }
-```
+{% endhighlight %}
 
 ## Download
 Download the current prerelease from [NuGet](https://www.nuget.org/packages/NUnitTestOrdering/):
