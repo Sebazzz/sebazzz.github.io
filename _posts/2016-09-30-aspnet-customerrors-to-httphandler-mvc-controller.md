@@ -2,6 +2,7 @@
 layout: post
 title:  "Using ASP.NET Custom Errors with ASP.NET MVC Controllers or HTTP handlers"
 date:   2016-09-30 20:00:00 +0200
+categories: asp-net development
 ---
 
 ASP.NET has built-in error handling that allows certain HTTP errors to be redirected to other pages in an web application. You can for example show friendly messages when an HTTP 500 error occurs, or more likely, when an HTTP 400 (*Bad Request*, caused by ASP.NET request validation) occurs. This can cause issues however if you're using `ResponseRewrite` and want to rewrite the response to a custom `IHttpHandler` or MVC controller action.
