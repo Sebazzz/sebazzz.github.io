@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Resolve ClassCastException in Omnifaces"
+title:  "Resolve ClassCastException in Omnifaces related to Xalon (or: How to resolve maven dependency issues)"
 date:   2017-02-10 12:00:00 +0100
 categories: java development
 ---
 
-While developing an Java EE application on JBoss 6.1.0 EAP which uses Omnifaces I ran into an issue:
+While developing an Java EE application on JBoss 6.1.0 EAP which uses Omnifaces I ran into an issue that caused *some* pages not to be rendered. A `NoClassDefFoundError` occurred but the actual class did exist! The most odd issue was that this happened after upgrading an unrelated dependency in the maven pom file. 
+
+The stack trace is should below: 
 
 ```
 java.lang.NoClassDefFoundError: Could not initialize class org.omnifaces.config.WebXml
@@ -46,6 +48,7 @@ mvn dependency:tree >> dependencies.txt && vim dependencies.txt
 ```
 
 You will get a large file which shows a tree of all the dependencies in your project. The relevant parts in my output:
+
 ```
 [INFO] [redacted]war:3.2.5.8
 [INFO] +- org.jboss.spec:jboss-javaee-6.0:pom:3.0.2.Final:provided
