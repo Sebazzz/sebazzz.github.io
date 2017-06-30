@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "How-to: Run an ASP.NET Core application on Windows 10 IoT"
-date:   2017-06-30 22:00:00 +0100
-categories: sql development
+date:   2017-06-30 20:00:00 +0100
+categories: development raspberry hacking
 ---
 
 So I recently bought a second raspbery pi to start experimenting with Windows 10 IoT. As it happens, .NET Core is not actually supported nor endorsed anywhere. But it is actually possible to run an ASP.NET Core application on Windows IoT Core. This article will tell you how! 
