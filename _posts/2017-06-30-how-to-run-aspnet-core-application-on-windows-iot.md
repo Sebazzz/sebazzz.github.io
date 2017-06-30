@@ -5,7 +5,7 @@ date:   2017-06-30 20:00:00 +0100
 categories: development raspberry hacking
 ---
 
-So I recently bought a second raspbery pi to start experimenting with Windows 10 IoT. As it happens, .NET Core is not actually supported nor endorsed anywhere. But it is actually possible to run an ASP.NET Core application on Windows IoT Core. This article will tell you how! 
+So I recently bought a second Raspberry PI to start experimenting with Windows 10 IoT. As it happens, .NET Core is not actually supported nor endorsed anywhere. But it is actually possible to run an ASP.NET Core application on Windows IoT Core. This article will tell you how! 
 
 ## Prequisites
 
@@ -99,6 +99,6 @@ We first configure the URL to run the application under. By default it listens t
 
 Visit `http://<dnsname>:5000` and you get your first response:
 
-![ASP.NET Core on Windows 10 IoT Core](/images/2017-06-30-how-to-run-aspnet-core-application-on-windows-iot.png)
+![ASP.NET Core on Windows 10 IoT Core](/images/blog/2017-06-30-how-to-run-aspnet-core-application-on-windows-iot.png)
 
 Happy coding!
