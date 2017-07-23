@@ -15,6 +15,7 @@ permalink: /blog/:year/:month/:day/:slug
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Build settings
 markdown: kramdown
