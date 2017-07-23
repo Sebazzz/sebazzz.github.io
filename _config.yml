@@ -13,9 +13,13 @@ twitter:
 
 permalink: /blog/:year/:month/:day/:slug
 
-plugins:
+gems:
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-feed
+
+feed:
+  path: feed.xml
 
 # Build settings
 markdown: kramdown
