@@ -5,7 +5,7 @@ date:   2016-06-06 20:00:00 +0200
 categories: test-frameworks development
 ---
 
-In the [previous post](2016-06-05-ordered-tests-with-nunit-mstest-xunit-pt1) we looked briefly at ordered testing. Today we are going to implement ordered tests in MSTest. The code for this post can be found on [GitHub](https://github.com/Sebazzz/NetUnitTestComparison/tree/2016-06-05). 
+In the [previous post](/blog/2016/06/05/ordered-tests-with-nunit-mstest-xunit-pt1) we looked briefly at ordered testing. Today we are going to implement ordered tests in MSTest. The code for this post can be found on [GitHub](https://github.com/Sebazzz/NetUnitTestComparison/tree/2016-06-05). 
 
 This post is part of a series of posts on ordered testing:
 {% include postseries.html posts=site.data.blog_orderedtests %}
