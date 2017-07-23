@@ -14,7 +14,6 @@ layout: null
 {% endfor %}
 {% for page in site.pages %}
   <url>
-    <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
     <loc>{{ page.url | prepend: site.baseurl | prepend: site.url }}</loc>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
