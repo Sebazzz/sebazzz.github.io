@@ -378,8 +378,9 @@ table {
 td,
 th { padding: 0; }
 
-/* LAYOUT STYLES */
+@import "https://fonts.googleapis.com/css?family=Source+Code+Pro";
 
+/* LAYOUT STYLES */
 body {
     background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
     color: #666;
@@ -391,12 +392,12 @@ body {
 
 p { margin-top: 0; }
 
-a { color: #2879d0; }
+a { color: #18477A; }
 
 a:hover { color: #2268b2; }
 
 body > header {
-    background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+    background: #20558E url(../images/header-bg.jpg) 0 0 repeat-x;
     border-bottom: solid 1px #275da1;
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
     padding-bottom: 40px;
@@ -458,6 +459,22 @@ aside#sidebar p.repo-owner a { font-weight: bold; }
 
 #downloads { margin-bottom: 40px; }
 
+@media screen and (min-width: 1100px) {
+    #main-content {
+        float: left;
+        width: 800px;
+    }
+
+    .inner {
+        width: 1150px;
+    }
+
+    .highlighter-rouge {
+        display: inline-block;
+        width: auto;
+    }
+}
+
 a.button {
     color: #fff;
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -492,7 +509,7 @@ aside a.button {
 
 code, pre {
     color: #222;
-    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-family: 'Source Code Pro', Consolas, "Lucida Console", Terminal, monospace;
     font-size: 13px;
     margin-bottom: 30px;
 }
@@ -507,14 +524,14 @@ pre {
     background: #fff;
     border: solid 1px #f2f2f2;
     overflow: auto;
-    padding: 20px;
+    padding: 5px 10px;
     text-shadow: none;
 }
 
 pre code {
     background-color: #fff;
     border: none;
-    color: #2879d0;
+    color: #18477A;
     padding: 0;
 }
 
@@ -532,16 +549,20 @@ hr {
 }
 
 table {
-    border: 1px solid #ebebeb;
+    border: 0;
     width: 100%;
+    margin-bottom: 20px;
 }
 
-th { font-weight: 500; }
+th {
+     font-weight: 500;
+}
 
 td {
-    border: 1px solid #ebebeb;
+    border: 0;
     font-weight: 300;
-    text-align: center;
+    text-align: left;
+    padding: 2px 5px;
 }
 
 form {
@@ -782,7 +803,7 @@ body > header h1 a:hover {
         background-color: #9ddcff;
         background-image: none;
         border-radius: 5px;
-        color: #2879d0;
+        color: #18477A;
         display: inline-block;
         font-size: 13px;
         height: auto;
@@ -843,7 +864,17 @@ body > header h1 a:hover {
 
 .highlight { background: #fff; }
 
-.highlighter-rouge .highlight { background: #eef; }
+.highlighter-rouge .highlight {
+    background: #D5D5D5;
+}
+
+.highlighter-rouge {
+    margin-top: 0;
+}
+
+p + .highlighter-rouge {
+    margin-top: -20px;
+}
 
 .highlight .c {
     color: #998;

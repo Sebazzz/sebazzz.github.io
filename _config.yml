@@ -13,7 +13,7 @@ twitter:
 
 permalink: /blog/:year/:month/:day/:slug
 
-gems:
+plugins:
   - jekyll-seo-tag
 
 # Build settings

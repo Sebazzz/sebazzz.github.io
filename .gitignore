@@ -6,3 +6,4 @@ Desktop.ini
 .DS_Store
 .jekyll-metadata
 /Gemfile.lock
+.vs
