@@ -44,3 +44,5 @@ It should now be possible to connect.
 When using PuTTY, it is possible you need to hit the 'Enter/Return' key on your keyboard first before you see a login prompt. When using minicom, you may see some garbage in the console first before you press the enter key. After pressing enter you can login with any account you would login with via SSH. If you have problems viewing certain characters, try setting the encoding on UTF-8. 
 
 If you can't get it to work at all, try rebooting both computer and ReadyNAS. If it still doesn't work, try turning the connector on the NAS-side the other way around. Don't hesitate to contact me or comment here if this still doesn't work. :)
+
+*This article was previously posted on damsteen.nl under a different url and taken offline.*
