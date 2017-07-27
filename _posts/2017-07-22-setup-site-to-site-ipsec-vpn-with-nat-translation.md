@@ -8,7 +8,7 @@ categories: it-management ubiquity edgeos ipsec site-to-site vpn
 To connect business networks to each other a site-to-site IPSec is often employed. An IPSec connection is widely supported by corporate routing appliances like Cisco ASA, Sonicwall, Kerio and others. In some cases the remote and local subnet may overlap. In that case you need to use NAT translation to virtual IP addresses. This guide will show you how you can set-up an IPSec connection using NAT translation with a Ubiquiti Edgerouter to a Cisco ASA.
 
 ## The case
-We start with the case [from the previous guide](/blog/2017/07/10/setup-site-to-site-ipsec-vpn-with-edgerouter-cisco-asa). 
+We start with the case [from the previous guide](/blog/2017/07/21/setup-site-to-site-ipsec-vpn-with-edgerouter-cisco-asa). 
 
 ![Network diagram - Cisco ASA vs EdgeRouter IPSec](/images/blog/2017-07-21-setup-site-to-site-ipsec-vpn-with-edgerouter-cisco-asa-diagram.png)
 
@@ -136,7 +136,7 @@ You can also see the NAT translations in effect:
 	10.0.0.4             10.16.71.7         10.1.65.4            10.16.71.7
 
 ## Troubleshooting
-Please refer to [the previous guide](blog/2017/07/21/setup-site-to-site-ipsec-vpn-with-edgerouter-cisco-asa#troubleshooting) for general IPSec troubleshooting. 
+Please refer to [the previous guide](/blog/2017/07/21/setup-site-to-site-ipsec-vpn-with-edgerouter-cisco-asa#troubleshooting) for general IPSec troubleshooting. 
 
 ### No IKE is attempted
 In troubleshooting the IPSec connection we have extra complexity to take into account. As mentioned earlier the IPSec tunnel is lazily initialized. If the NAT translation rules are incorrect no connection might be set-up because no packets come from subnet 10.1.65.0/24.
