@@ -406,13 +406,12 @@ body > header {
 
 body > header h1 {
     color: #fff;
-    font-size: 72px;
+    font-size: 62px;
     font-weight: normal;
     letter-spacing: -1px;
     line-height: 1;
     margin-bottom: 0.2em;
     margin-top: 0;
-    width: 540px;
 }
 
 body > header h2 {

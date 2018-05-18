@@ -22,7 +22,7 @@ permalink: /cv/
         <dd>Rotterdam</dd>
 
         <dt>Date of birth</dt>
-        <dd>1991-07-30 (July 30, 1991)</dd>
+        <dd>1991-07-30 (30 July 1991)</dd>
 
         <dt>E-mail address</dt>
         <dd class="email">sebastiaandammann [at] outlook [dot] com</dd>
@@ -49,10 +49,13 @@ permalink: /cv/
         <dd>2003-2009: HAVO (Penta College CSG Angelus Merula). Profile "Natuur &amp; Techniek".</dd>
     </dl>
 
-    <h3>Work experience</h3>
+    <h3>Professional experience</h3>
     <dl>
-        <dt>aug 2013 - current</dt>
-        <dd>Web Developer at EY (Ernst &amp; Young)</dd>
+        <dt>july 2016 - current</dt>
+        <dd>Senior Web Developer at EY (formerly called Ernst &amp; Young). Besides development I also maintain the servers and tooling for the web development team to function.</dd>
+
+        <dt>aug 2013 - july 2016</dt>
+        <dd>Web Developer at EY (formerly called Ernst &amp; Young). Besides development I also maintain the servers and tooling for the web development team to function.</dd>
 
         <dt>feb 2013 - jul 2013</dt>
         <dd>Intern at Ernst &amp; Young. Research into ASP.NET web frameworks and implementation into existing applications.</dd>
@@ -81,10 +84,16 @@ permalink: /cv/
         <dt>C#, Visual Studio, ASP.NET, T-SQL, Javascript/Typescript</dt>
         <dd>Very good. Daily experience during the job, study, and hobby.</dd>
 
-        <dt>CSS</dt>
+        <dt>Javascript build tooling (Node.js - Webpack/Gulp)</dt>
+        <dd>Good</dd>
+
+        <dt>CSS, LESS, SASS</dt>
         <dd>Good</dd>
 
         <dt>Powershell, Windows Server</dt>
+        <dd>Very good</dd>
+
+        <dt>Bash, Debian-based Linux</dt>
         <dd>Good</dd>
 
         <dt>PHP, Java</dt>
