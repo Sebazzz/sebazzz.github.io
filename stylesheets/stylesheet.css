@@ -513,6 +513,10 @@ code, pre {
     margin-bottom: 30px;
 }
 
+p code {
+    margin-bottom: 0;
+}
+
 code {
     background-color: #f2f8fc;
     border: solid 1px #dbe7f3;
