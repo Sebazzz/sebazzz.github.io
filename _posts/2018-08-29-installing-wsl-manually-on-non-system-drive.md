@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How-to: Installing WSL manually on a non-system drive"
-date:   2018-08-29 20:00:00 +0100
+date:   2018-08-29 19:00:00 +0100
 categories: windows linux wsl
 ---
 
