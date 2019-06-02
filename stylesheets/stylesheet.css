@@ -1211,3 +1211,19 @@ a .highlighter-rouge {
 	margin-left: 2em;
 	font-size: 8pt;
 }
+
+.technical-skills-table {
+	width: auto;	
+}
+
+.technical-skills-table tr td:first-child {
+	padding-right: 1em;	
+}
+
+.technical-skills-table__notes-cell {
+	font-size: 0.8em;
+}
+
+.google-grading-scale {
+	font-size: 8pt;
+}

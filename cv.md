@@ -7,7 +7,7 @@ permalink: /cv/
 <article id="cv-container">
     <h2>Sebastiaan Dammann</h2>
     <p class="sub">
-        ASP.NET Web Developer
+        Software Developer with specialization in web development
     </p>
 
     <h3>Personalia</h3>
@@ -78,25 +78,109 @@ permalink: /cv/
         <dt>English</dt>
         <dd>Good</dd>
     </dl>
+	
+	<h3>Certificates and learning</h3>
+	<dl>
+		<dt>Professional Scrum Developer</dt>
+		<dd>April 2014; no expiration; Scrum.org</dd>
+		
+		<dt>Beginning C++ Programming - From Beginner to Beyond</dt>
+		<dd>March 2019; no expiration; Udemy</dd>
+		
+		<dt>Modern React with Redux</dt>
+		<dd>May 2019; no expiration; Udemy</dd>
+	</dl>
 
-    <h3>Technical skills</h3>
-    <dl>
-        <dt>C#, Visual Studio, ASP.NET, T-SQL, Javascript/Typescript</dt>
-        <dd>Very good. Daily experience during the job, study, and hobby.</dd>
-
-        <dt>Javascript build tooling (Node.js - Webpack/Gulp)</dt>
-        <dd>Good</dd>
-
-        <dt>CSS, LESS, SASS</dt>
-        <dd>Good</dd>
-
-        <dt>Powershell, Windows Server</dt>
-        <dd>Very good</dd>
-
-        <dt>Bash, Debian-based Linux</dt>
-        <dd>Good</dd>
-
-        <dt>PHP, Java</dt>
-        <dd>Some experience</dd>
-    </dl>
+    <h3>Technical skills<a href="#google-grading-scale"><sup>1</sup></a></h3>
+	<table class="technical-skills-table">
+		<colgroup>
+			<col style="width: auto">
+			<col style="width: 4em">
+		</colgroup>
+		<tr>
+			<td>C#, Visual Studio, ASP.NET</td>
+			<td><strong>9</strong></td>
+			<td class="technical-skills-table__notes-cell">
+				<a href="https://github.com/Sebazzz/financial-app">Financial App</a>;
+				<a href="https://github.com/Sebazzz/IFS">IFS</a>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Typescript, Javascript, CSS, LESS, SASS</td>
+			<td><strong>8</strong></td>
+			<td class="technical-skills-table__notes-cell">
+				See above and <a href="https://github.com/Sebazzz/SystemWebpack">SystemWebpack</a>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>T-SQL (MSSQL)</td>
+			<td><strong>8</strong></td>
+			
+		</tr>
+		
+		<tr>
+			<td>Javascript build tooling (Node.js - Webpack/Gulp)</td>
+			<td><strong>7</strong></td>
+		</tr>
+		
+		<tr>
+			<td>Powershell, Windows Server</td>
+			<td><strong>6</strong></td>
+			<td class="technical-skills-table__notes-cell"><a href="https://github.com/Sebazzz/PSMenu">PSMenu</a></td>
+		</tr>
+		
+		<tr>
+			<td>Bash, Debian-based Linux</td>
+			<td><strong>4</strong></td>
+		</tr>
+		
+		<tr>
+			<td>Java</td>
+			<td><strong>3</strong></td>
+		</tr>
+		
+		<tr>
+			<td>x86 assembly, C++</td>
+			<td><strong>3</strong></td>
+			<td class="technical-skills-table__notes-cell"><a href="https://github.com/Sebazzz/sdos">sdos</a></td>
+		</tr>
+		
+		<tr>
+			<td>PHP</td>
+			<td><strong>2</strong></td>
+		</tr>
+	</table>
+   
 </article>
+
+<aside>
+	<sup>1: Based on Google grading scale</sup>
+	<table id="google-grading-scale" class="google-grading-scale" style="font-size: 8pt">
+		<tr>
+			<td><strong>10</strong></td>
+			<td>You literally have written a book.</td>
+		</tr>
+		
+		<tr>
+			<td><strong>7-9</strong></td>
+			<td>Expert, go-to person on this technology.</td>
+		</tr>
+		
+		<tr>
+			<td><strong>5-6</strong></td>
+			<td>Solid daily working knowledge. Highly proficient.</td>
+		</tr>
+		
+		<tr>
+			<td><strong>3-4</strong></td>
+			<td>Comfortable working with this, have to check manual on some things.</td>
+		</tr>
+		
+		<tr>
+			<td><strong>1-2</strong></td>
+			<td>Have worked with it previously but either not much, or rusty.</td>
+		</tr>
+	</table>
+</aside>
