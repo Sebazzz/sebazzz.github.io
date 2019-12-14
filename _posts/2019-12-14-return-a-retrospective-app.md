@@ -25,7 +25,7 @@ The app has many features you'd expect in a retrospective app. There are many pa
 ## Architecture
 I have built Return using the [clean architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) [(video about implementing this in ASP.NET Core)](https://www.youtube.com/watch?v=_lwCVE_XgqI) pattern (if you can call it a pattern).  It is essentially based on a separation of concerns between the domain and architecture layers, which contain the business logic, and the outer layers which contain the infrastructure and presentation like the persistence logic and web application rendering.
 
-*I wasn't able to find any CC-licensed illustration so you will just have to search for an diagram 😉*
+*Please find a diagram on the linked post of Robert C. Martin.*
 
 ### Tests
 Using this pattern I was quickly able to build this retrospective app while writing tests. At point of writing the application has about 140 tests, with 114 tests being unit tests for the application layer.  The rest are tests for the other layers like the domain and website, with about 26 being full end-to-end Selenium tests. Return is tested with every check-in by continuous integration via AppVeyor, CircleCI and Github Actions. 
