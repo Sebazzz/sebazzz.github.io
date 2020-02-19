@@ -52,10 +52,10 @@ permalink: /cv/
     <h3>Professional experience</h3>
     <dl>
         <dt>july 2016 - current</dt>
-        <dd>Senior Web Developer at EY (formerly called Ernst &amp; Young). Besides development I also maintain the servers and tooling for the web development team to function.</dd>
+        <dd>Senior Web Developer at EY. Primary activities involve devops (build scripts, CI/CD), coaching, development, and some sysops.</dd>
 
         <dt>aug 2013 - july 2016</dt>
-        <dd>Web Developer at EY (formerly called Ernst &amp; Young). Besides development I also maintain the servers and tooling for the web development team to function.</dd>
+        <dd>Web Developer at EY (formerly called Ernst &amp; Young). Besides web development I also maintain the servers and general tooling for the web development team.</dd>
 
         <dt>feb 2013 - jul 2013</dt>
         <dd>Intern at Ernst &amp; Young. Research into ASP.NET web frameworks and implementation into existing applications.</dd>
