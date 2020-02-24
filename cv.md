@@ -52,7 +52,7 @@ permalink: /cv/
     <h3>Professional experience</h3>
     <dl>
         <dt>july 2016 - current</dt>
-        <dd>Senior Web Developer at EY. Primary activities involve devops (build scripts, CI/CD), coaching, development, and some sysops.</dd>
+        <dd>Senior Web Developer at EY. Primary activities involve devops (build scripts, CI/CD), coaching, general software development, and some sysops (maintainance of servers used by my team).</dd>
 
         <dt>aug 2013 - july 2016</dt>
         <dd>Web Developer at EY (formerly called Ernst &amp; Young). Besides web development I also maintain the servers and general tooling for the web development team.</dd>
@@ -102,7 +102,8 @@ permalink: /cv/
 			<td><strong>9</strong></td>
 			<td class="technical-skills-table__notes-cell">
 				<a href="https://github.com/Sebazzz/financial-app">Financial App</a>;
-				<a href="https://github.com/Sebazzz/IFS">IFS</a>
+				<a href="https://github.com/Sebazzz/IFS">IFS</a>;
+				<a href="https://github.com/Sebazzz/Return">Return</a>
 			</td>
 		</tr>
 		
@@ -144,7 +145,10 @@ permalink: /cv/
 		<tr>
 			<td>x86 assembly, C++</td>
 			<td><strong>3</strong></td>
-			<td class="technical-skills-table__notes-cell"><a href="https://github.com/Sebazzz/sdos">sdos</a></td>
+			<td class="technical-skills-table__notes-cell">
+				<a href="https://github.com/Sebazzz/sdos">sdos</a>;
+				<a href="https://github.com/Sebazzz/lsbasi">lsbasi</a>
+			</td>
 		</tr>
 		
 		<tr>
