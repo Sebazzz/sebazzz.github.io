@@ -103,7 +103,8 @@ permalink: /cv/
 			<td class="technical-skills-table__notes-cell">
 				<a href="https://github.com/Sebazzz/financial-app">Financial App</a>;
 				<a href="https://github.com/Sebazzz/IFS">IFS</a>;
-				<a href="https://github.com/Sebazzz/Return">Return</a>
+				<a href="https://github.com/Sebazzz/Return">Return</a>;
+				<a href="https://github.com/Sebazzz/PokerTime">PokerTime</a>
 			</td>
 		</tr>
 		
@@ -140,6 +141,14 @@ permalink: /cv/
 		<tr>
 			<td>Java</td>
 			<td><strong>3</strong></td>
+		</tr>
+		
+		<tr>
+			<td>Docker</td>
+			<td><strong>3</strong></td>
+			<td class="technical-skills-table__notes-cell">
+				<a href="https://github.com/Sebazzz/PokerTime">PokerTime</a>
+			</td>
 		</tr>
 		
 		<tr>
