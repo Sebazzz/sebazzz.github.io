@@ -7,3 +7,4 @@ Desktop.ini
 .jekyll-metadata
 /Gemfile.lock
 .vs
+.jekyll-cache/
