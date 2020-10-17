@@ -6,5 +6,5 @@ See a problem with my site? Please leave a comment, open an issue, or just submi
 
 ```
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --future --force_polling --drafts
 ```
