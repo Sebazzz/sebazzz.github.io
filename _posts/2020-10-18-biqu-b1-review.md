@@ -88,9 +88,9 @@ The BIQU B1 offers a standard PTFE lined hot-end, similar to Creality printers. 
 
 ![BIQU B1 - Motherboard](/images/blog/2020-11-18-biqu-b1-review-hot-end.jpg)
 
-BIQU made an interesting design decision. The hot-end is powered by a USB-C cable. I'm not sure what the reasoning is behind it and some reviewers do front upon this decision, but at the end of the day it is not really different than a custom ribbon cable. Except this USB-C cable is meant to move in all directions and a ribbon cable is only meant to move in one direction. The result is that this USB-C cable is about the same stiffness as the PTFE tube and naturally follows the same path as the PTFE tube - and the wire management is quite clean. 
+BIQU made an interesting design decision. The hot-end is powered by a USB-C cable. I'm not sure what the reasoning is behind it and some reviewers do frown upon this decision, but at the end of the day it is not really different than a custom ribbon cable. Except this USB-C cable is meant to move in all directions and a ribbon cable is only meant to move in one direction. The result is that this USB-C cable is about the same stiffness as the PTFE tube and naturally follows the same path as the PTFE tube - and the wire management is quite clean. I like it, because it slims down the chance that any cables get in the way of the nozzle.
 
-Note that this is not just any random USB-C cable, it has been designed for this printer and BIQU recommends to purchase a replacement via BIQU. It does look a bit more sturdier than my other USB-C cables.
+Note that this is not just any random USB-C cable, it has been designed for this printer and BIQU recommends to purchase a replacement via BIQU. It does look a bit more stiff than my other USB-C cables - so this prevents the cable from getting in the way or prematurely wearing down.
 
 The cooling of this hot-end is very good. It features two radial cooling fans, which blow air into the 3d printed cooling shroud right onto the printed piece. This is important when printing very small details.
 
@@ -103,7 +103,7 @@ The hot-end lightning also offers RGB. You can choose red, blue, green and white
 
 Using the Marlin [M150](https://marlinfw.org/docs/gcode/M150.html) command you can use any combination of colors. 
 
-irst I thought this was a gimmick and didn't add much value, but over time I have been appreciating this feature more and more. You can configure the firmware and the start gcode of your slicing software to use different colors: yellow when the bed is heating, red when the hot-end is heating, white when printing, blue when in a cool-down. It is quite useful because you don't need to look at the screen to tell what the printer is doing.
+First I thought RGB light was a gimmick and didn't add much value, but over time I have been appreciating this feature more and more. You can configure the firmware and the start gcode of your slicing software to use different colors: yellow when the bed is heating, red when the hot-end is heating, white when printing, blue when in a cool-down. It is quite useful because you don't need to look at the screen to tell what the printer is doing.
 
 ![BIQU B1 - Cool cooling](/images/blog/2020-11-18-biqu-b1-review-rgb2.jpg)
 
@@ -115,7 +115,7 @@ This printer has, oddly enough, only a belt tensioner on the Y-axis.
 
 ![BIQU B1 - Belt tensioner](/images/blog/2020-11-18-biqu-b1-review-belt-tensioner.jpg)
 
-It looks simple, but works well. I had however wished that they included a belt tensioner on the X-axis as well. It does make the printer look better and is a bit more convenient.
+It looks simple, but works well. I had however wished that they included a belt tensioner on the X-axis as well. It does make the printer look better and is a bit more convenient. On the other hand, how many times do you need to tension a belt?
 
 ### Inputs
 The BIQU offers plenty of ways to get printing. At the motherboard side use a micro-SD card. You can also connect your computer and directly print from your computer.
