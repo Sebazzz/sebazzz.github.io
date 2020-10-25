@@ -61,3 +61,5 @@ G1 Z2.0 F3000 ;Move Z Axis up
 ```
 
 By setting the hot-end to 120 degrees Celcius we can still home accurately but without the chance of filament drooping out. After that, we move to the left side of the printbed and reach our target temperature. Then we do a purge line and any unwanted drooping is outside the usual print area. 
+
+Note that the above gcode assumes the [CR-6 community firmware](https://github.com/CR6Community/) I'm developing is installed, because the community firmware restores the bed leveling mesh automatically after homing.
