@@ -60,4 +60,4 @@ G92 E0 ;Reset Extruder
 G1 Z2.0 F3000 ;Move Z Axis up
 ```
 
-By setting the hot-end to 120 degrees Celcius we can still home accurately but without the chance of filament drooping out. After that, we move to the size of the printbed, reach our target temperature. Then we do a purge line and any unwanted drooping is outside the usual print area. 
+By setting the hot-end to 120 degrees Celcius we can still home accurately but without the chance of filament drooping out. After that, we move to the left side of the printbed and reach our target temperature. Then we do a purge line and any unwanted drooping is outside the usual print area. 
