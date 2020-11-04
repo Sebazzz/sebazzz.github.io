@@ -37,16 +37,16 @@ M105
 G28
 
 ; Now we know the positions we can move out of the way and happily droop at the side of the bed
-M104 S{material_print_temperature}
-M140 S{material_bed_temperature}
+M104 S{material_print_temperature}      ; You can also use material_print_temperature_layer_0 here
+M140 S{material_bed_temperature}        ; Or use material_bed_temperature_layer_0
 M105
 
 G0 Z20
 G0 X0 Y0
 
 ; Now wait for the temperatures to reach
-M190 R{material_bed_temperature}
-M109 S{material_print_temperature}
+M190 R{material_bed_temperature}      ; You can also use material_print_temperature_layer_0 here
+M109 S{material_print_temperature}    ; Or use material_bed_temperature_layer_0
 M105
 
 ; And we can now draw our purge line
@@ -62,4 +62,17 @@ G1 Z2.0 F3000 ;Move Z Axis up
 
 By setting the hot-end to 120 degrees Celcius we can still home accurately but without the chance of filament drooping out. After that, we move to the left side of the printbed and reach our target temperature. Then we do a purge line and any unwanted drooping is outside the usual print area. 
 
+## Prusa slicer
+
+PrusaSlicer users can use [a number of different placeholders for the start gcode](http://projects.ttlexceeded.com/3dprinting_prusaslicer_gcode.html#configuration-placeholders), most notably:
+
+- `[bed_temperature]` instead of `{material_bed_temperature}`
+- `[first_layer_bed_temperature]` instead of `{material_bed_temperature_layer_0}`
+- `[first_layer_temperature]` instead of `{material_print_temperature_layer_0}`
+
+
+## Compatibility with CR-6 firmware
+
 Note that the above gcode assumes the [CR-6 community firmware](https://github.com/CR6Community/) I'm developing is installed, because the community firmware restores the bed leveling mesh automatically after homing.
+
+If you don't use the community firmware, then use `M420 S1` after `G28` to recall the mesh or `G29` to relevel the printer altogether.
