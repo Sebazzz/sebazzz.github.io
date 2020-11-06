@@ -104,7 +104,7 @@ Connect to the ST-Link using the context menu, and choose "connect".
 
 ![ST-Link backup](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers-stlink-backup.png)
 
-After choosing connect and being succesfully connected, you can choose "backup". A file browser will open and you can save your firmware (like *ANet-ET-firmware-backup.bin*).
+After choosing connect and being succesfully connected, you can choose "save as file" to backup the existing flash contents. A file browser will open and you can save your firmware (like *ANet-ET-firmware-backup.bin*).
 
 ### Flashing
 
