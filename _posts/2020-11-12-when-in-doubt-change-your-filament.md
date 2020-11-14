@@ -11,7 +11,7 @@ After my [work on the Creality CR-6 community firmware](https://github.com/CR6Co
 
 I'd like to immediately dive deep with whatever filament and printer I have. No temperature towers, no retraction tests, just a simple calibration cube to test to show any  problems, and go ahead.
 
-At first printing went "okay". I printed the Cute Octopus show below. 
+At first printing went "okay". I printed the Cute Octopus shown below. 
 
 ![Octopus printed with bad filament](/images/blog/2020-11-12-when-in-doubt-change-your-filament-octo.jpg)
 
