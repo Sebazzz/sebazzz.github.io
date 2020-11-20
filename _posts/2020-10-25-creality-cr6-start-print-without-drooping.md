@@ -70,6 +70,12 @@ PrusaSlicer users can use [a number of different placeholders for the start gcod
 - `[first_layer_bed_temperature]` instead of `{material_bed_temperature_layer_0}`
 - `[first_layer_temperature]` instead of `{material_print_temperature_layer_0}`
 
+## Simplify3d
+
+Simplify 3D users can use the following placeholders:
+
+- `[bed0_temperature]` instead of `{material_bed_temperature_layer_0}`
+- `[extruder0_temperature]` instead of `{material_print_temperature_layer_0}`
 
 ## Compatibility with CR-6 firmware
 
