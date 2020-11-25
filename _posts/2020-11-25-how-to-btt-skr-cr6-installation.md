@@ -285,7 +285,7 @@ There are some known issues with this BTT board:
 
 - The optical sensor on the gantry is undervolted and for this reason the little red LED does not turn on. The sensor does appear to be functional, but because it receives 3.3V from the SKR board instead of 5V from the SKR board it doesn't have enough power to show the LED. 
 
-- When using the BTT touch screen the firmware will not pre-heat the bed. Consider pre-heating it yourself or using the community firmware 
+- When using the BTT touch screen the firmware, for leveling, it will not pre-heat the hot-end and bed. Consider pre-heating it yourself or using the community firmware when it becomes available.
 
 - According to the BTT repository, the USB-stick input of the BTT TFT is not functional yet.
 
