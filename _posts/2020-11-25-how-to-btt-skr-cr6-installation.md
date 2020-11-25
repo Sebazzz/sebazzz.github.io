@@ -78,7 +78,7 @@ Make sure that you safely unmount the SD card from your computer after you've pu
 
 In this case you will want to flash the touch screen to the [official Creality 1.0.3.6](https://www.creality.com/download) firmware or to the [v1.0.0-a1](https://github.com/CR6Community/CR-6-touchscreen/releases/tag/v1.0.0-a1) community touch screen firmware. This is important if you are running the community firmware release 4 or higher or Creality firmware v2.0.0 or higher, because backward incompatible touch screen changes have been made.
 
-The touch screen is very picky when it comes to accepting firmware updates from an SD card. You need a FAT32 formatted SD card with a 4096K sector size. Anything else will not work.
+The touch screen is very picky when it comes to accepting firmware updates from an SD card. You need a FAT32 formatted SD card with a 4096 cluster size. Anything else will not work.
 
 The video below will show the general process of updating the LCD firmware.
 
@@ -214,7 +214,7 @@ Do a final wiring check before assembling the motherboard cover. Make sure the c
 
 You also want to raise the X-axis to about half of the total Z-height of the printer. Put the hot-end in the middle of X axis, and put the bed in the center of the printer. This will make sure that we have sufficient time to act if homing would fail for some reason.
 
-If you have the Creality enclosure and use the BTT TFT, do put the TFT directly on the bottom of the enclosure. The Creality enclosure is conductive and will short out your touch screen.
+If you have the Creality enclosure and use the BTT TFT, don't put the TFT directly on the bottom of the enclosure until you have a mount. The Creality enclosure is conductive and will short out your touch screen.
 
 ### Powering on!
 
