@@ -289,7 +289,7 @@ There are some known issues with this BTT board:
 
 - According to the BTT repository, the USB-stick input of the BTT TFT is not functional yet.
 
-- *For full disclosure: Two components (D1 and Q2) on my SKR motherboard were faulty, causing a short when heating the hot end. At the moment I'm convinced this was just bad luck and I was able to (temporarily?) fix this myself by soldering. I don't know if I got lucky or it is a testament to the design of this board that this hasn't caused a cascade failure.*
+- *For full disclosure: Two components (D1 and Q2) on my SKR motherboard were faulty, causing a short when heating the hot end. At the moment I'm convinced this was just bad luck and I was able to (temporarily?) fix this myself by replacing them and some solder work. I don't know if I got lucky or it is a testament to the design of this board that this hasn't caused a cascade failure.*
 
 ## Conclusion
 
