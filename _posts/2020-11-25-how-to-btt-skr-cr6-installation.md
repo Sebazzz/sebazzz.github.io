@@ -153,7 +153,7 @@ If you have extra long touch screen cables, you can route them behind the drawer
 You need to wire the touch screen using two cables:
 
 1. The gray flat cable need to the plugged into EXP3 port on the touch screen
-2. The cable with the dupont connector goes with the JST connect into the RS232 port on the touch screen. The other side is a dupont connector, so not keyed. Take note which wire connects to the `VCC` and `RST` pin - you need this later when connecting to the motherboard. **Refer to the documentation of your specific BTT TFT for the correct wiring**
+2. The cable with the dupont connector goes with the JST connector into the RS232 port on the touch screen. The other side is a dupont connector, so not keyed. Take note which wire connects to the `VCC` and `RST` pin - you need this later when connecting to the motherboard. **Refer to the documentation of your specific BTT TFT for the correct wiring**
 
 ![BTT SKR touch screen cabling](/images/blog/2020-11-25-how-to-btt-skr-cr6-installation/touchscreen-cabling.jpg)
 *In this case I have no mount yet, so once the touch screen is wired I will lay the touch screen on a piece of cloth to prevent it from shorting against the conductive wall of the enclosure*
