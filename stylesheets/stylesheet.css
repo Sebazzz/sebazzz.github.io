@@ -425,6 +425,10 @@ body > header h2 {
     width: 540px;
 }
 
+header a {
+    text-decoration: none;
+}
+
 .inner {
     margin: 0 auto;
     position: relative;
