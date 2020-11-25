@@ -22,9 +22,9 @@ BigTreeTech sent me [their motherboard replacement](https://www.aliexpress.com/i
 
 Before you start, you want to make sure your CR-6 is running smoothly. For instance: no extrusion issues, no bed leveling issues, no weird issues with the stepper motors. If you don't do this and you change the motherboard, it will be harder to diagnose what the cause is.
 
-If your motherboard has an early failure and didn't get to see the CR-6 in action, you will of course have no choice but to take a leap of faith. Do check if your power supply is working correctly and gives 24V, and 
+If your motherboard has an early failure and didn't get to see the CR-6 in action, you will of course have no choice but to take a leap of faith - though you can do some hardware checks as detailed below.
 
-If you haven't replaced your power switch yet and you think it might get faulty at some point, replace it.
+If you haven't replaced your power switch yet and you think it might get faulty at some point, replace it. 
 
 #### Hardware check
 
