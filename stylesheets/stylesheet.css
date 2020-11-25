@@ -675,8 +675,6 @@ h6:before {
 
 p { margin-bottom: 20px; }
 
-a { text-decoration: none; }
-
 p a { font-weight: 400; }
 
 blockquote {
@@ -688,7 +686,6 @@ blockquote {
 
 ul {
     list-style: disc;
-    list-style-position: inside;
     padding-left: 20px;
 }
 
