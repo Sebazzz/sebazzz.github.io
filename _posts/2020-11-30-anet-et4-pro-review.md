@@ -34,7 +34,9 @@ The Anet ET4 Pro comes in a sturdy cardboard box, taped shut at all sides.
 *The cat was not included with the shipment*
 
 Inside the box you are greeted with a 20 gram roll of sample PLA and a plastic bag with two manuals and some parts you need for assembly.
-Oddly enough the 
+
+![Parts list](/images/blog/2020-11-30-anet-et4-pro-review/parts-list.jpg)
+*What's in the box*
 
 ![Anet ET4 Pro unboxing and assembly - the box](/images/blog/2020-11-30-anet-et4-pro-review/box-2.jpg)
 *The contents of the box are protected by a thick piece of foam again the violence of package delivery*
