@@ -121,6 +121,14 @@ This is it essentially for the assembly. Once you have ensured that all the wire
 
 The first step after powering on is manually lowering the Z-axis until the nozzle is just above the bed. Then it is a matter of turning the sensistivity screw on the capacitive probe until just lights up. Then it is on to automatic leveling and printing!
 
+#### Bed leveling
+
+The bed leveling process probes in a 5 by 5 grid on the bed. The X-axis of the printer is a bit longer - this allows the hot-end to "overshoot" the bed, and properly measure the outer edges at the right hand side as well. 
+
+During the leveling process you only see the results in a 3x3 grid though. 
+
+The capacitive bed leveling probe is also used as the Z-endstop. What I did notice is that the probe seems to be sensitive to temperature. For this reason it is advisable to always home when the bed is warm, so your Z-offset is always consistent.
+
 ## Basic printing
 
 The printer prints well, and if it is not, it is all due to the filament. One of my first prints was this giant Cute Octopus.
@@ -146,7 +154,6 @@ This glass surface also works well, just a matter of using a little bit of hairs
 
 ![PEI sheet on Anet ET4 Pro](/images/blog/2020-11-30-anet-et4-pro-review/bed-glass.jpg)
 *Printing the alien face hugger on the glass bed surface. A little bit of hairspray makes the little segments of the print stick well.*
-
 
 ## Firmware
 
@@ -182,6 +189,8 @@ That said, there are some limitations, which you only run into if you step outsi
 
 ![Anet ET4 Pro unboxing and assembly - firmware Pronterface](/images/blog/2020-11-30-anet-et4-pro-review/pronterface.jpg)
 *The firmware does appear to support some commands, but fine tuning is not possible without any output on your commands.*
+
+Anet is working to get native Marlin on these printers.
 
 ## Hello, Marlin
 
@@ -246,6 +255,18 @@ I wanted to play with the filament change feature in Marlin. Using white Crealit
 
 ![Anet ET4 Pro test prints - traffic cone](/images/blog/2020-11-30-anet-et4-pro-review/traffic-cone-2.jpg)
 *Traffic cone - final result*
+
+### Christmas hat
+
+This Christmas hat can be put on top of a bottle cap.
+
+![Anet ET4 Pro test prints - christmas hat](/images/blog/2020-11-30-anet-et4-pro-review/hat-1.jpg)
+*Hat in progress - using a brim for better adhesion to the glass*
+
+![Anet ET4 Pro test prints - christmas hat](/images/blog/2020-11-30-anet-et4-pro-review/hat-2.jpg)
+*Hat - final result*
+
+I also printed this with the Marlin filament change option. As you can see the printer has the accuracy to resume printing without issue.
 
 ### Bearing
 
