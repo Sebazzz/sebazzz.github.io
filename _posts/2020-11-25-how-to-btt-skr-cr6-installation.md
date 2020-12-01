@@ -273,7 +273,12 @@ If you have the BTT touch screen, you may want to download and [install the BigT
 
 ### Print a touch screen mount
 
-As of this writing no mounts for the BTT TFT have been designed yet, so... I guess you have your first printing project? I will update this list as mounts become available.
+There are several mounts already available:
+
+- I designed this [TFT50 mount](https://www.thingiverse.com/thing:4670776) that mounts to the left side of the printer
+- A [TFT35 mount](https://www.thingiverse.com/thing:4666606) that mounts to the right side of the printer
+
+There is also a [CR-6 collection](https://www.thingiverse.com/whatwouldanengineerdo/collections/cr-6-mods) available on Thingiverse.
 
 Until you have printed something: be careful.
 
