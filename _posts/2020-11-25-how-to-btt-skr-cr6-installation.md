@@ -227,7 +227,7 @@ Once you're done, put in the SD card with the firmware file and turn the printer
 
 There are some basic checks you can already perform once the printer is ready:
 
-- Is the optical sensor at the left side of the printer showing a red light? The red light should turn off if you block the optical sensor with an Allen key.
+- Is the optical sensor at the left side of the printer connected? Note it won't show a red light - [see the known issues](#known-issues).
 - If you push the nozzle up, does a small light mounted on the PCB inside the hot-end light up?
 - Does the touch screen function? For BTT touch screens you need to test both Marlin mode and BTT touch mode.
 - Can you heat the nozzle (try heating to 100 degrees)?
@@ -288,11 +288,11 @@ There are some known issues with this BTT board:
 
 - The [5V USB tape workaround](https://community.octoprint.org/t/put-tape-on-the-5v-pin-why-and-how/13574) is still necessary. Although I don't think this BTT SKR board will blow up your computer or Raspberry PI like the Creality board might have done, the board does take power from the 5V USB pin. This causes an endless power cycle because everything in the printer powers on, then off, then on again.
 
-- The optical sensor on the gantry is undervolted and for this reason the little red LED does not turn on. The sensor does appear to be functional, but because it receives 3.3V from the SKR board instead of 5V from the SKR board it doesn't have enough power to show the LED. 
+- The optical sensor on the gantry is undervolted and for this reason the little red LED does not turn on. The sensor does appear to be functional, but because it receives 3.3V from the SKR board instead of 5V from the SKR board it doesn't have enough power to show the LED. Don't worry, the optical sensor is still functional - but it won't give an indication that it does.
 
-- When using the BTT touch screen the firmware, for leveling, it will not pre-heat the hot-end and bed. Consider pre-heating it yourself or using the community firmware when it becomes available.
+- When using the BTT TFT, for leveling, it will not pre-heat the hot-end and bed. Consider pre-heating it yourself or using the community firmware when it becomes available.
 
-- According to the BTT repository, the USB-stick input of the BTT TFT is not functional yet. This is expected in a future update. I haven't tested yet whether that is actually true or that Marlin can't access it and you must print from touch mode only.
+- According to the BTT manual, the USB-stick input of the BTT TFT is not functional yet. This is expected in a future update. I haven't tested yet whether that is actually true or that Marlin can't access it and you must print from touch mode only.
 
 - *For full disclosure: Two components (D1 and Q2) on my SKR motherboard were faulty, causing a short when heating the hot end. At the moment I'm convinced this was just bad luck and I was able to (temporarily?) fix this myself by replacing them and some solder work. I don't know if I got lucky or it is a testament to the design of this board that this hasn't caused a severe cascade failure that ruins the entire board.*
 
