@@ -62,7 +62,7 @@ Optional if you have a BTT touch screen:
 
 The BTT SKR board comes preloaded with firmware configured for the CR-6 SE native touch screen, yet it is a good idea to update to the latest version of the official firmware because the boards are new. 
 
-Currently the CR-6 community firmware is not available ([work-in-progress](https://github.com/CR6Community/Marlin/tree/extui_btt_skr_cr6)) for the BTT SKR board, but BTT provides firmware and source code of their own on [their BTT-SKR-CR6 repository on Github](https://github.com/bigtreetech/BIGTREETECH-SKR-CR6) based on the Creality 1.0.3.x firmware. As of now this repository is updated weekly, so if you run into issues, there is a good chance things have been fixed there.
+Currently the CR-6 community firmware is not available ([work-in-progress](https://github.com/CR6Community/Marlin/#readme)) for the BTT SKR board, but BTT provides firmware and source code of their own on [their BTT-SKR-CR6 repository on Github](https://github.com/bigtreetech/BIGTREETECH-SKR-CR6) based on the Creality 1.0.3.x firmware. As of now this repository is updated weekly, so if you run into issues, there is a good chance things have been fixed there.
 
 ![Firmware download](/images/blog/2020-11-25-how-to-btt-skr-cr6-installation/before-flashing.png)
 *The firmware you'Il download as instructed below needs to be put as `firmware.bin` on the flash drive. Anything else will not work.*
