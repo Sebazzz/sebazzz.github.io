@@ -5,7 +5,7 @@ date:   2020-11-30 20:00:00 +0100
 categories: 3d-printing
 ---
 
-The 3D printer manufacturer [Anet](https://www.anet3d.com/) asked me to review their [Anet ET4 Pro 3D printer](https://shop.anet3d.com/products/et4-pro), a 3D printer with the volume of 220x220x250mm, TMC2209 silent stepper drivers and built-in automatic bed leveling. I've had the printer for about a month now, and since my Creality CR-6 SE [unfortunately also has a defective motherboard](https://gist.github.com/Sebazzz/ff4d716c8d2ad9bab1e87b3fc4238281), I've had a lot of opportunity to print and use this printer. At this moment, Anet asks just €176 for this 3D printer, delivered from an European warehous, so no taxes. Is this printer a good deal for this price? What can Anet do better? And what is awesome? Read on.
+The 3D printer manufacturer [Anet](https://www.anet3d.com/) asked me to review their [Anet ET4 Pro 3D printer](https://shop.anet3d.com/products/et4-pro), a 3D printer with the volume of 220x220x250mm, TMC2208 silent stepper drivers and built-in automatic bed leveling. I've had the printer for about a month now, and since my Creality CR-6 SE [unfortunately also has a defective motherboard](https://gist.github.com/Sebazzz/ff4d716c8d2ad9bab1e87b3fc4238281), I've had a lot of opportunity to print and use this printer. At this moment, Anet asks just €176 for this 3D printer, delivered from an European warehous, so no taxes. Is this printer a good deal for this price? What can Anet do better? And what is awesome? Read on.
 
 <style scoped>
   img + p, img + em {
