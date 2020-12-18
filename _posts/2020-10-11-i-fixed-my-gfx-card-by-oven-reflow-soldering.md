@@ -26,7 +26,7 @@ Then I tried:
 
 2. Using a different PCIe slot on my motherboard.
 ![Different PCIe slot on motherboard](/images/blog/2020-10-11-i-fixed-my-gfx-card-by-oven-reflow-soldering-1.jpg)
-*This photo is from a quick try when I thought that another lock might be the solution. In this picture the cooler is already removed.*
+*This photo is from a quick try when I thought that another PCIe slot might be the solution. In this picture the cooler is already removed.*
 
 3. Measure voltage on the power supply
 ![Measure the voltage](/images/blog/2020-10-11-i-fixed-my-gfx-card-by-oven-reflow-soldering-2.jpg)
