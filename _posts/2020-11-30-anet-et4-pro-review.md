@@ -5,7 +5,7 @@ date:   2020-11-30 20:00:00 +0100
 categories: 3d-printing
 ---
 
-The 3D printer manufacturer [Anet](https://www.anet3d.com/) asked me to review their [Anet ET4 Pro 3D printer](https://shop.anet3d.com/products/et4-pro), a 3D printer with the volume of 220x220x250mm, TMC2208 silent stepper drivers and built-in automatic bed leveling. I've had the printer for about a month now, and since my Creality CR-6 SE [unfortunately also has a defective motherboard](https://gist.github.com/Sebazzz/ff4d716c8d2ad9bab1e87b3fc4238281), I've had a lot of opportunity to print and use this printer. At this moment, Anet asks just €176 for this 3D printer, delivered from an European warehous, so no taxes. Is this printer a good deal for this price? What can Anet do better? And what is awesome? Read on.
+The 3D printer manufacturer [Anet](https://www.anet3d.com/) asked me to review their [Anet ET4 Pro 3D printer](https://www.3dprima.com/3d-printers/manufactures/anet/), a 3D printer with the build volume of 220x220x250mm, TMC2208 silent stepper drivers and built-in automatic bed leveling. I've had the printer for about a month now, and since my Creality CR-6 SE [unfortunately also has a defective motherboard](https://gist.github.com/Sebazzz/ff4d716c8d2ad9bab1e87b3fc4238281), I've had a lot of opportunity to print and use this printer. At this moment, Anet asks just €176 for this 3D printer, delivered from an European warehous, so no taxes. Is this printer a good deal for this price? What can Anet do better? And what is awesome? Read on.
 
 <style scoped>
   img + p, img + em {
@@ -25,6 +25,8 @@ First, the basic specifications:
 - Spool holder on top
 - Full color touch screen
 - Auto bed leveling using a capacitive probe
+
+The page of the official Anet ET4 Pro store also [has some additional information](https://shop.anet3d.com/products/et4-pro).
 
 ## Assembly and first impressions
 
@@ -366,7 +368,8 @@ This printer is not perfect. I've had some issues, like you would have on any pr
 
 There are several places where you can buy this printer:
 
+- [Official EU reseller (3DPrima)](https://www.3dprima.com/3d-printers/manufactures/anet/)
 - [The Official Anet shop at anet3d.com](https://shop.anet3d.com/products/et4-pro)
 - [AliExpress](https://www.aliexpress.com/item/4000033214131.html)
 
-The printer ships from local warehouses, so what you pay is the price. No unexpected customs fees afterwards
+The printer can ship from local warehouses, so what you pay is the price. No unexpected customs fees afterwards.
