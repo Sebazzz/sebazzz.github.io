@@ -37,16 +37,16 @@ M105
 G28
 
 ; Now we know the positions we can move out of the way and happily droop at the side of the bed
-M104 S{material_print_temperature}      ; You can also use material_print_temperature_layer_0 here
-M140 S{material_bed_temperature}        ; Or use material_bed_temperature_layer_0
+M104 S{material_print_temperature_layer_0}      ; You can also use material_print_temperature here
+M140 S{material_bed_temperature_layer_0}  ; Or use material_bed_temperature
 M105
 
 G0 Z20
 G0 X0 Y0
 
 ; Now wait for the temperatures to reach
-M190 R{material_bed_temperature}      ; You can also use material_print_temperature_layer_0 here
-M109 S{material_print_temperature}    ; Or use material_bed_temperature_layer_0
+M190 R{material_bed_temperature_layer_0}      ; You can also use material_bed_temperature here
+M109 S{material_print_temperature_layer_0}    ; Or use material_print_temperature
 M105
 
 ; And we can now draw our purge line
