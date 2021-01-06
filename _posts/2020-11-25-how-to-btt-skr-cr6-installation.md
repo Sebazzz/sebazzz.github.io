@@ -62,7 +62,7 @@ Optional if you have a BTT touch screen:
 
 The BTT SKR board comes preloaded with firmware configured for the CR-6 SE native touch screen, yet it is a good idea to update to the latest version of the official firmware because the boards are new. 
 
-Currently the CR-6 community firmware is not available ([work-in-progress](https://github.com/CR6Community/Marlin/#readme)) for the BTT SKR board, but BTT provides firmware and source code of their own on [their BTT-SKR-CR6 repository on Github](https://github.com/bigtreetech/BIGTREETECH-SKR-CR6) based on the Creality 1.0.3.x firmware. As of now this repository is updated weekly, so if you run into issues, there is a good chance things have been fixed there.
+From version 5 beta onwards [the community firmware is available](https://github.com/CR6Community/Marlin/releases) for the BTT SKR board, but BTT provides also provides official firmware and source code of their own on [their BTT-SKR-CR6 repository on Github](https://github.com/bigtreetech/BIGTREETECH-SKR-CR6). This firmware is based on the Creality 1.0.3.x firmware. As of now this repository is updated weekly, so if you run into issues, there is a good chance things have been fixed there.
 
 ![Firmware download](/images/blog/2020-11-25-how-to-btt-skr-cr6-installation/before-flashing.png)
 *The firmware you'Il download as instructed below needs to be put as `firmware.bin` on the flash drive. Anything else will not work.*
@@ -300,6 +300,6 @@ There are some known issues with this BTT board:
 
 I hope this guide has helped you install the Big Tree Tech SKR motherboard on your CR-6. If you have any suggestions or remarks, please let me know.
 
-*If you like to help test an early build of the community firmware for the BTT SKR CR6 board, contact me or drop by [in our Discord](https://discord.gg/RKrxYy3Q9N)*
+*From december 2020 onwards the community firmware for the BTT SKR board [is available on Github](https://github.com/CR6Community/Marlin/releases)*
 
 *If you like to give me a cup of coffee for all these sleepless nights, [please check this link](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=B7XURY2X39GS6&item_name=CR-6+development&currency_code=EUR). I appreciate it!* 😄
