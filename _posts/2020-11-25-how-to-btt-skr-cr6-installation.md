@@ -28,7 +28,7 @@ If you haven't replaced your power switch yet and you think it might get faulty 
 
 #### Hardware check
 
-I strongly recommend to do a hardware check if you had a motherboard failure earlier and you have purchased a BTT board to replace your stock motherboard. *The pinouts so you know how you can check the components can be found further below in this article.*
+I strongly recommend to do a hardware check if you had a motherboard failure earlier and you have purchased a BTT board to replace your stock motherboard. *The pinouts can be found further below in this article.*
 
 With your multimeter in resistance mode:
 
