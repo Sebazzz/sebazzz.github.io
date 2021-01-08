@@ -62,7 +62,11 @@ G1 Z2.0 F3000 ;Move Z Axis up
 
 By setting the hot-end to 120 degrees Celcius we can still home accurately but without the chance of filament drooping out. After that, we move to the left side of the printbed and reach our target temperature. Then we do a purge line and any unwanted drooping is outside the usual print area. 
 
-## Prusa slicer
+## Other slicers
+
+This gcode is also compatible with PrusaSlicer and Simplify3D, provided you change certain "placeholders" in the gcode as shown below. There are some placeholders that Cura recognizes and replaces, and you need to replace them with a placeholder your slicer recognizes.
+
+### PrusaSlicer
 
 PrusaSlicer users can use [a number of different placeholders for the start gcode](http://projects.ttlexceeded.com/3dprinting_prusaslicer_gcode.html#configuration-placeholders), most notably:
 
@@ -70,7 +74,7 @@ PrusaSlicer users can use [a number of different placeholders for the start gcod
 - `[first_layer_bed_temperature]` instead of `{material_bed_temperature_layer_0}`
 - `[first_layer_temperature]` instead of `{material_print_temperature_layer_0}`
 
-## Simplify3d
+### Simplify3D
 
 Simplify 3D users can use the following placeholders:
 
