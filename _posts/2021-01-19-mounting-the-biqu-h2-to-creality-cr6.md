@@ -436,7 +436,7 @@ Using the new slicer configuration, slice a calibration cube.
 
 *I forgot to set the linear advance down, so all the corners are rounded far too much. But it works!*
 
-While the print runs, make sure that the hotend connect is properly 
+While the print runs, make sure that the hotend heater connector is properly connected and does not heat up. Heating up is an indication of improper contact.
 
 ## Quick maintenance check
 
