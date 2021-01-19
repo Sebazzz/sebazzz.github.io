@@ -38,7 +38,7 @@ Just like a kitchen scale, this system can be tared (or "zeroed"). That means th
 - When it is homing and the optical sensor on the gantry is blocked
 - At every leveling point when auto bed leveling.
 
-If you want to test it, turn off the printer, press the hotend up and while you do that turn on the printer. Let the hotend go, and you'Il notice notice you need much more force to turn the LED on. 
+If you want to test it, turn off the printer, press the hotend up and while you do that turn on the printer. Let the hotend go, and you'Il notice that you need much more force to turn the LED on. 
 
 So, this leveling system is nice and when it works, it works very well - but it makes for a few extra steps when you want to mod your printer. 
 
