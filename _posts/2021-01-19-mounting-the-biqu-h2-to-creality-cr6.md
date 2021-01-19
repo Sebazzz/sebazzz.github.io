@@ -110,7 +110,7 @@ This leaves you with the strain gauge only.
 
 ## Printing the parts
 
-The kit has the following parts:
+The kit has the following parts - [all downloadable from Thingiverse](https://www.thingiverse.com/thing:4729803):
 
 1. A mount for the direct drive extruder assembly itself
 2. A mount for the hotend daughter board ("strain gauge board") PCB
@@ -454,3 +454,4 @@ Now I have this thing mounted, lets review it...!
 
 *If you'd like to support or donate to the [CR-6 community firmware development - please check the Credits section of the readme](https://github.com/CR6Community/Marlin#credits).*
 
+**[Download link (Thingiverse)](https://www.thingiverse.com/thing:4729803)**
