@@ -444,7 +444,7 @@ After a few prints you want to do a quick maintenance check:
 
 - Check all the bolts and nuts.
 - Check the cabling and ensure all the connectors are properly seated.
-- Make sure there isn't too much flex in the 
+- Make sure there isn't too much flex in the plastic parts
 
 ## Final thoughts
 
