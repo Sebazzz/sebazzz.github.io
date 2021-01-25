@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quick filament review: Prusament PLA Azure Blue"
-date:   2021-01-24 21:00:00 +0100
+date:   2021-01-25 21:00:00 +0100
 categories: 3d-printing quick-filament-review
 ---
 
