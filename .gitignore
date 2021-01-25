@@ -8,3 +8,4 @@ Desktop.ini
 /Gemfile.lock
 .vs
 .jekyll-cache/
+*.heic
