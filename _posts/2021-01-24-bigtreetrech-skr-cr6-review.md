@@ -5,7 +5,7 @@ date:   2021-01-24 21:00:00 +0100
 categories: 3d-printing
 ---
 
-After the first users received their Creality CR-6 units it quickly became clear [there were some (severe) teething issues](https://gist.github.com/Sebazzz/ff4d716c8d2ad9bab1e87b3fc4238281) with this new printer. In particular, the motherboard labeled version 4.5.2 sometimes fail. Sometimes simply by the printer not booting, sometimes with smoke and sparks. Additionally these failures could sometimes cascade to other printer components or connected devices like a computer or Raspberry PI. Early November the BigTreeTech introduced their [BigTreeTech SKR CR6](https://www.aliexpress.com/item/1005001728994394.html) motherboard of which I wrote [an installation guide earlier](https://damsteen.nl/blog/2020/11/25/how-to-btt-skr-cr6-installation). After using this board for several months I will now give my thoughts and considerations.
+After the first users received their Creality CR-6 units it quickly became clear [there were some (severe) teething issues](https://gist.github.com/Sebazzz/ff4d716c8d2ad9bab1e87b3fc4238281) with this new printer. In particular, the motherboard labeled version 4.5.2 sometimes fail. Sometimes simply resulting in the printer not booting, sometimes failures with smoke and sparks. These failures could sometimes cascade to other printer components or connected devices like a computer or Raspberry PI. Early November the BigTreeTech introduced their [BigTreeTech SKR CR6](https://www.aliexpress.com/item/1005001728994394.html) motherboard of which I wrote [an installation guide earlier](https://damsteen.nl/blog/2020/11/25/how-to-btt-skr-cr6-installation). After using this board for several months I will now give my thoughts and considerations.
 
 ## The board
 
@@ -182,7 +182,7 @@ There are also some known issues with this board, but none of them are really bl
 
 - The board can still be backpowered from USB when the printer is off - requiring to [apply the 5V USB tape workaround](https://community.octoprint.org/t/put-tape-on-the-5v-pin-why-and-how/13574) - just like on the stock Creality boards. Usually BigTreeTech boards don't have this issue, but this particular board has. This may change in a future hardware revision.
 
-- Some people have experienced fluctuating temperature reports when the printer is cold and has not run yet. Temperatures jump beteen 9 and 15 degrees Celcius. This does not appear to impact the actual printing though: the printer is able to reach and maintain printing temperatures just fine.
+- Some people have experienced fluctuating temperature reports when the printer is cold and has not run yet. Temperatures jump beteen 9 and 15 degrees Celcius - when the temperatures are below 40 degrees C. This does not appear to impact the actual printing though: the printer is able to reach, maintain and measure temperatures just fine. 
 
 ## Pro's and cons
 
