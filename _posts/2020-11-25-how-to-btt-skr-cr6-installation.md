@@ -220,7 +220,7 @@ If you have the Creality enclosure and use the BTT TFT, don't put the TFT direct
 
 Once you're done, put in the SD card with the firmware file and turn the printer on. The printer will take a moment to flash the firmware. On BTT boards, the `firmware.bin` file will be renamed to `firmware.CUR` after flashing has succeeded. In addition the blue LED on the hot-end will flash while the firmware is being flashed.
 
-<video controls loop>
+<video controls muted loop>
   <source src="/images/blog/2020-11-25-how-to-btt-skr-cr6-installation/led-flashing.mp4" type="video/mp4">
 </video>
 *Firmware flashing equals hot-end LED flashing*

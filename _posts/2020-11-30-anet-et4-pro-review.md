@@ -280,7 +280,7 @@ I actually needed two attempts before I had a working bearing. That is due to th
 
 However, the rest of the gears spin free fully, as you can also observe in the short video below.
 
-<video controls loop>
+<video controls muted loop>
   <source src="/images/blog/2020-11-30-anet-et4-pro-review/bearing-2.mp4" type="video/mp4">
 </video>
 
@@ -291,7 +291,7 @@ Because the bearing went well, I printed the [V-Twin Engine from Sunshine](https
 ![Anet ET4 Pro test prints - V-twin engine](/images/blog/2020-11-30-anet-et4-pro-review/v-twin-1.jpg)
 *Notice the stringing: At first I thought this was the cheap BASICFIL I printed this with, but it appears that the nozzle I had installed was the primary cause of this*
 
-<video controls loop>
+<video controls muted loop>
   <source src="/images/blog/2020-11-30-anet-et4-pro-review/v-twin-2.mp4" type="video/mp4">
 </video>
 
@@ -301,7 +301,7 @@ Because the bearing went well, I printed the [V-Twin Engine from Sunshine](https
 
 The previous tests went so well, that I decided to put this printer to its limit. For this, I printed the [Print in Place Engine Benchmark](https://www.thingiverse.com/thing:4575774) which features a full functioning 3 cilinder engine. 
 
-<video controls loop>
+<video controls muted loop>
   <source src="/images/blog/2020-11-30-anet-et4-pro-review/print-in-place-engine.mp4" type="video/mp4">
 </video>
 

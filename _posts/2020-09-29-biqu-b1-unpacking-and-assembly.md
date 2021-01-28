@@ -46,7 +46,7 @@ The second layer contains the most exciting parts: the printer base itself, step
 
 There are about 20 steps to follow in [the instruction manual](https://github.com/bigtreetech/BIQU-B1/raw/master/TF%20card%20data/English/USER%20MANUAL/BIQU-B1%20USER%20MANUAL%2020200907.pdf). There are a lot of bolts, nuts and screws to use - but BIQU includes all the tools you need. Every part you need is in a separate plastic bag with a label on it referring the relevant step.
 
-<video controls autoplay loop>
+<video controls muted loop>
   <source src="/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly-packaging-4.mp4" type="video/mp4">
 </video>
 *A lot of bag and bolts - it looks a bit daunting at first - but you're guided step-by-step!*
@@ -123,7 +123,7 @@ When the bed is sturdy, check if it isn't binding when you move it back and fort
 ### Gantry part 2 - going up!
 Mount the aluminium extrusions to the side of the printer. This is easy, because you don't need to lift the printer up to do this. 
 
-<video controls autoplay loop>
+<video controls muted loop>
   <source src="/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly-assembly-1.mp4" type="video/mp4">
 </video>
 
@@ -156,7 +156,7 @@ A part of the X-axis assembly has already been pre-assembled. It contains the X-
 ![BIQU B1 - X-axis assembly](/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly-assembly-14.jpg)
 *Align the X-axis assembly with the lead screw and the aluminium extrusion - then turn the lead screw manually*
 
-<video controls autoplay loop>
+<video controls muted loop>
   <source src="/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly-assembly-2.mp4" type="video/mp4">
 </video>
 
