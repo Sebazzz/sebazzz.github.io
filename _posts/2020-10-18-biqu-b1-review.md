@@ -37,7 +37,7 @@ First some words on assembly and construction. For full details though, check my
 
 The BIQU B1 is a kit. You get the parts, some pre-assembled, but assembly is up to you. Although I'm generally not very mechanically adept, I didn't mind this because the instructions are good (they show what to do step-by-step) and all the parts you need are labeled per step.
 
-<video controls autoplay loop>
+<video controls muted loop>
   <source src="/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly-packaging-4.mp4" type="video/mp4">
 </video>
 
@@ -184,7 +184,7 @@ I did end up revisiting my bed leveling later - and uses Marlins manual bed leve
 ### First prints
 When the bed is level, you can make your first prints. BIQU included some models on the SD card to print with the 50 grams test spool.
 
-<video controls autoplay loop>
+<video controls muted loop>
   <source src="/images/blog/2020-11-18-biqu-b1-review-first-prints.mp4" type="video/mp4">
 </video>
 
@@ -208,7 +208,7 @@ The BIQU B1 offers a filament run-out sensor. This came in quite handy - because
 
 Benchmarks are one thing, printing practical things is where it matters. For this reason, I like to look at any printer from the practical side. My first print was some braces I designed to be mounted on top of a book case.
 
-<video controls autoplay loop>
+<video controls muted loop>
   <source src="/images/blog/2020-11-18-biqu-b1-review-no-noise.mp4" type="video/mp4">
 </video>
 
@@ -249,7 +249,7 @@ For my daughter, I printed a test octopus, which she absolutely adores. I printe
 ![BIQU B1 - Practical prints](/images/blog/2020-11-18-biqu-b1-review-pp9.jpg)
 *Magnetic holder for a remote control - I paused the print and inserted magnets - then continued the print. [Available on Thingiverse](https://www.thingiverse.com/thing:4616517).*
 
-<video controls autoplay loop>
+<video controls muted loop>
   <source src="/images/blog/2020-11-18-biqu-b1-review-pp10.mp4" type="video/mp4">
 </video>
 

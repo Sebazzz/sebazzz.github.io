@@ -430,7 +430,7 @@ If you have set linear advance, [you must recalibrate it](https://teachingtechyt
 
 Using the new slicer configuration, slice a calibration cube. 
 
-<video controls loop>
+<video controls muted loop>
   <source src="/images/blog/2021-01-19-mounting-the-biqu-h2-to-creality-cr6/first-print.mp4" type="video/mp4">
 </video>
 

@@ -160,7 +160,7 @@ As a firmware developer, probably for regular users this is less of an pro, I li
 
 This way you don't have to doubt whether the firmware got flashed. While the firmware is you can also see "progress" because the LED near the hotend is flashing on and off. 
 
-<video controls loop>
+<video controls loop muted>
   <source src="/images/blog/2020-11-25-how-to-btt-skr-cr6-installation/led-flashing.mp4" type="video/mp4">
 </video>
 
