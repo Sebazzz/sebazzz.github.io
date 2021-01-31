@@ -30,6 +30,11 @@ Prusament comes in a cardboard box with a QR code on it. That QR code links to t
 
 The spool itself has quite a smart design. The hexagon pattern at the sides allow you to lock the filament at any position when done printing. A pretty smart design. It also saves some plastic - which is necessary because these spools are unfortunately not reusable (it is not [a master spool](https://www.matterhackers.com/articles/tech-breakdown-the-master-spool)).
 
+Prusa did use a cardboard center in the spool - but that makes only a small part of it recyclable - but it does not make the spool _reusable_.
+
+![Prusament Azure Blue review](/images/blog/quick-filament-reviews/prusament-azure-blue/cardboard-spool.jpg)
+
+
 ## Printing
 
 At first glance the filament looks pretty good, but for anything other than vases I experienced an pretty inconsistent color. This is regardless of temperature or print speed. The color was not consistent. 
@@ -47,6 +52,18 @@ I also noticed that this filament is not usable for ironing. It just makes the c
 
 ![Prusament Azure Blue review](/images/blog/quick-filament-reviews/prusament-azure-blue/ironing.jpg)
 *Different ironing settings, including the center without ironing*
+
+## Pro's / cons
+
+Pro's:
+
+- Beautiful color for vases
+- No stringing
+
+Cons:
+
+- Ironing doesn't work on this filament
+- Color is inconsistent
 
 ## Would I buy this again?
 
