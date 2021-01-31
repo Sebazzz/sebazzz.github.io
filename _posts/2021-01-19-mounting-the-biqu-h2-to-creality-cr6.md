@@ -309,6 +309,8 @@ To assemble everything back together, you will find that the tension of the extr
 
 Because we lose some build volume in the Y-direction, we need to do some firmware modifications. Firmware modification are not very difficult! You can [check this guide I published earlier](/blog/2021/01/08/biqu-h2-direct-drive-extruder-first-look) on how to compile it.
 
+**UPDATE 2021-01-31: I've added some example configuration files to the [CR-6 Community Firmware repository](https://github.com/CR6Community/Marlin/tree/extui/config)**
+
 Follow the guide to do an initial compilation. Then change the things in the Configuration\[_adv].h files as detailed below:
 
 #### Default steps/mm
