@@ -20,7 +20,7 @@ There are far too few reviews of 3d printer filament. For this reason I'm starti
 
 ## Packaging and spool
 
-Prusament comes in a nasic non-vacuum plastic shrinkwrap. 
+BASICFIL comes in a basic non-vacuum plastic shrinkwrap. 
 
 ![BASICFIL PLA Blue review](/images/blog/quick-filament-reviews/basicfil-pla-blue/product.jpg)
 *The product as displayed on Amazon*
