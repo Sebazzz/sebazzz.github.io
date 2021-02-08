@@ -103,6 +103,8 @@ There is also a neopixel port, this allows you to attach [an Adafruit Neopixel](
 
 But unfortunately the software isn't completely ready yet. The neopixel does work, but not fully. For me, usually one LED was a bit off. Either a different color, or it didn't want to turn off. There is [an open issue at Marlin to make Neopixels work reliably](https://github.com/MarlinFirmware/Marlin/issues/19800) on the microcontroller this board uses (STM32F1).
 
+**UPDATE 2021-02-08: A recent patch has landed in Marlin that repairs Neopixel support - this will be included in Community Firmware release 6. My Neopixel is now fully operational.**
+
 ### Drop-in replacement
 
 The board is drop-in on the current Creality CR-6 hardware - everything works, including the leveling system. I wrote [a guide how to install it earlier about that](/blog/2020/11/25/how-to-btt-skr-cr6-installation). Because this board is in hardware terms different than the stock Creality board, it comes [with its own firmware](https://github.com/bigtreetech/BIGTREETECH-SKR-CR6). That firmware is based on Creality firmware v1.0.3.7 so it comes with the same limitations as that firmware - but since the end of 2020 [the CR-6 community firmware is also available](https://github.com/CR6Community/Marlin/) for this board.
@@ -194,12 +196,12 @@ There are also some known issues with this board, but none of them are really bl
 - Supported option to replace Creality stock TFT with the BigTreeTech TFT.
 - Documented expansion options make other functionalities possible like improved power loss recovery and automatic shutdown of the printer.
 
-Cons:
+**Cons:**
 
 - Official firmware development will probably not have the highest priority. The board is fairly niece (Creality CR-6 printers only). However, the CR-6 community firmware is now fully compatible with this board - and this is a worthy alternative for many people [citation needed 😉].
 - Depending on your use case and current board, it might be hard to justify the cost of replacement.
 
-Other thoughts:
+**Other thoughts:**
 
 - I had hoped on replaceable stepper drivers when this board was announced - but this is simply not possible in the space available for the motherboard.
 - BigTreeTech has published documented diagrams of the board, specifying all the pinouts. 
