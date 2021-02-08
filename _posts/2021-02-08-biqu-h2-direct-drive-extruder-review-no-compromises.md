@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "BIQU H2 direct drive extruder review: A direct drive without compromises?"
-date:   2021-02-08 19:00:00 +0100
+date:   2021-02-08 20:00:00 +0100
 categories: 3d-printing
 ---
 
