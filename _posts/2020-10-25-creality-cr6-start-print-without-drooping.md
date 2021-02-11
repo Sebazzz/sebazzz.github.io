@@ -15,6 +15,8 @@ The auto-bed leveling feature of the Creality CR-6 SE uses a strain gauge connec
 
 To resolve this you need a different start gcode in your slicer. 
 
+*Note: If you are using the [CR-6 community firmware 5 beta or higher](https://github.com/CR6Community/) there is [an update gcode available here](/blog/2021/02/11/creality-cr6-community-firmware-start-print-without-drooping).*
+
 The gcode I made resolves the issue:
 
 ```
@@ -83,6 +85,6 @@ Simplify 3D users can use the following placeholders:
 
 ## Compatibility with CR-6 firmware
 
-Note that the above gcode assumes the [CR-6 community firmware](https://github.com/CR6Community/) I'm developing is installed, because the community firmware restores the bed leveling mesh automatically after homing.
+Note that the above gcode assumes the [CR-6 community firmware](https://github.com/CR6Community/) I'm developing is installed, because the community firmware restores the bed leveling mesh automatically after homing. Note though that [there is an update gcode available here](/blog/2021/02/11/creality-cr6-community-firmware-start-print-without-drooping)
 
-If you don't use the community firmware, then use `M420 S1` after `G28` to recall the mesh or `G29` to relevel the printer altogether.
+If you don't use the community firmware, then use `M420 S1` after the line that says `G28` to recall the mesh or `G29` to relevel the printer altogether.
