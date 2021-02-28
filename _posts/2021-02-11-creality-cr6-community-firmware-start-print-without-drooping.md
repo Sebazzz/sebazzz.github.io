@@ -13,7 +13,15 @@ The auto-bed leveling feature of the Creality CR-6 SE uses a strain gauge connec
 ![Little droop](/images/blog/2020-10-25-creality-cr6-start-print-without-drooping-2.jpg)
 *Drooping can cause first layer artifacts*
 
-The recommended gcode for the CR-6 Community Firmware is shown below. The most important changes is that the purge line is now at the side of the bed and preheating the nozzle before homing already happens in firmware. So - what we only need to do is home, then heat up, and then draw a purge line. Any filament that droops at the side won't stick to the bed.
+The recommended gcode for the CR-6 Community Firmware is shown below. 
+
+The most important changes: 
+
+- The purge line is now at the side of the bed 
+- Preheating the nozzle before homing already happens in firmware. So has been removed.
+- The firmware has now an interface for acceleration parameters, so those have been removed as well from the start gcode.
+
+What we only need to do is home, then heat up, and then draw a purge line. Any filament that droops at the side won't stick to the bed.
 
 The start gcode for Cura, PrusaSlicer and Simplify3D contain placeholders which the slicers will automatically replace.
 
@@ -23,10 +31,6 @@ Use the gcode below for Cura and replace your existing "start gcode" with this.
 
 ```
 ; Preamble
-M201 X500.00 Y500.00 Z100.00 E5000.00 ;Setup machine max acceleration
-M203 X500.00 Y500.00 Z10.00 E50.00 ;Setup machine max feedrate
-M204 P500.00 R1000.00 T500.00 ;Setup Print/Retract/Travel acceleration
-M205 X8.00 Y8.00 Z0.40 E5.00 ;Setup Jerk
 M220 S100 ;Reset Feedrate
 M221 S100 ;Reset Flowrate
 
@@ -64,10 +68,6 @@ Use the gcode below for PrusaSlicer and replace your existing "start gcode" with
 
 ```
 ; Preamble
-M201 X500.00 Y500.00 Z100.00 E5000.00 ;Setup machine max acceleration
-M203 X500.00 Y500.00 Z10.00 E50.00 ;Setup machine max feedrate
-M204 P500.00 R1000.00 T500.00 ;Setup Print/Retract/Travel acceleration
-M205 X8.00 Y8.00 Z0.40 E5.00 ;Setup Jerk
 M220 S100 ;Reset Feedrate
 M221 S100 ;Reset Flowrate
 
@@ -107,10 +107,6 @@ Use the gcode below for Simplify3D and replace your existing "start gcode" with 
 
 ```
 ; Preamble
-M201 X500.00 Y500.00 Z100.00 E5000.00 ;Setup machine max acceleration
-M203 X500.00 Y500.00 Z10.00 E50.00 ;Setup machine max feedrate
-M204 P500.00 R1000.00 T500.00 ;Setup Print/Retract/Travel acceleration
-M205 X8.00 Y8.00 Z0.40 E5.00 ;Setup Jerk
 M220 S100 ;Reset Feedrate
 M221 S100 ;Reset Flowrate
 
