@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CR-6 Community Firmware featured in The Edge of Tech"
+title:  "CR-6 Community Firmware featured in the livestream of The Real Sam Prentice"
 date:   2021-03-10 21:00:00 +0100
 categories: 3d-printing
 ---
