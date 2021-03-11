@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "CR-6 Community Firmware featured in the livestream of The Real Sam Prentice"
-date:   2021-03-10 21:00:00 +0100
+date:   2021-03-11 21:00:00 +0100
 categories: 3d-printing
 ---
 
 Tonight the YouTube channel [The Real Sam Prentice](https://www.youtube.com/channel/UChFNvcsYthE8ql-4niRTS-A) will feature a preview of the Community Firmware release 6 for the Creality CR-6 SE printer. I was interviewed earlier this evening about the community firmware.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ynhykjU2v0o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9jk3lirEfg0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Thanks to Sam for having me and featuring the community firmware!
 
