@@ -55,7 +55,7 @@ When using Octoprint you can use either of these two plugins:
 
 For the **Detailed progress** plugin you must wait for [my contribution to be merged and published as version 0.2.8](https://github.com/tpmullan/OctoPrint-DetailedProgress/pull/37) - until then you can download [my fork of it](https://github.com/cr6community/OctoPrint-DetailedProgress) by clicking "Code" then "Download ZIP" and uploading that ZIP into Octoprint. You may need to remove the current installed plugin first, and restart Octoprint afterwards.
 
-[Detailed Progress](/images/blog/2021-03-13-estimated-time-remaining-with-the-cr6-community-firmware/detailed-progress.png)
+![Detailed Progress](/images/blog/2021-03-13-estimated-time-remaining-with-the-cr6-community-firmware/detailed-progress.png)
 *The option as shown in the Detailed Progress plugin*
 
 For the **M73 Progress** plugin you must enable "Output time left" in the settings.
