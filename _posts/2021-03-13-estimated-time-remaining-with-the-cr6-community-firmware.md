@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Audible notification at the end of your print with the Creality CR-6 SE"
+title:  "Remaining time display on the Creality CR-6 SE"
 date:   2021-03-13 21:00:00 +0100
 categories: 3d-printing
 ---
 
-With the CR-6 Community Firmware release 6 (as of this writing in prerelease) it will be possible for supporting Octoprint plugins or slicers to directly inject the remaining time so the firmware understands it. This short article will show you how you can use it!
+With the upcoming CR-6 Community Firmware release 6 (as of this writing in prerelease) it will be possible for supporting Octoprint plugins or slicers to directly inject the remaining time so the firmware understands it. This short article will show you how you can use it!
 
 ## How it looks
 
