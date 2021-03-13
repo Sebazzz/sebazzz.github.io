@@ -64,7 +64,7 @@ To make the time estimates even more accurate, you can also install the [PrintTi
 
 ## Conclusion
 
-I hope this helps anyone, in looking for getting the remaining time on the print screen!
+I hope this helps anyone looking for getting the remaining time on the print screen!
 
 To download the CR-6 community firmware, [go to the home page on Github](https://github.com/CR6Community/Marlin/#readme). If you like to support the developers you can check the [credits section of the README](https://github.com/CR6Community/Marlin/#credits).
 
