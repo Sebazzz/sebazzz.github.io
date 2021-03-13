@@ -16,10 +16,10 @@ With the upcoming CR-6 Community Firmware release 6 (as of this writing in prere
   }
 </style>
 
-The amount of time remaining can either be calculated by the slicer, or by a host like Octoprint that prints to the printer. It would show up like this, when printing:
+The amount of time remaining can either be calculated by the slicer, or by a host like Octoprint that feeds commands to the printer. It would show up like this, when printing:
 
 ![Print remaining when printing](/images/blog/2021-03-13-estimated-time-remaining-with-the-cr6-community-firmware/print-screen.jpg)
-*If you don't have any commands that tell the remaining time to the firmware then no time indication would be shown*
+*If you don't have any commands that tell the remaining time to the firmware then no time indication will be shown*
 
 The advantages are that you can free up your yellow M117 message for other things, like information about the current layer being printed.
 
