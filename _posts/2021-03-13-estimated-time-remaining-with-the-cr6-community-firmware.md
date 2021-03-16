@@ -29,7 +29,11 @@ The advantages are that you can free up your yellow M117 message for other thing
 
 ### Slicer settings
 
-When it comes to slicers, this is only possible in **PrusaSlicer** and its derivative **SuperSlicer** as far as I'm aware. Within the printer settings, the "General tab", "Firmware" section, find this option:
+When it comes to slicers, this is only possible in **PrusaSlicer** and its derivative **SuperSlicer** at the moment. 
+
+#### PrusaSlicer
+
+Within the printer settings, the "General tab", "Firmware" section, find this option:
 
 ![Print remaining when printing](/images/blog/2021-03-13-estimated-time-remaining-with-the-cr6-community-firmware/prusaslicer.png)
 *Don't forget to save the changes to your printer profile after you're done*
@@ -45,6 +49,9 @@ Now you're using the "time remaining" feature, you can use something like this i
 
     M117 printing layer {layer_num+1}/[total_layer_count]
 
+#### Cura
+
+Are you a Cura user? This will probably be [possible in Cura 4.9](https://github.com/Ultimaker/Cura/pull/8403)!
 
 ### Octoprint settings
 
