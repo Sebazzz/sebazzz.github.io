@@ -261,6 +261,14 @@ If you do have some custom cable connectors on your printer it is a little bit m
 
 For more pictures check out [my Creality CR-6 SE mounting kit for the DD](/blog/2021/01/19/mounting-the-biqu-h2-to-creality-cr6) and [initial unboxing and first impressions](/blog/2021/01/08/biqu-h2-direct-drive-extruder-first-look).
 
+### Update 23-03-2021
+
+I've had multiple incidents now by which filament jams in the extruder. While resolvable, I suspect the non-adjustable tension might be the cause. In addition I noticed that I had an increasingly hard time loading filament lately. 
+
+Additionally, when disassembling the BIQU H2, and attempting to replace remove the heat break to check for blockages, I noticed one of the grub screws was completely stripped. I won't be able to get it out because it is buried in the heat sink. For this reason I've decided to replace the H2 with a E3D Hemera.
+
+This all said, BIQU did make changes to the manufacturing process. My dad recently purchased a H2, and many of the shortcomings have been resolved. Improvements have also been made: the stepper motor can be removed and problems with the gears some other reviewers found have also been resolved.
+
 ## Where to buy
 
 The BIQU H2 can be purchased [on the official BigTreeTech website](https://www.bigtree-tech.com/products/biqu-h2-direct-extruder.html). If you like a seller closer to home, [3DJAKE has the BIQU H2 in stock as well](https://www.3djake.nl/biqu/h2-extruder). 
