@@ -109,7 +109,7 @@ But unfortunately the software isn't completely ready yet. The neopixel does wor
 
 The board is drop-in on the current Creality CR-6 hardware - everything works, including the leveling system. I wrote [a guide how to install it earlier about that](/blog/2020/11/25/how-to-btt-skr-cr6-installation). Because this board is in hardware terms different than the stock Creality board, it comes [with its own firmware](https://github.com/bigtreetech/BIGTREETECH-SKR-CR6). That firmware is based on Creality firmware v1.0.3.7 so it comes with the same limitations as that firmware - but since the end of 2020 [the CR-6 community firmware is also available](https://github.com/CR6Community/Marlin/) for this board.
 
-One thing to note that the optical sensor on the CR-6 gantry doesn't light up anymore. This optical sensor is supposed to run at 5 volt, but is few 3.3V instead. This appears to be a design mistake in the board, but nevertheless the sensor still does its job.
+One thing to note that the optical sensor on the CR-6 gantry doesn't light up anymore. This optical sensor is supposed to run at 5 volt, but is few 3.3V instead. This appears to be a design mistake in the board, but nevertheless the sensor still does its job. *Note: this seems to be silently resolved by BTT in a newer revision of the board*
 
 For me mounting the board was quite easy, I had the hardest time removing all the hot glue Creality used everywhere. The installation itself was quite easy. 
 
@@ -182,7 +182,7 @@ I have integrated the changes from BigTreeTech into [the CR-6 Community Firmware
 
 There are also some known issues with this board, but none of them are really blocking in my opinion. Just good to be aware of.
 
-- The board can still be backpowered from USB when the printer is off - requiring to [apply the 5V USB tape workaround](https://community.octoprint.org/t/put-tape-on-the-5v-pin-why-and-how/13574) - just like on the stock Creality boards. Usually BigTreeTech boards don't have this issue, but this particular board has. This may change in a future hardware revision.
+- The board can still be back powered from USB when the printer is off - requiring to [apply the 5V USB tape workaround](https://community.octoprint.org/t/put-tape-on-the-5v-pin-why-and-how/13574) - just like on the stock Creality boards. Usually BigTreeTech boards don't have this issue, but this particular board has. This may change in a future hardware revision.
 
 - Some people have experienced fluctuating temperature reports when the printer is cold and has not run yet. Temperatures jump beteen 9 and 15 degrees Celcius - when the temperatures are below 40 degrees C. This does not appear to impact the actual printing though: the printer is able to reach, maintain and measure temperatures just fine. 
 
