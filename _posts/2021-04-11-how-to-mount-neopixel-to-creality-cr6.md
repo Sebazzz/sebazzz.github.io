@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How-to: RGB on your printer! Mounting a Neopixel to the Creality CR-6 SE"
-date:   2021-04-01 15:00:00 +0200
+date:   2021-04-11 15:00:00 +0200
 categories: 3d-printing
 ---
 
