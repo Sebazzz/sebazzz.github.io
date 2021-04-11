@@ -174,7 +174,7 @@ The bottle holder held up fine, despite of the amount of force he uses 😉
 
 ### Neopixel mount
 
-Finally, I designed and printed a neopixel mount for the CR-6 SE:
+Finally, [I designed and printed a neopixel mount](/blog/2021/04/11/how-to-mount-neopixel-to-creality-cr6) for the CR-6 SE:
 
 ![Neopixel mount](/images/blog/2021-04-11-creality-hp-pla-review/neopixel1.jpg)
 *You can [download the mount](https://www.thingiverse.com/thing:4823634) from Thingiverse*
