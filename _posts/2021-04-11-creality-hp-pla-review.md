@@ -190,6 +190,7 @@ So, with these prints, where does this leave this filament?
 - Smooth first layers.
 - Beautiful matte prints.
 - Perfect for functional and models alike.
+- Some PLA filaments stick to an all-metal hot-end. Creality PLA works fine and does not cause jamming (tested on an E3D Hemera).
 
 **Cons:**
 
