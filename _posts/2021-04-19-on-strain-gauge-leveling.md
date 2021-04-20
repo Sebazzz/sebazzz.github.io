@@ -30,7 +30,7 @@ In this article I write about how to interpret the results, how the strain gauge
 
 What I write below applies to any bed leveling probe, but to the CR-6 strain gauge in particular. 
 
-**The bed leveling results say _nothing_ about the physical state of the bed, if the probing results are not accurate.** You can have all points near-zero, but if the probing isn't accurate, you still cannot print well. If your bed isn't perfect, the numbers are not perfect, but the probing is accurate - then you are above to print well. 
+**The bed leveling results say _nothing_ about the physical state of the bed, if the probing results are not accurate.** You can have all points near-zero, but if the probing isn't accurate, you still cannot print well. If your bed isn't perfect, the numbers are not perfect, but the probing is accurate - then won't have trouble printing.
 
 ![Good mesh vs bad mesh, leveling results](/images/blog/2021-04-19-on-strain-gauge-leveling/good-mesh-bad-mesh.jpg)
 *Bad mesh vs good mesh? Is any of these good or bad? The numbers can lie. Thanks to @ztakis on Github providing the picture on the right. Both meshes print right though.*
