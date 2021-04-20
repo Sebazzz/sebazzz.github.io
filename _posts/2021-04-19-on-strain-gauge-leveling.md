@@ -130,7 +130,7 @@ To weight your strain gauge:
 ![Bed leveling - too much weight](/images/blog/2021-01-19-mounting-the-biqu-h2-to-creality-cr6/strain-gauge-weight-too-much.jpg)
 *560 grams was too much for me. During bed leveling, the bed was bending in the corners.*
 
-If you want to adjust the sensitivity of the strain gauge you can adjust the RP1 potmeter on the board. Adjust it a tiny bit, preferably with a plastic screwdriver, then repeat steps 3 onwards. It is very important you turn the printer off and on again.
+If you want to adjust the threshold of the strain gauge you can adjust the RP1 potmeter on the board. Adjust it a tiny bit, preferably with a plastic screwdriver, then repeat steps 3 onwards. It is very important you turn the printer off and on again.
 
 ### Mechanical factors
 
