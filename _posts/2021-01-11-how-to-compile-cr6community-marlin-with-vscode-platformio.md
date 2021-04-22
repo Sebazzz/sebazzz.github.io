@@ -159,6 +159,19 @@ Now you can take this file, put it on an SD card and flash it according to the i
 
 The default configuration contains settings that are generally good for your printer. If you want to make any changes, [follow the documentation of 'Configuring Marlin'](https://marlinfw.org/docs/configuration/configuration.html).
 
+## Troubleshooting
+
+### "File not found" or "No such file or directory exists"
+
+Try:
+
+- Installing [Git for Windows](https://gitforwindows.org/) and rebooting your computer afterwards (or re-open Visual Studio Code)
+- Move the source files to a shorted part (for instance C:\Temp) *or* [enable Windows long paths](https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation#enable-long-paths-in-windows-10-version-1607-and-later)
+
+### The "checkmark" compilation button is missing
+
+You may have opened the `platformio.ini` file itself, or the wrong directory. You must open the directory of `platformio.ini`. Not a child directory nor the parent directory.
+
 ## Final thoughts
 
 I hope this short guide has helped you compile the CR-6 Community Firmware. If you'd like to support the [CR-6 community firmware developers - please check the Credits section of the readme](https://github.com/CR6Community/Marlin#credits).
