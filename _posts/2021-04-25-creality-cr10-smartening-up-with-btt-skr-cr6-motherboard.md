@@ -62,7 +62,7 @@ First we need to take the current board out.
 ![Creality CR10 Smart motherboard replacement - disassembly](/images/blog/2021-04-25-creality-cr10-smartening-up-with-btt-skr-cr6-motherboard/stock-mb-wiring-diagram.jpg)
 *Wiring overview of the stock motherboard. <strong style="color: orange">Orange parts</strong> need some additional work, <strong style="color: purple">purple can be changed as-is</strong> and <strong style="color: red">does not have an alternative</strong>*
 
-As with any Creality printer, a lot of these connections are glued in with hot glue. You can use a few drops of IPA, some heat and tweezers to get the glue loose. Label the cables so you don't loose track of it.
+As with any Creality printer, a lot of these connections are glued in with hot glue. You can use a few drops of IPA and tweezers to get the glue loose. Label the cables so you don't loose track of it.
 
 Take note of the USB-connector. You need to make a hole in the front if you want to use the USB connector of your BTT SKR CR6 motherboard.
 
