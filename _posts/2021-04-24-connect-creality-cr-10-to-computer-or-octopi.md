@@ -18,7 +18,7 @@ The Creality CR-10 Smart is obviously a printer that nudges you to use it via th
 
 --
 
-**Warning:** It is possible I had pre-release hardware and therefore in the final hardware this procedure is slightly different or not possible at all. I also can't speak what this change will do in terms of warranty.
+**Warning:** It is possible I had pre-release hardware and therefore in the final hardware this procedure is slightly different or not possible at all. I also can't speak to what this change will do in terms of warranty.
 
 --
 
