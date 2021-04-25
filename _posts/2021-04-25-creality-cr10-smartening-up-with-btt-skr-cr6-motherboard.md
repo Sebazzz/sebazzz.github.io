@@ -27,7 +27,7 @@ The BTT SKR CR-6 board brings a number of advantages - [I've done a review on th
 - The stock motherboard (presumably) has TMC2208 drivers. The BTT SKR CR-6 board has TMC2209 drivers. A small advantage but still.
 - The stock motherboard has the stepper drivers in standalone mode; the BTT SKR board has full firmware control over the drivers. This makes the "hot stepper" stickers put over every stepper motor redundant: you can tune each stepper to run at a lower current. This prolongs lifetime of both stepper driver and stepper motor.
 
----
+--
 
 **Warning:** It is possible I had pre-release hardware and therefore in the final hardware this procedure is slightly different or not possible at all. I also can't speak to what this change will do in terms of warranty. It may also be possible that the "smart" cloud functions may not work properly after this change. My cloud function did not work in the first place, so I was not able to test it.
 --
