@@ -30,6 +30,7 @@ The BTT SKR CR-6 board brings a number of advantages - [I've done a review on th
 --
 
 **Warning:** It is possible I had pre-release hardware and therefore in the final hardware this procedure is slightly different or not possible at all. I also can't speak to what this change will do in terms of warranty. It may also be possible that the "smart" cloud functions may not work properly after this change. My cloud function did not work in the first place, so I was not able to test it.
+
 --
 
 ## Prerequisites
