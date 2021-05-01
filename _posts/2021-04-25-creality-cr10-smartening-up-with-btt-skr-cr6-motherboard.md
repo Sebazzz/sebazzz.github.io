@@ -14,6 +14,8 @@ The Creality CR-10 Smart is a printer with a built-in [Creality Wifi Box](https:
   }
 </style>
 
+![The BTT SKR CR6 in the Creality CR-10 Smart](/images/blog/2020-11-25-how-to-btt-skr-cr6-installation/cover.jpg)
+
 The cable connections of the Creality CR-10 Smart look surprisingly similar to those of the Creality CR-6 SE / MAX. This prompted me to investigate [using the pin diagram of the BTT SKR CR6 board](https://github.com/bigtreetech/BIGTREETECH-SKR-CR6/blob/master/Hardware/BTT%20SKR-CR6-Pin.pdf) if the pinout is the same. It turned out it was!
 
 ![The BTT SKR CR6 motherboard](/images/blog/2020-11-25-how-to-btt-skr-cr6-installation/product-display.png)
