@@ -115,8 +115,9 @@ So, with these prints, where does this leave this filament?
 - The desiccant bag has instruction on how to reuse it. This encourages saving the desiccant and reusing it later. 
 - There is a typo on the packaging of the Matte PLA. This is resolved in newer batches of the filament.
 
-<!--
+
 ## Where to get it & pricing
 
-TDB
--->
+BIQU filament is available on [EBay](https://www.ebay.com/itm/274820309571), [AliExpress](https://www.aliexpress.com/item/1005002762055559.html?spm=a2g0o.store_pc_newArrival.8148356.17.63a07da2lA9Utz) and [Amazon](https://www.amazon.com/dp/B092HPYDZ4?ref=myi_title_dp).
+
+The price is about 26 dollars which puts it just above SUNLU and near other PLAs.
