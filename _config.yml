@@ -17,7 +17,8 @@ gems:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-feed
-
+  - jekyll-loading-lazy
+  
 feed:
   path: feed.xml
 
