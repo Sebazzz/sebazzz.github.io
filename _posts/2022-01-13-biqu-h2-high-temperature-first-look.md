@@ -159,3 +159,4 @@ As the next steps, I will check which one of my current printers is most feasibl
 
 I do have a CR-10 Smart coming in and a Ender 3 S1 (thanks to my presence in Creality's first overseas user seminar), but both I'd like to keep stock for a while until modifying them.
 
+In any case, no matter what it needed. I'm up for the challenge!
