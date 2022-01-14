@@ -269,6 +269,8 @@ Additionally, when disassembling the BIQU H2, and attempting to replace remove t
 
 This all said, BIQU did make changes to the manufacturing process. My dad recently purchased a H2, and many of the shortcomings have been resolved. Improvements have also been made: the stepper motor can be removed and problems with the gears some other reviewers found have also been resolved.
 
+**Update:** BIQU has [released a v2.0 revision of the extruder](https://www.biqu.equipment/products/biqu-h2-v2-0-extruder?utm_source=marketing&utm_medium=writer&utm_campaign=damsteennl).
+
 ## Where to buy
 
 The BIQU H2 can be purchased [on the official BigTreeTech website](https://www.bigtree-tech.com/products/biqu-h2-direct-extruder.html). If you like a seller closer to home, [3DJAKE has the BIQU H2 in stock as well](https://www.3djake.nl/biqu/h2-extruder). 
