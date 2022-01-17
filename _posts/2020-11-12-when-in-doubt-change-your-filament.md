@@ -3,6 +3,7 @@ layout: post
 title:  "Stringing, blobs and underextrusion: When in doubt, change your filament"
 date:   2020-11-12 20:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2020-11-12-when-in-doubt-change-your-filament-train.jpg
 ---
 
 After my [work on the Creality CR-6 community firmware](https://github.com/CR6Community) and [BIQU B1 review](/blog/2020/10/18/biqu-b1-review) I got contacted by the 3D printer manufacturer [Anet 3D](https://www.anet3d.com/) to test and review their [Anet ET4 Pro 3D printer](https://shop.anet3d.com/products/et4-pro). I received the printer and two rolls of PLA filament. I had quite some trouble getting good prints, and it turns out it was all due to the filament! Read on!

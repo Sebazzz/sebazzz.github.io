@@ -3,6 +3,7 @@ layout: post
 title:  "On strain gauge leveling on (Creality) 3D printers: How it works and notes on accuracy"
 date:   2021-04-19 15:00:00 +0200
 categories: 3d-printing
+image: /images/blog/2021-04-19-on-strain-gauge-leveling/overview.jpg
 ---
 
 "Strain gauge leveling demystified!" or insert some other clickbait title 😉 Let's look at how strain gauge leveling works on Creality printers, what influences the accuracy, and how to interpret the results!

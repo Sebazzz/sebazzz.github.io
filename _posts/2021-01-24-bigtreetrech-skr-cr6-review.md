@@ -3,6 +3,7 @@ layout: post
 title:  "BigTreeTech SKR CR6 review - an alternative motherboard for the Creality CR-6"
 date:   2021-01-24 21:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2020-11-25-how-to-btt-skr-cr6-installation/product-display.png
 ---
 
 After the first users received their Creality CR-6 units it quickly became clear [there were some (severe) teething issues](https://gist.github.com/Sebazzz/ff4d716c8d2ad9bab1e87b3fc4238281) with this new printer. In particular, the motherboard labeled version 4.5.2 sometimes fail. Sometimes simply resulting in the printer not booting, sometimes failures with smoke and sparks. These failures could sometimes cascade to other printer components or connected devices like a computer or Raspberry PI. Early November the BigTreeTech introduced their [BigTreeTech SKR CR6](https://www.aliexpress.com/item/1005001728994394.html) motherboard of which I wrote [an installation guide earlier](https://damsteen.nl/blog/2020/11/25/how-to-btt-skr-cr6-installation). After using this board for several months I will now give my thoughts and considerations.

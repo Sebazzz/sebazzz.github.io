@@ -3,6 +3,7 @@ layout: post
 title:  "How-to: Connect the Creality CR-10 Smart to a computer or Octopi"
 date:   2021-04-24 21:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2021-04-24-connect-creality-cr-10-to-computer-or-octopi/bottom-all.jpg
 ---
 
 The Creality CR-10 Smart is a printer with a built-in [Creality Wifi Box](https://www.creality3dofficial.com/products/creality-wi-fi-box) for [Creality Cloud](https://model.creality.com/model).  For troubleshooting it is however more useful to directly talk to the firmware, using [an Octoprint console](https://octoprint.org/) or [Pronterface on Windows/Linux/Mac](https://www.help.prusa3d.com/en/article/pronterface-and-usb-cable_2222). But where is the USB connector? It is hidden! In this post I'Il show you how to connect to your Creality CR-10 Smart printer!

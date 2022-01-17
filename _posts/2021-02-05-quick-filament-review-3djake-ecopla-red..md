@@ -3,6 +3,7 @@ layout: post
 title:  "Quick filament review: 3DJAKE ecoPLA red"
 date:   2021-02-05 20:00:00 +0100
 categories: 3d-printing quick-filament-review
+image: /images/blog/quick-filament-reviews/3djake-ecopla-red/product.jpg
 ---
 
 There are far too few reviews of 3d printer filament. For this reason I'm starting a series of quick filament reviews: short filament reviews, some remarks, some findings, and whether I'd buy it again. For this third installment: [3DJAKE ecoPLA red](https://www.3djake.nl/3djake/ecopla-rood).

@@ -3,6 +3,7 @@ layout: post
 title:  "Filament review: Creality HP-PLA 3D printer filament - Creality stepping up their filament game?"
 date:   2021-04-11 15:00:00 +0200
 categories: 3d-printing
+image: /images/blog/2021-04-11-creality-hp-pla-review/overview.jpg
 ---
 
 Creality does not only manufacture 3D printers, they have also sell and produce filament. With both of my CR-6 printers I got a roll of white Creality filament. Although this filament hasn't been successful for everyone, I liked it very much. Creality has asked me to review a new line of filament they're bringing to the market: [Creality HP-PLA 3D printer filament](https://www.creality.com/goods-detail/creality-hp-pla-3d-printer-filament). Is this filament any good? Let's take a closer look!

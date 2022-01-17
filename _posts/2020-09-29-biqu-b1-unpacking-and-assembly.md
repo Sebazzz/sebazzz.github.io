@@ -3,6 +3,7 @@ layout: post
 title:  "BIQU B1: Unboxing and assembly"
 date:   2020-09-29 20:31:00 +0200
 categories: 3d-printing review
+image: /images/blog/2020-09-29-biqu-b1-unpacking-and-assembly-packaging-1.jpg
 ---
 
 Finally I received the BIQU B1 from BIGTREETECH. It was stuck in Dutch customs for almost a month - also partially blaming Fedex for this. But, it is finally here! Let's unbox and assemble this printer!

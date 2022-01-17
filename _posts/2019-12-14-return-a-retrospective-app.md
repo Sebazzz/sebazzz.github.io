@@ -2,6 +2,7 @@
 layout: post
 title:  "Return: a retrospective app built in ASP.NET Core and Blazor"
 date:   2019-12-14 18:00:00 +0200
+image: https://raw.githubusercontent.com/Sebazzz/Return/f73fbe80dae85a3c5b88d31e73870c48b5e88438/doc/writing.pn
 ---
 
 In .NET Core 3.0 Microsoft introduced a new framework to compete with existing web frameworks like Angular and React. I decided to put it to the test and build a retrospective app with it, October of this year. Introducing: [**Return**](https://github.com/Sebazzz/Return), a retrospective app built in ASP.NET Core and Blazor. 

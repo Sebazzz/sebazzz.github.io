@@ -3,6 +3,7 @@ layout: post
 title:  "Creality CR-10 Smart: Smartening it up with a BTT SKR CR-6 motherboard"
 date:   2021-04-25 21:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2021-04-25-creality-cr10-smartening-up-with-btt-skr-cr6-motherboard/cover.jpg
 ---
 
 The Creality CR-10 Smart is a printer with a built-in [Creality Wifi Box](https://www.creality3dofficial.com/products/creality-wi-fi-box) for [Creality Cloud](https://model.creality.com/model). It unfortunately has no silent stepper drivers for the extruder and Z-axis. I don't care much for the Z-axis, but the squeaking at every retraction gets very annoying - especially at night. Let's see how we can silence this printer a bit!

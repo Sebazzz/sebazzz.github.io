@@ -3,6 +3,7 @@ layout: post
 title:  "How to: Flash Marlin on Anet ET series printers "
 date:   2020-11-06 18:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2020-11-06-flash-marlin-on-anet-et-printers-stlink.jpg
 ---
 
 After my [BIQU B1 review](/blog/2020/10/18/biqu-b1-review) and [work on the Creality CR-6 community firmware](https://github.com/CR6Community) I got contacted by the 3D printer manufacturer [Anet 3D](https://www.anet3d.com/) to test and review their [Anet ET4 Pro 3D printer](https://shop.anet3d.com/products/et4-pro). The Anet ET series run on Anet's propietary firmware, but it is actually possible to flash them to the well-known printer firmware Marlin! However, it is a little bit more involved than just putting a bin file on the SD card. This article will show you how to flash Marlin to your Anet ET printer.

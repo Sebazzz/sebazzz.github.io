@@ -3,6 +3,7 @@ layout: post
 title:  "How-to: Filament change with the CR-6 and community firmware release 5"
 date:   2020-12-26 20:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2020-11-30-anet-et4-pro-review/traffic-cone-2.jpg
 ---
 
 We've been working for quite some time on the community firmware release 5 for the CR-6. In addition to a whole new user interface, we've expanded hardware support to all common hardware configurations of the Creality CR-6. This includes the CR-6 with both types of stock mainboards, the [BigTreeTech SKR CR6 motherboard](/blog/2020/11/25/how-to-btt-skr-cr6-installation) with stock Creality TFT or BTT TFT, and support for the Creality CR-6 MAX. More [can be read in the release notes](https://github.com/CR6Community/Marlin/issues/84). In addition we've improved the working of the filament change during printing functionality. This article will show you how it can be used in the Creality CR-6 community firmware release 5.

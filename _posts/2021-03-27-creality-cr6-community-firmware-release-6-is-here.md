@@ -3,6 +3,7 @@ layout: post
 title:  "Creality CR-6 Community Firmware release 6 is here!"
 date:   2021-03-27 21:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2021-03-27-creality-cr6-community-firmware-release-6-is-here-cover.jpg
 ---
 
 After months of work a new stable release of the Creality CR-6 Community Firmware is here! Release 6 is titled the "Tune it, love it" release, due to the many more controls available to improve and maintain print quality. This includes various calibration methods, like e-step and PID tuning from the touch screen, manual bed leveling, and motion settings.

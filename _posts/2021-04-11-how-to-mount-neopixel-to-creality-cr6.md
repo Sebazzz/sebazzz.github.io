@@ -3,6 +3,7 @@ layout: post
 title:  "How-to: RGB on your printer! Mounting a Neopixel to the Creality CR-6 SE"
 date:   2021-04-11 15:00:00 +0200
 categories: 3d-printing
+image: /images/blog/2021-04-11-how-to-mount-neopixel-to-creality-cr6/intro.jpg
 ---
 
 In this article I will show you how to mount an Adafruit Neopixel to your Creality CR-6 SE. A Neopixel allows for printer-firmware controlled light. You can control a Neopixel from gcode, or let the firmware automatically control it (for instance, when heating).

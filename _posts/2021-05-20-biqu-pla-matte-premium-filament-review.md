@@ -3,6 +3,7 @@ layout: post
 title:  "Filament review: BIQU PLA matte and PLA Premium filament review - The first filament production from BIQU"
 date:   2021-05-20 15:00:00 +0200
 categories: 3d-printing
+image: /images/blog/2021-05-20-biqu-pla-matte-premium-filament-review/cover.jpg
 ---
 
 BIQU / BigTreeTech is best known for their [BTT SKR 3D printer motherboards](/blog/2021/01/24/bigtreetrech-skr-cr6-review), printers like their [BIQU B1](/blog/2020/10/18/biqu-b1-review) or [BIQU BX](https://www.biqu.equipment/collections/3d-printer), and also parts like their [BIQU H2 direct drive extruder](/blog/2021/02/08/biqu-h2-direct-drive-extruder-review-no-compromises). BIQU is now also introducing their own filament. Let's take a look!

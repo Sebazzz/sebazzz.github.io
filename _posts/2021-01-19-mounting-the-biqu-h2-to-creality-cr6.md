@@ -3,6 +3,7 @@ layout: post
 title:  "How-to: The Creality CR-6 BIQU H2 Direct Drive extruder mounting kit"
 date:   2021-01-19 20:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2021-01-19-mounting-the-biqu-h2-to-creality-cr6/overview.jpg
 ---
 
 About a week ago [I received the BIQU H2 (hydrogen) direct drive extruder](/blog/2021/01/08/biqu-h2-direct-drive-extruder-first-look). This direct drive extruder is one of the pinnacles of [the new BIQU BX](https://www.bigtree-tech.com/products/biqu-bx.html) 3D printer. BIQU has released their direct drive extruder separately so it can be mounted on other printers. I have a Creality CR-6 and due to the bed leveling system this will take a few extra steps. This article will explain how to mount it to the Creality CR-6 SE or MAX 3D printer.

@@ -3,6 +3,7 @@ layout: post
 title:  "I fixed my graphics card by using oven reflow soldering"
 date:   2020-10-11 16:31:00 +0200
 categories: gaming
+image: /images/blog/2020-10-11-i-fixed-my-gfx-card-by-oven-reflow-soldering-4.jpg
 ---
 
 On this Sunday I just want to share the story of my broken graphics card and how I fixed it for now (because you never know how long it will last). I already have a Nvidia GTX3080 on order so it just has to work long enough until I receive my order.

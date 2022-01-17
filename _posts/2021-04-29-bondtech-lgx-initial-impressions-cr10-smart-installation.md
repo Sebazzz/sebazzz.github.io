@@ -3,6 +3,7 @@ layout: post
 title:  "Bondtech LGX extruder: First impressions and installation on the Creality CR-10 Smart (also CR-6)"
 date:   2021-04-29 21:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2021-04-29-bondtech-lgx-initial-impressions-cr10-smart-installation/box1.jpg
 ---
 
 The [Creality CR-10 Smart](/blog/2021/04/25/creality-cr10-smartening-up-with-btt-skr-cr6-motherboard) shares many components with the Creality CR-6, including the new plastic extruder that locks open or closed. However, this extruder is not without its issues. Some users have shown that the unit may crack over time, and being a single-geared extruder without any gear ratio it has little resistance against issues in the filament path. I want to minimize that chance large prints fail due to extrusion issues, so I purchased the new [Bondtech Large Gears Extruder (LGX)](https://www.bondtech.se/product/lgx-large-gears-extruder/). Let's look how to install it as a Bowden extruder! This guide applies to both the Creality CR-10 Smart and Creality CR-6 since they share the same design.

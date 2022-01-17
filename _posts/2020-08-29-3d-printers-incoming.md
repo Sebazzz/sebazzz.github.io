@@ -3,6 +3,7 @@ layout: post
 title:  "3D printers incoming - Creality CR-6 SE and BIQU B1!"
 date:   2020-08-29 14:31:00 +0100
 categories: 3d-printing
+image: /images/blog/2020-08-29-3d-printers-incoming-cr6-se.jpg
 ---
 
 Those who know me a bit know that I love to play with Arduinos and I like make hardware alive by programming. I actually made a "kids do box" for my three kids. It was made of wood, and I'm not very experienced with wood working - so this box is a bit rough. For more advanced designs I don't have the tools and skills to make it a reality. So, after seeing the [Creality CR-6 SE review video on Tweakers.net](https://tweakers.net/reviews/7882/creality-cr-6se-3d-printen-zonder-zorgen-over-bijzaken.html) and many more favorable reviews I decided to take the plunge and dive into the world of 3d printing!

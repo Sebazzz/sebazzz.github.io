@@ -2,7 +2,8 @@
 layout: post
 title:  "Adjustable retractions during printing with Marlin Firmware Retract"
 date:   2021-05-06 21:00:00 +0200
-categories: 3d-printing
+categories: 3d-printing]
+image: /images/blog/2020-11-12-when-in-doubt-change-your-filament-retraction.jpg
 ---
 
 The ability to adjust retractions during a print is invaluable when tuning in new filaments. You can also use it save a print that experiences too much stringing. Marlin supports adjusting retractions while a print is running - when you [have "firmware retraction" enabled](https://marlinfw.org/docs/features/fwretract.html). In this article I show you how to use it!

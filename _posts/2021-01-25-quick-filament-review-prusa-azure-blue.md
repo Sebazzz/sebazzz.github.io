@@ -3,6 +3,7 @@ layout: post
 title:  "Quick filament review: Prusament PLA Azure Blue"
 date:   2021-01-25 21:00:00 +0100
 categories: 3d-printing quick-filament-review
+image: /images/blog/quick-filament-reviews/prusament-azure-blue/box.png
 ---
 
 There are far too few reviews of 3d printer filament. For this reason I'm starting a series of quick filament reviews: short filament reviews, some remarks, some findings, and whether I'd buy it again. For this first installment: [Prusament PLA Azure Blue](https://shop.prusa3d.com/en/prusament/716-prusament-pla-azure-blue-1kg.html).

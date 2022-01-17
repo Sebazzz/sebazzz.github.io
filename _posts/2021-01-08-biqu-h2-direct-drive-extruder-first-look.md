@@ -3,6 +3,7 @@ layout: post
 title:  "BIQU H2 direct drive extruder: first look and initial impressions"
 date:   2021-01-08 20:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2021-01-08-biqu-h2-direct-drive-extruder-first-look/whole-package.jpg
 ---
 
 BigTreeTech sent me [their BIQU H2 direct drive extruder](https://www.bigtree-tech.com/products/biqu-h2-direct-extruder.html) for review. This extruder is very similar to the extruder on their [BIQU BX 3D printer](https://www.bigtree-tech.com/products/biqu-bx.html). Let's take an initial look at what this solution from BigTreeTech offers - what they call the "World's lighest direct extruder".

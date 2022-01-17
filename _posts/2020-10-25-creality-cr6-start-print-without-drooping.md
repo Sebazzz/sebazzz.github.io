@@ -3,6 +3,7 @@ layout: post
 title:  "Creality CR-6 SE: Start a print without drooping filament on the build plate while homing"
 date:   2020-10-25 10:00:00 +0200
 categories: 3d-printing
+image: /images/blog/2020-10-25-creality-cr6-start-print-without-drooping-1.jpg
 ---
 
 The auto-bed leveling feature of the Creality CR-6 SE uses a strain gauge connected to the hot-end for leveling. This is also used for homing the hotbed - in combination with the optical Z-endstop the nozzle strain gauge status is probed to determine the zero position for the Z axis. In the default Cura start code, the nozzle is fully heated up to printing temperature which causes some filament to droop out when homing, leaving residue on the bed. Read below to find a solution for this.

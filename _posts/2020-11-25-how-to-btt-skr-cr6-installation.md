@@ -3,6 +3,7 @@ layout: post
 title:  "How-to: BigTreeTech SKR CR-6 and BTT Touch screen installation on the Creality CR-6 SE"
 date:   2020-11-25 07:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2020-11-25-how-to-btt-skr-cr6-installation/product-display.png
 ---
 
 BigTreeTech sent me [their motherboard replacement](https://www.aliexpress.com/item/1005001728994394.html) for the Creality CR-6 SE together with [their BTT touch screen](https://www.aliexpress.com/item/1005001307917786.html) featured earlier in [the BIQU B1](/blog/2020/10/18/biqu-b1-review) and available as an upgrade for many other 3D printers. The Creality CR-6 SE features a motherboard [that has not been without its issues](https://gist.github.com/Sebazzz/ff4d716c8d2ad9bab1e87b3fc4238281) - and also my motherboard has failed within 30 days after using my unit.

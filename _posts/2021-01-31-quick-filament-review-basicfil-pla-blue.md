@@ -3,6 +3,7 @@ layout: post
 title:  "Quick filament review: BASICFIL PLA Blue"
 date:   2021-01-31 14:00:00 +0100
 categories: 3d-printing quick-filament-review
+image: /images/blog/quick-filament-reviews/basicfil-pla-blue/product.jpg
 ---
 
 There are far too few reviews of 3d printer filament. For this reason I'm starting a series of quick filament reviews: short filament reviews, some remarks, some findings, and whether I'd buy it again. For this second installment: [BASICFIL PLA Blue](https://www.amazon.nl/gp/product/B07CTQDQ77/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1).

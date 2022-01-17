@@ -3,6 +3,7 @@ layout: post
 title:  "BIQU H2 500°C Extruder - unboxing and first look"
 date:   2022-01-13 21:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2022-01-13-biqu-h2-high-temperature-first-look/cover.jpg
 ---
 
 BIQU wants to enter the market for high temperature printing and has release the [BIQU H2 500°C direct drive extruder](https://www.biqu.equipment/products/h2-500-extruder-for-3d-printer?utm_source=marketing&utm_medium=writer&utm_campaign=damsteennl). This is a variant of their [BIQU H2 direct drive extruder v2.0](https://www.biqu.equipment/products/biqu-h2-v2-0-extruder?utm_source=marketing&utm_medium=writer&utm_campaign=damsteennl) of which [v1.0 variant I wrote a review earlier](/blog/2021/02/08/biqu-h2-direct-drive-extruder-review-no-compromises). For purposes of review and testing I have received a unit from BIQU. In this article I'Il do an initial unboxing and first look of the device and its internals.

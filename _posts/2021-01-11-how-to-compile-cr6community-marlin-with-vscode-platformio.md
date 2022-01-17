@@ -3,6 +3,7 @@ layout: post
 title:  "How-to: Compiling the CR-6 Community Firmware (Marlin) with Visual Studio Code and Platform.io"
 date:   2021-01-08 20:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2021-01-11-how-to-compile-cr6community-marlin-with-vscode-platformio/16b-pio-done.png
 ---
 
 This guide will show you how to compile [the CR-6 Community firmware](https://github.com/CR6Community/Marlin/) we've been working on for the past couple of months. Always wanted to compile your own firmware, with your own acceleration and stepping defaults? This visual guide is for you.

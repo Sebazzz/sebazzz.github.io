@@ -3,6 +3,7 @@ layout: post
 title:  "Creality CR-6 Community Firmware: Start a print without drooping filament on the build plate while homing"
 date:   2021-02-11 22:00:00 +0100
 categories: 3d-printing
+image: /images/blog/2020-10-25-creality-cr6-start-print-without-drooping-1.jpg
 ---
 
 The auto-bed leveling feature of the Creality CR-6 SE uses a strain gauge connected to the hot-end for leveling. This is also used for homing the hotbed - in combination with the optical Z-endstop the nozzle strain gauge status is probed to determine the zero position for the Z axis. [I wrote earlier about a recommended](/blog/2020/10/25/creality-cr6-start-print-without-drooping) start gcode that resolves this issue. Changes in [the CR-6 Community Firmware](https://github.com/CR6Community/Marlin) 5 beta and higher make some parts of the gcode unnecessary.
