@@ -58,6 +58,8 @@ The PrusaPrinters.org website is ran by Prusa, a European organization, and full
 
 This made it the most viable alternative to me - and they have an easy to use migration service to migrate all your models from Thingiverse. My choice was made!
 
+*Update: As [bomas_lulz](https://www.thingiverse.com/thing:5219681/comments#comment-6334537) also here in the comments says: PrusaPrinters.org also has challenges that pay out in actual Prusament (filament from Prusa) - and apparently one of the former Thingiverse devs works on PrusaPrinters.org*
+
 ## Shutting down my Thingiverse account
 
 The only thing left is shutting down my Thingiverse account and spread awareness of Thingiverse alternatives. For this occasion I have made a 3D model to mark my Thingiverse account as "dead".
