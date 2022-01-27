@@ -35,9 +35,9 @@ So, if you want to beep for a half second, then wait a full second, and do two s
 
 ```gcode
 M300 P500
-G4 S1000
+G4 P1000
 M300 P100
-G4 S500
+G4 P500
 M300 P100
 ```
 
