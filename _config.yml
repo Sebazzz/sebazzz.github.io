@@ -1,9 +1,9 @@
 title: Sebastiaan Dammann
-email: sebastiaandammann@outlook.com
+email: www@damsteen.nl
 description: >
   Blogging, coding, 3D printing and reviews
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://damsteen.nl" # the base hostname & protocol for your site
+url: "https://damsteen.nl" # the base hostname & protocol for your site
 twitter_username: sebazzz91
 github_username:  sebazzz
 linkedin_username: sebastiaandammann
