@@ -445,7 +445,7 @@ header a {
     width: 690px;
 }
 
-#main-content img { max-width: 100%; }
+.main-content img { max-width: 100%; }
 
 aside#sidebar {
     background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
@@ -1064,6 +1064,22 @@ p + .highlighter-rouge {
 
 .post-list > li { margin-bottom: 30px; }
 
+.post-list__item::after {
+    content: '';
+    display: block;
+    clear :both;
+}
+
+.post-cover {
+    float: right;
+    vertical-align: middle;
+    margin-left: 2em;
+}
+
+.post-cover img {
+    max-width: 300px;
+}
+
 .post-meta {
     color: #828282;
     font-size: 14px;
@@ -1092,6 +1108,8 @@ p + .highlighter-rouge {
 
 @media screen and (max-width: 800px) {
     .post-title { font-size: 36px; }
+    .post-cover { display:block; margin: 0 auto; }
+    .post-cover img { max-width: none; }
 }
 
 .post-content { margin-bottom: 30px; }

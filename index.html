@@ -12,7 +12,7 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
+      <li class="post-list__item">
         <span class="post-meta">{{ post.date | date: "%-d %b %Y" }} <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" data-disqus-identifier="{{ post.id }}" class="comment-count"></a></span>
 
         <h2>
@@ -20,6 +20,10 @@ layout: default
         </h2>
 		
 		<div class="excerpt">
+      {% if post.image %}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-cover"><img src="{{ post.image | resize: "300x200" }}" alt="{{ post.title }}"></a>
+      {% endif %}
+
 			{{ post.excerpt }}
 			
 			<p class="read-more-link">
