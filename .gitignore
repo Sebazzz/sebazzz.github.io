@@ -9,3 +9,4 @@ Desktop.ini
 .vs
 .jekyll-cache/
 *.heic
+.vscode/settings.json
