@@ -476,6 +476,10 @@ aside#sidebar p.repo-owner a { font-weight: bold; }
         display: inline-block;
         width: auto;
     }
+
+    li .highlighter-rouge {
+        display: inline;
+    }
 }
 
 a.button {
