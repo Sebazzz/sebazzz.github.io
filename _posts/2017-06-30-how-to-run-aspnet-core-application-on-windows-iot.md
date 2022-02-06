@@ -99,6 +99,6 @@ We first configure the URL to run the application under. By default it listens t
 
 Visit `http://<dnsname>:5000` and you get your first response:
 
-![ASP.NET Core on Windows 10 IoT Core](/images/blog/2017-06-30-how-to-run-aspnet-core-application-on-windows-iot.png)
+![ASP.NET Core on Windows 10 IoT Core](/images/blog/2017-06-30-how-to-run-aspnet-core-application-on-windows-iot/primary.png)
 
 Happy coding!

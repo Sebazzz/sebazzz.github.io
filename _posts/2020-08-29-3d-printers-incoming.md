@@ -3,7 +3,7 @@ layout: post
 title:  "3D printers incoming - Creality CR-6 SE and BIQU B1!"
 date:   2020-08-29 14:31:00 +0100
 categories: 3d-printing
-image: /images/blog/2020-08-29-3d-printers-incoming-cr6-se.jpg
+image: /images/blog/2020-08-29-3d-printers-incoming/cr6-se.jpg
 ---
 
 Those who know me a bit know that I love to play with Arduinos and I like make hardware alive by programming. I actually made a "kids do box" for my three kids. It was made of wood, and I'm not very experienced with wood working - so this box is a bit rough. For more advanced designs I don't have the tools and skills to make it a reality. So, after seeing the [Creality CR-6 SE review video on Tweakers.net](https://tweakers.net/reviews/7882/creality-cr-6se-3d-printen-zonder-zorgen-over-bijzaken.html) and many more favorable reviews I decided to take the plunge and dive into the world of 3d printing!
@@ -14,7 +14,7 @@ The printers I will receive are the Creality CR-6 SE - but as a total surprise a
 
 The Creality CR-6 SE is one of the newest 3D printers developed by Creality. It launched at [as a Kickstarter campaign](https://www.kickstarter.com/projects/1001939425/creality-cr-6-se-leveling-free-diy-3d-printer-kit) in 6 May 2020 and funded over 3 million US dollars when campaign was funded in 5 June 2020.
 
-![Creality CR-6 SE](/images/blog/2020-08-29-3d-printers-incoming-cr6-se.jpg)
+![Creality CR-6 SE](/images/blog/2020-08-29-3d-printers-incoming/cr6-se.jpg)
 
 Regarding Creality using Kickstarter and having so many almost-close-to-production quality review models available, one might ask why they did a Kickstarter. Honestly, I think this was just a fancy pre-order marketing campaign molded into a Kickstarter campaign. It is not exactly what Kickstarter is meant for, but I doubt Kickstarter would care because they do get a 5% cut of the campaign funding.
 
@@ -86,13 +86,13 @@ The ugly is that they do not respond well. You need to send several e-mails and 
 
 All with all the situation regarding shipping and production has been quite bad - some might call it _terrible_. That is not the worst of it though. During the campaign someone found out that Creality was selling the CR-6 SE through their official store on AliExpress. 
 
-![Creality CR-6 SE](/images/blog/2020-08-29-3d-printers-incoming-bad-setting.png)
+![Creality CR-6 SE](/images/blog/2020-08-29-3d-printers-incoming/bad-setting.png)
 
 This caused quite a stir and Creality responded, attributing it to a "bad setting". Fine - that can happen, but was that really the case? Not very much later backers found out that the printer was being sold on Banggood and Sainsmart - two other resellers. Pretty soon after the AliExpress store was also opened again.
 
 Besides this, backers also found out that the printer was already being sold to at least two people. This happened just after the campaign was finished, through direct selling by Creality. The first shipment from Kickstarter wasn't even a fact at that time!
 
-![Creality CR-6 SE](/images/blog/2020-08-29-3d-printers-incoming-selling-before-shipping.png)
+![Creality CR-6 SE](/images/blog/2020-08-29-3d-printers-incoming/selling-before-shipping.png)
 
 In addition, Creality has been holding giveaways involving the CR-6 SE, discounts and combination deals by which you could get a Creality wifi box for free by buying the CR-6 SE. The current retail price of the CR-6 SE is very similar to the Kickstarter price which makes the Kickstarter price, given all the risk and terrible way this campaign has gone not a good deal. At least when you go through a reseller, you can deal with the reseller and not with Creality.
 
@@ -112,7 +112,7 @@ But... I hope I will get my printer shipped, have little to no issues I cannot r
 
 One of the main competitors of Creality is BigTreeTech. Originally they were a manufacturer of 3D printer upgrades like the SKR mainboards. They have now also produced a 3D printer which is very similar to the Ender 3 V2.
 
-![Creality CR-6 SE](/images/blog/2020-08-29-3d-printers-incoming-biqu-b1.jpg)
+![Creality CR-6 SE](/images/blog/2020-08-29-3d-printers-incoming/biqu-b1.jpg)
 
 BigTreeTech is sending me the BIQU printer for review, and after review I'm allowed to keep it. 
 
@@ -133,3 +133,7 @@ This printer is now due to arrive next Wednesday, and was shipped Friday (yester
 So, I will blog about my first experiences with the BIQU B1 soon with a more complete review to follow. I can't wait - and want to thank BIQU sincerly for giving me the chance of reviewing this printer!
 
 As for the CR-6 SE, Creality has said to complete shipping printers mid-September if everything goes right. Hopefully this means this printer will arrive just before the fall holiday at the end of October.
+
+
+
+

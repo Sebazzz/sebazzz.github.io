@@ -10,7 +10,7 @@ To connect business networks to each other a site-to-site IPSec is often employe
 ## The case
 We start with the case [from the previous guide](/blog/2017/07/21/setup-site-to-site-ipsec-vpn-with-edgerouter-cisco-asa). 
 
-![Network diagram - Cisco ASA vs EdgeRouter IPSec](/images/blog/2017-07-21-setup-site-to-site-ipsec-vpn-with-edgerouter-cisco-asa-diagram.png)
+![Network diagram - Cisco ASA vs EdgeRouter IPSec](/images/blog/2017-07-21-setup-site-to-site-ipsec-vpn-with-edgerouter-cisco-asa/diagram.png)
 
 To recap:
 - The Edgerouter is NATted behind the ISP modem. 

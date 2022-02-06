@@ -40,17 +40,17 @@ XMing comes with an application called "XLaunch". This will run the X Server. St
 
 A wizard will be started. At the first page you can select which mode XMing will launch in.
 
-![First page of XMing](/images/blog/2016-08-20-run-gui-programs-on-bash-on-ubuntu-on-windows-xming-launch.png)
+![First page of XMing](/images/blog/2016-08-20-run-gui-programs-on-bash-on-ubuntu-on-windows/xming-launch.png)
 
 The default option, selected in this screenshot, will allow programs to run seamlessly side-by-side.
 
 The next page allows you to select how XMing will work. Since we'Il launch programs from the command line, we need to select the first option here.
 
-![Second page of XMing wizard](/images/blog/2016-08-20-run-gui-programs-on-bash-on-ubuntu-on-windows-xming-2nd.png)
+![Second page of XMing wizard](/images/blog/2016-08-20-run-gui-programs-on-bash-on-ubuntu-on-windows/xming-2nd.png)
 
 On the third page of the wizard, keep the default settings. After that, you'Il be able to launch XMing, which will be visible in your system tray:
 
-![XMing in system tray](/images/blog/2016-08-20-run-gui-programs-on-bash-on-ubuntu-on-windows-xming-tray.png)
+![XMing in system tray](/images/blog/2016-08-20-run-gui-programs-on-bash-on-ubuntu-on-windows/xming-tray.png)
 
 ### Running programs
 Start bash again, and run a program by typing its command on the command line. If you type '&' after the command, it'Il fork and doesn't block the command line.
@@ -62,4 +62,8 @@ firefox&
 
 And tadaa: Firefox running on Ubuntu on Windows!
 
-![XMing in system tray](/images/blog/2016-08-20-run-gui-programs-on-bash-on-ubuntu-on-windows-working.png)
+![XMing in system tray](/images/blog/2016-08-20-run-gui-programs-on-bash-on-ubuntu-on-windows/working.png)
+
+
+
+

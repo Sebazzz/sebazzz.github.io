@@ -20,4 +20,4 @@ These scripts of course don't come with any warranty and purely meant for develo
 ## Result
 After execution of the T-SQL script, results are shown. You can see of every table what the maximum identity value was and now is.
 
-![Result of defragmenting identity values in T-SQL](/images/blog/2017-01-21-defragmenting-identity-values-in-sql-server.png)
+![Result of defragmenting identity values in T-SQL](/images/blog/2017-01-21-defragmenting-identity-values-in-sql-server/primary.png)

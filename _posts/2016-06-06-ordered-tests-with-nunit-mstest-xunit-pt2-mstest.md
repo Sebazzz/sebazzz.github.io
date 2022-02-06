@@ -13,7 +13,7 @@ This post is part of a series of posts on ordered testing:
 ## MSTest
 MSTest is the only framework of the three frameworks which has built-in support for ordered tests. Ordered tests are defined in an `.orderedtest` file, which is an XML file containing references to each test. This file can be created easily from the Visual Studio IDE using the visual editor, as shown below. You can specify that an ordered test should be aborted if one of the tests fail. This is useful if the tests have a functional dependency on one another. If the tests don't have a functional dependency on one another but one test mustn't execute before the other you can leave the option disabled.
 
-![Visual Studio Ordered Test Editor](/images/blog/2016-06-05-ordered-tests-with-nunit-mstest-xunit-pt1-orderedtest-mstest.png)
+![Visual Studio Ordered Test Editor](/images/blog/2016-06-05-ordered-tests-with-nunit-mstest-xunit-pt1/orderedtest-mstest.png)
 
 The editor generates the XML file as shown below.
 
@@ -65,12 +65,14 @@ Test Run Successful.
 How does the tooling support ordered tests?
 
 **Visual Studio runner:** Since the Test Explorer is unable to show hierarchy, the 'child' tests of an ordered tests are not shown. Also, each test method is shown individually in the Test Explorer. When executing tests, the tests are correctly shown in the results pane at the bottom of the Test Explorer.
-![Test Explorer showing ordered tests](/images/blog/2016-06-06-ordered-tests-with-nunit-mstest-xunit-pt2-mstest-testexplorer.png)
+![Test Explorer showing ordered tests](/images/blog/2016-06-06-ordered-tests-with-nunit-mstest-xunit-pt2-mstest/testexplorer.png)
 
 **Resharper runner:** Does not support ordered tests, so no ordered tests are shown. Instead, all test methods are shown in hierarchy and no execution correct order is maintained, as expected.
-![Resharper Test runner](/images/blog/2016-06-06-ordered-tests-with-nunit-mstest-xunit-pt2-mstest-resharper.png)
+![Resharper Test runner](/images/blog/2016-06-06-ordered-tests-with-nunit-mstest-xunit-pt2-mstest/resharper.png)
 
 **Console runner:** Shows (and executes) the tests in the correct order. Need to make sure the `.orderedtest` file is given on the command line. Output is shown in [earlier](#running-the-tests) in this post.
 
 ## NUnit
 In the next post we will look at NUnit.
+
+

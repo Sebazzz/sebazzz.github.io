@@ -2,12 +2,12 @@
 layout: post
 title:  "Updated for 2019: Remove the 'Publish' button from the Visual Studio status bar"
 date:   2019-04-03 20:00:00 +0200
-image: /images/blog/2016-07-23-remove-the-publish-button-from-visual-studio-vs.png
+image: /images/blog/2016-07-23-remove-the-publish-button-from-visual-studio/vs.png
 ---
 
 In Visual Studio 2015 and git is integrated and this includes an button to create a Git repository and/or to publish it to Github. This is nice if you use git. However, when you *don't* use git, this button is annoying. Therefore I have [earlier developed an extension](/blog/2016/07/23/remove-the-publish-button-from-visual-studio) to hide the button from the Visual Studio status bar.
 
-![Visual Studio publish button](/images/blog/2016-07-23-remove-the-publish-button-from-visual-studio-vs.png)
+![Visual Studio publish button](/images/blog/2016-07-23-remove-the-publish-button-from-visual-studio/vs.png)
 
 It is now 2019 and yesterday Visual Studio 2019 was released so by popular request I updated the extension to include Visual Studio 2019 support.
 
@@ -32,3 +32,4 @@ Whatever I did, which NuGet or local package I referenced, I couldn't fix this b
 ## Download
 
 The updated extension can be downloaded at the [Visual Studio Extension Gallery](https://visualstudiogallery.msdn.microsoft.com/6e8c558f-b681-4a6a-931b-4efb04714364) and the source code can again be found [on Github](https://github.com/Sebazzz/VsRemovePublishButton).
+

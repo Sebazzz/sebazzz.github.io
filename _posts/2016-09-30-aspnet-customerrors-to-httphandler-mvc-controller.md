@@ -19,7 +19,7 @@ This allows ASP.NET to replace the existing request, with an entire new request 
 
 It doesn't however work when you want to use an custom `IHttpHandler` or want to redirect to an ASP.NET MVC controller action.  In my case, I needed to let the errors be handled by an HTTP handler, others by an ASP.NET MVC controller action. This didn't work, and the error message shown wasn't helpful either:
 
-![Not so helpful are you ASP.NET?](/images/blog/2016-09-30-aspnet-customerrors-to-httphandler-mvc-controller-fail.png) 
+![Not so helpful are you ASP.NET?](/images/blog/2016-09-30-aspnet-customerrors-to-httphandler-mvc-controller/fail.png) 
 
 After several debug sessions in Visual Studio, [triggering when an System.Web.HttpException is thrown](https://msdn.microsoft.com/en-us/library/x85tt0dd.aspx), I found out the root cause. The Server.Execute method, internally checks whether the [target handler](https://referencesource.microsoft.com/#System.Web/httpserverutility.cs,515) of the path is either a static file or Web Forms `System.Web.UI.Page`. This is also the reason `Server.Transfer` also doesn't map to a 
 

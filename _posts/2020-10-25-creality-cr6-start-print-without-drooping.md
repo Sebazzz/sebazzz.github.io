@@ -3,15 +3,15 @@ layout: post
 title:  "Creality CR-6 SE: Start a print without drooping filament on the build plate while homing"
 date:   2020-10-25 10:00:00 +0200
 categories: 3d-printing
-image: /images/blog/2020-10-25-creality-cr6-start-print-without-drooping-1.jpg
+image: /images/blog/2020-10-25-creality-cr6-start-print-without-drooping/1.jpg
 ---
 
 The auto-bed leveling feature of the Creality CR-6 SE uses a strain gauge connected to the hot-end for leveling. This is also used for homing the hotbed - in combination with the optical Z-endstop the nozzle strain gauge status is probed to determine the zero position for the Z axis. In the default Cura start code, the nozzle is fully heated up to printing temperature which causes some filament to droop out when homing, leaving residue on the bed. Read below to find a solution for this.
 
-![Little droop](/images/blog/2020-10-25-creality-cr6-start-print-without-drooping-1.jpg)
+![Little droop](/images/blog/2020-10-25-creality-cr6-start-print-without-drooping/1.jpg)
 *This is just a little droop of filament, but depending on the filament and temperature it can be a good bit more*
 
-![Little droop](/images/blog/2020-10-25-creality-cr6-start-print-without-drooping-2.jpg)
+![Little droop](/images/blog/2020-10-25-creality-cr6-start-print-without-drooping/2.jpg)
 *Drooping can cause first layer artifacts*
 
 To resolve this you need a different start gcode in your slicer. 
@@ -89,3 +89,4 @@ Simplify 3D users can use the following placeholders:
 Note that the above gcode assumes the [CR-6 community firmware](https://github.com/CR6Community/) I'm developing is installed, because the community firmware restores the bed leveling mesh automatically after homing. Note though that [there is an update gcode available here](/blog/2021/02/11/creality-cr6-community-firmware-start-print-without-drooping)
 
 If you don't use the community firmware, then use `M420 S1` after the line that says `G28` to recall the mesh or `G29` to relevel the printer altogether.
+

@@ -38,11 +38,11 @@ In my case I got my printer shipped late in the Kickstarter (only in the end of 
 
 ## The looks
 
-![Creality CR-6 SE](/images/blog/2020-08-29-3d-printers-incoming-cr6-se.jpg)
+![Creality CR-6 SE](/images/blog/2020-08-29-3d-printers-incoming/cr6-se.jpg)
 
 The Creality CR-6 SE has a black finish, a large color touch screen and belt tensioners. The X-axis rides on two Z-lead screws, but not on separate stepper drivers, requiring a belt at the top to connect the two lead screws.
 
-![BIQU B1](/images/blog/2020-08-29-3d-printers-incoming-biqu-b1.jpg)
+![BIQU B1](/images/blog/2020-08-29-3d-printers-incoming/biqu-b1.jpg)
 
 The BIQU B1 is pink, has a small dual-mode (Marlin and touch mode) screen with rotary knob. There is a belt tensioner for the Y-axis, and manual tensioning for the X-axis. 
 
@@ -56,11 +56,11 @@ Both printers have the same build volume (235x235x250), but the CR-6 SE has a la
 
 The BIQU B1 uses a standard BTT SKR motherboard with replaceable stepper drivers. Moreover, the TMC2208 (TMC2225) stepper drivers are connected in UART mode, so control over the stepper drivers is possible via the firmware. The stepper motors also run more silent (due to stealthchop being possible) and the stepper motors run at a low temperature (almost indistuingishable temperature).
 
-![BIQU B1 - Motherboard](/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly-inside-5.jpg)
+![BIQU B1 - Motherboard](/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly/inside-5.jpg)
 
 Because to the stepper drivers being replacable, it is possible to upgrade the stepper drivers to TMC2209 versions. For the X, Y and Z axis this might not matter much - but for the extruder stepper motor it would allow the use of linear advance. This is [unfortunately not supported on TMC2208](https://github.com/teemuatlut/TMCStepper/issues/45) drivers.
 
-![CR-6 SE - Motherboard](/images/blog/2020-10-24-biqu-b1-creality-cr6-se-comparison-cr6-board.jpg)
+![CR-6 SE - Motherboard](/images/blog/2020-10-24-biqu-b1-creality-cr6-se-comparison/cr6-board.jpg)
 
 The Creality CR-6 SE v4.5.2 motherboard dated 2020-05-23 has TMC2209 drivers connected in *legacy* mode. The drivers are soldered onto the board and cannot be replaced. The drivers have potentiometers on the board to set the current send to the motors and allow no firmware control. 
 
@@ -114,7 +114,7 @@ The BIQU B1 has TMC2225 drivers (TMC2208 in a smaller package) - these drivers d
 
 The Creality CR-6 SE has a single fan and only provides part cooling from a single direction. This has its limitations, because the CR-6 SE was not able to print this spaceship in the same manner as the BIQU B1.
 
-![CR-6 SE bad cooling](/images/blog/2020-10-24-biqu-b1-creality-cr6-se-comparison-cr6-spaceship.jpg)
+![CR-6 SE bad cooling](/images/blog/2020-10-24-biqu-b1-creality-cr6-se-comparison/cr6-spaceship.jpg)
 
 I already had foreseen this, so before the print reached the tip, I lowered the print temperature to 185 degrees and even manually tried to blew the air I exhaled on the print but I could not make it better than this.
 
@@ -133,3 +133,8 @@ The only thing left for me to say:
 3. Think of the community - the Creality CR-6 SE has the largest community - but the *parts* of the BIQU B1 have the largest community. Besides that, the BIQU B1 is essentially following the same profile as an Ender 3 - so good chance that any upgrades (like linear rails) are compatible.
 
 Good luck making your choice.
+
+
+
+
+

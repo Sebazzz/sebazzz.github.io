@@ -38,7 +38,7 @@ First some words on assembly and construction. For full details though, check my
 The BIQU B1 is a kit. You get the parts, some pre-assembled, but assembly is up to you. Although I'm generally not very mechanically adept, I didn't mind this because the instructions are good (they show what to do step-by-step) and all the parts you need are labeled per step.
 
 <video controls muted loop>
-  <source src="/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly-packaging-4.mp4" type="video/mp4">
+  <source src="/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly/packaging-4.mp4" type="video/mp4">
 </video>
 
 You need no tools, other than the tools BIQU included with their printer. What I found very convenient during assembly is that BIQU provided ball-head allen keys, which allow for easier assembly. Also these allen keys are magnetized, so you don't have issues with your screws dropping when assembling.
@@ -47,17 +47,17 @@ You need no tools, other than the tools BIQU included with their printer. What I
 
 BIQU did a good job. Although the power supply is not from a known manufacturer, BIQU makes up for that with a good electrical layout of the internals. 
 
-![BIQU B1 - Electrical switch](/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly-inside-2.jpg)
+![BIQU B1 - Electrical switch](/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly/inside-2.jpg)
 
 Both neutral and live wires are switched through the switch. In a country like I live in there is no guarantee which of the incoming wires is live or not, so it is important that all wires are disconnected when the switch is turned off. For comparison, [Creality gets this wrong](https://gist.github.com/Sebazzz/ff4d716c8d2ad9bab1e87b3fc4238281#power-switch-failure).
 
-![BIQU B1 - Power supply](/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly-inside-4.jpg)
+![BIQU B1 - Power supply](/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly/inside-4.jpg)
 
 I've checked the electrical work and the grounding is also connected to the frame. In the very unlikely event something would happen, you are protected through the grounded outlet in your home.
 
 ### Motherboard
 
-![BIQU B1 - Motherboard](/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly-inside-5.jpg)
+![BIQU B1 - Motherboard](/images/blog/2020-09-29-biqu-b1-unpacking-and-assembly/inside-5.jpg)
 
 The motherboard of this printer is interesting. This a SKR v1.4 motherboard from BTT with removable stepper drivers. This means that at some point you can choose to swap out your stepper drivers with a newer or better model, or if the stepper driver is defect simply replace it. 
 
@@ -328,3 +328,6 @@ The less money you spend on a printer, the more money you keep in your pocket fo
 ### What's next?
 
 That's it for this review. The next article will be a comparison between the Creality CR-6 SE and this printer - since I have now both printers to play with. 
+
+
+

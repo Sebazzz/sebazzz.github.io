@@ -20,7 +20,7 @@ For this reason I developed an System.Web counterpart of Microsoft.AspNetCore.Ja
 
 Sample ASP.NET Web Forms website with HMR in action:
 
-![Webpack HMR running under an legacy ASP.NET sample project](/images/blog/2018-10-07-use-webpack-and-hot-module-replacement-with-system-web-projects.png)
+![Webpack HMR running under an legacy ASP.NET sample project](/images/blog/2018-10-07-use-webpack-and-hot-module-replacement-with-system-web-projects/primary.png)
 
 Note that for HMR to work in Microsoft Edge you need to use an `EventSource` polyfill, Microsoft Edge does [not support](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/serversenteventseventsource/?q=eventsource) server-sent events.
 
@@ -38,5 +38,6 @@ Then follow the steps in the [readme (Usage)](https://github.com/Sebazzz/SystemW
 Also check out the [ASP.NET Web Forms sample application](https://github.com/Sebazzz/SystemWebpack/tree/master/src/SystemWebpackTestApp).
 
 Happy coding!
+
 
 

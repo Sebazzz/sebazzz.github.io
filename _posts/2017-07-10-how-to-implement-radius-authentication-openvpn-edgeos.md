@@ -12,29 +12,29 @@ You need an domain controller running Windows Server 2008 or greater. Install th
 
 We will now allow RADIUS requests from the Ubiquiti. Navigate to "Network Policy and Access Services", "NPS", "Radius clients and servers", "Radius clients". Right click on the node and select "New".
 
-![Windows RADIUS set-up - part 1](/images/blog/2017-07-10-how-to-implement-radius-authentication-openvpn-edgeos-windows-p1.png)
+![Windows RADIUS set-up - part 1](/images/blog/2017-07-10-how-to-implement-radius-authentication-openvpn-edgeos/windows-p1.png)
 
 A dialog will open. You need to enter the RADIUS Client a name, generate a secure secret and enter an IP address of DNS name. If the DNS name is resolved by the server running the RADIUS server it should be no problem to enter an DNS name. 
 
-![Windows RADIUS set-up - part 2](/images/blog/2017-07-10-how-to-implement-radius-authentication-openvpn-edgeos-windows-p2.png)
+![Windows RADIUS set-up - part 2](/images/blog/2017-07-10-how-to-implement-radius-authentication-openvpn-edgeos/windows-p2.png)
 
 Complete the form and save the RADIUS Client. Next, we need to specify an access policy. Navigate to "Policies", then "Connection Request Policies". Create a new policy.
 
-![Windows RADIUS set-up - part 3](/images/blog/2017-07-10-how-to-implement-radius-authentication-openvpn-edgeos-windows-p3.png)
+![Windows RADIUS set-up - part 3](/images/blog/2017-07-10-how-to-implement-radius-authentication-openvpn-edgeos/windows-p3.png)
 
 In the second step of the wizard you can optionally specify some conditions, for instance a time restriction.
 
 In the last step, ensure that "Authenticate users on this server" is selected. 
 
-![Windows RADIUS set-up - part 4](/images/blog/2017-07-10-how-to-implement-radius-authentication-openvpn-edgeos-windows-p4.png)
+![Windows RADIUS set-up - part 4](/images/blog/2017-07-10-how-to-implement-radius-authentication-openvpn-edgeos/windows-p4.png)
 
 Next, we need to tell Windows which users may authenticate using RADIUS. Navigate to "Policies", then "Network Policies". Create a new "Unspecified" policy and in the second step of the wizard, assign one or more groups. A good practice is to create a group called "VPN Users" and assign people to that group.
 
-![Windows RADIUS set-up - part 5](/images/blog/2017-07-10-how-to-implement-radius-authentication-openvpn-edgeos-windows-p5.png)
+![Windows RADIUS set-up - part 5](/images/blog/2017-07-10-how-to-implement-radius-authentication-openvpn-edgeos/windows-p5.png)
 
 In the next step you need to configure the encryption protocol OpenVPN will use to validate the client credentials.  Unfortunately the FreeRADIUS PAM library only appears to support unencrypted PAP. Depending on your standards and network set-up this may be acceptable.
 
-![Windows RADIUS set-up - part 6](/images/blog/2017-07-10-how-to-implement-radius-authentication-openvpn-edgeos-windows-p6.png)
+![Windows RADIUS set-up - part 6](/images/blog/2017-07-10-how-to-implement-radius-authentication-openvpn-edgeos/windows-p6.png)
 
 Let's set-up OpenVPN!
 
@@ -109,3 +109,8 @@ chmod +x 20openvpn-radius-auth.sh
 Test the configuration by rebooting your router.
 
 Happy remote working!
+
+
+
+
+

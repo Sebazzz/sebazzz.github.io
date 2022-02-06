@@ -90,17 +90,17 @@ Test Files
 ## Tooling support
 **Resharper test runner:** Resharper appears to use its own methods to discover tests in the solution, so the ordered test collections don't show up at all. The hierarchy is not correctly displayed. It is understandable, because it would then need to load the NUnit assemblies, and that would add complexity. But that is as far as the issues go: The tests are executed in the correct order and I could confirm the attribute I added is indeed invoked by Resharper.
 
-![Resharper test runner showing ordered tests](/images/blog/2016-06-13-ordered-tests-with-nunit-mstest-xunit-pt5-nunit-implementation-revised-resharper.png)
+![Resharper test runner showing ordered tests](/images/blog/2016-06-13-ordered-tests-with-nunit-mstest-xunit-pt5-nunit-implementation-revised/resharper.png)
 
 **Visual Studio runner:** The display of tests in the test explorer is a bit... sad. Currently there are only a few tests implemented, so it is probably completely unreadable when you have more than a dozen tests.
 
-![Visual Studio test explorer showing ordered tests](/images/blog/2016-06-13-ordered-tests-with-nunit-mstest-xunit-pt5-nunit-implementation-revised-testexplorer.png)
+![Visual Studio test explorer showing ordered tests](/images/blog/2016-06-13-ordered-tests-with-nunit-mstest-xunit-pt5-nunit-implementation-revised/testexplorer.png)
 
 **Console runner:** Shows (and executes) the tests in the correct order. The output is shown [earlier](#running-the-tests) in this post.
 
 **NUnit GUI runner:** The NUnit GUI test runner is [still under construction](https://github.com/nunit/nunit-gui), but already in a working state. When loading the tests in the NUnit GUI, the tree of tests, just like intented is nicely displayed. The tests are also run in the correct order.
 
-![NUnit GUI test runner showing ordered tests](/images/blog/2016-06-13-ordered-tests-with-nunit-mstest-xunit-pt5-nunit-implementation-revised-nunitgui.png)
+![NUnit GUI test runner showing ordered tests](/images/blog/2016-06-13-ordered-tests-with-nunit-mstest-xunit-pt5-nunit-implementation-revised/nunitgui.png)
 
 ### Limitations
 The same [limitations](/blog/2016/06/13/ordered-tests-with-nunit-mstest-xunit-pt5-nunit-implementation-revised#Limitations) as in the last implementation apply.
@@ -111,3 +111,6 @@ We've seen how we can use a different approach to get test ordering in NUnit, wi
 Also, just like it said in the last post, keep in mind that there is currently [being discussed](https://github.com/nunit/nunit/issues/51) of implementing test ordering in NUnit beyond test methods. Before a working implementation reached NUnit, it may be a while though, these people [put their spare time](http://www.michaelbromley.co.uk/blog/529/why-i-havent-fixed-your-issue-yet) in developing open-source projects!
 
 The code of this blog post can be found on [GitHub](https://github.com/Sebazzz/NetUnitTestComparison/tree/ordered-tests-v2b) ([Diff](https://github.com/Sebazzz/NetUnitTestComparison/commit/04837ac892a1a8e46cc13ee64f2937deaa9b24c2)).
+
+
+

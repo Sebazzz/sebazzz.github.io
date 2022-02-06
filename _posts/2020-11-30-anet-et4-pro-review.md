@@ -135,7 +135,7 @@ The capacitive bed leveling probe is also used as the Z-endstop. What I did noti
 
 The printer prints well, and if it is not, it is all due to the filament. One of my first prints was this giant Cute Octopus.
 
-![Octopus printed with bad filament](/images/blog/2020-11-12-when-in-doubt-change-your-filament-octo.jpg)
+![Octopus printed with bad filament](/images/blog/2020-11-12-when-in-doubt-change-your-filament/octo.jpg)
 *All the stringing was due to the filament, as [I later found out](/blog/2020/11/12/when-in-doubt-change-your-filament).*
 
 The black PEI style surface works well for holding prints to the build surface, and I haven't had a failed print due to this build surface.
@@ -373,3 +373,4 @@ There are several places where you can buy this printer:
 - [AliExpress](https://www.aliexpress.com/item/4000033214131.html)
 
 The printer can ship from local warehouses, so what you pay is the price. No unexpected customs fees afterwards.
+

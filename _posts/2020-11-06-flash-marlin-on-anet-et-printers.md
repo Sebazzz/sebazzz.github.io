@@ -3,7 +3,7 @@ layout: post
 title:  "How to: Flash Marlin on Anet ET series printers "
 date:   2020-11-06 18:00:00 +0100
 categories: 3d-printing
-image: /images/blog/2020-11-06-flash-marlin-on-anet-et-printers-stlink.jpg
+image: /images/blog/2020-11-06-flash-marlin-on-anet-et-printers/stlink.jpg
 ---
 
 After my [BIQU B1 review](/blog/2020/10/18/biqu-b1-review) and [work on the Creality CR-6 community firmware](https://github.com/CR6Community) I got contacted by the 3D printer manufacturer [Anet 3D](https://www.anet3d.com/) to test and review their [Anet ET4 Pro 3D printer](https://shop.anet3d.com/products/et4-pro). The Anet ET series run on Anet's propietary firmware, but it is actually possible to flash them to the well-known printer firmware Marlin! However, it is a little bit more involved than just putting a bin file on the SD card. This article will show you how to flash Marlin to your Anet ET printer.
@@ -16,7 +16,7 @@ There are several things you need for this guide.
 
 First of all, ensure you have an Anet ET series printer. I used this procedure on an Anet ET4 Pro printer.
 
-![Anet ET4 Pro printer](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers-anet-printer.webp)
+![Anet ET4 Pro printer](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers/anet-printer.webp)
 
 Because the Anet ET series printers are very much alike and all use a very similar mainboard, this guide should work on both the ET4 and ET5 series.
 
@@ -24,7 +24,7 @@ Because the Anet ET series printers are very much alike and all use a very simil
 
 We can't flash the firmware via an SD card, we need to do it the first time directly to the 32-bit ARM processor on the main board. For this we're going to use an ST-Link. 
 
-![ST-Link](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers-stlink.jpg)
+![ST-Link](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers/stlink.jpg)
 
 You can get this on your favorite webshop. You can either buy the official ST-Link from ST Microelectronics or a clone like I bought. In my case I bought the [AZDelivery ST-Link V2](https://www.amazon.nl/dp/B086TWZNMM/ref=cm_sw_em_r_mt_dp_FJxPFbP346V6F?_encoding=UTF8&psc=1).
 
@@ -53,7 +53,7 @@ For the ST-Link, even if you have a clone, you need the official [ST-Link driver
 
 First you need to have the printer in a position so you can see the display, access the power controls, and access the mainboard. Unload any filament you have and gently place it so you can access everything.
 
-![Anet ET4 Pro taking a rest](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers-printer-sideway.jpg)
+![Anet ET4 Pro taking a rest](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers/printer-sideway.jpg)
 
 *I positioned it actually wrong here, I later found out I couldn't see the screen*
 
@@ -65,7 +65,7 @@ Unplug the printer from the live electricity, and remove the motherboard cover. 
 
 Now it is time to wire up the ST-link. My ST-link is for both 8-bit and 32-bit processors, but since the Anet ET runs a 32-bit STM32F407VGT6 microprocessor, we're going to use the 32-bit protocol for talking to the processor.
 
-![ST-link pinout](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers-stlink-pinout.jpg)
+![ST-link pinout](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers/stlink-pinout.jpg)
 
 At the *ST-Link adapter side* you're going to wire up the following pins:
 
@@ -103,7 +103,7 @@ First, let's backup the current firmware. This is especially important for the A
 
 Connect to the ST-Link using the context menu, and choose "connect".
 
-![ST-Link backup](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers-stlink-backup.png)
+![ST-Link backup](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers/stlink-backup.png)
 
 After choosing connect and being succesfully connected, you can choose "save as file" to backup the existing flash contents. A file browser will open and you can save your firmware (like *ANet-ET-firmware-backup.bin*).
 
@@ -111,11 +111,11 @@ After choosing connect and being succesfully connected, you can choose "save as 
 
 We're not going to flash our precompiled firmware directly, but use a bootloader instead. We flash the bootloader once, and after that we can just use an SD card to do any further firmware updates.
 
-![STM program](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers-stlink-program.png)
+![STM program](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers/stlink-program.png)
 
 Go to Target -> Program, then choose the `openblt_et4.bin` file and ensure the correct offset as shown below (`0x0800000`) and other options like below are selected.
 
-![STM ST-Link flashing process](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers-stlink-flashing.png)
+![STM ST-Link flashing process](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers/stlink-flashing.png)
 
 Start the flashing process by clicking "Start". It will take a few moments. If it fails, you can retry it without issue.
 
@@ -125,12 +125,12 @@ That's it for the flashing process. Turn off the printer, disconnect the power, 
 
 Now, take the micro SD card you've put the `firmware.srec` file on, and stick it in the printer. Connect the power, and turn on the printer again.
 
-![OpenBLT says hello!](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers-openblt-operational.jpg)
+![OpenBLT says hello!](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers/openblt-operational.jpg)
 
 If you've done everything right, OpenBLT will find the firmware file and start flashing the file to the ARM processor.
 This takes a few moments, and after it's done...
 
-![Hello Marlin](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers-hello-marlin.jpg)
+![Hello Marlin](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers/hello-marlin.jpg)
 
 ... Marlin will boot to the status screen. *Hello world!*
 
@@ -142,7 +142,7 @@ There are still some things left to do before you can fully enjoy your printer. 
 
 Most likely your touch screen will not detect touches correctly, so you need to calibrate it first.
 
-![Anet ET4 Pro touch screen calibration](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers-touch-calibration.jpg)
+![Anet ET4 Pro touch screen calibration](/images/blog/2020-11-06-flash-marlin-on-anet-et-printers/touch-calibration.jpg)
 
 For this, press and hold the touch screen for 5 seconds until the calibration screen appears. Using a stylus, or Allen key touch the screen in the corners as directed. When done, you will automatically return to the status screen.
 
@@ -159,3 +159,12 @@ Before you do any prints, you will want to do the basic calibration steps from t
 ## Conclusion
 
 I hope this has helped you flash a firmware to your Anet ET 3d printer. Good luck further tuning of Marlin!
+
+
+
+
+
+
+
+
+
