@@ -1,20 +1,13 @@
-function Check-Command($cmdname) {
-    return [bool](Get-Command -Name $cmdname -ErrorAction SilentlyContinue)
-}
-
 function Start-Jekyll() {
-	$cmd = "jekyll"
-	$args = @("serve", "--drafts", "--future")
+	$Cmd = "wsl"
+	$CmdArgs = @("./build.sh")
 	
-	$cmdLine = $cmd + " " + [String]::Join(" ", $args)
-	Write-Host $cmdLine
-
-    $process = Start-Process -PassThru -FilePath $cmd -ArgumentList $args -WindowStyle Minimized
-    Return $process
+	Write-Host "$Cmd $CmdArgs"
+    & $Cmd $CmdArgs
 }
 
-if ((Check-Command jekyll) -eq $false) {
-    Write-Host -ForegroundColor Red -Object "Jekyll not found in path"
+if (!(Get-Command wsl -ErrorAction SilentlyContinue)) {
+    Write-Host -ForegroundColor Red -Object "wsl not installed"
     Exit -1
 }
 
@@ -26,31 +19,10 @@ $choice = Read-Host -Prompt "Enter choice: "
 
 switch ([int]$choice) {
     1 { 
-        $process = Start-Jekyll
+        Start-Jekyll
     }
     2 { 
         Remove-Item -Path "_site" -Recurse -ErrorAction Continue
-        $process = Start-Jekyll
-    }
-}
-
-if ($process -ne $null) {
-	Write-Host "Launching web browser"
-    Start-Sleep -Seconds 5
-
-    if ($process.Exited) {
-		Write-Error "Error launching jekyll..."
-		Read-Host
-		Exit -1
-	}
-
-    Start-Process -FilePath "http://localhost:4000"
-
-    Read-Host -Prompt "Press any key to terminate"
-    [void]$process.CloseMainWindow()
-    [void]$process.WaitForExit(500)
-
-    if ($process.Exited -eq $false) {
-        [void]$process.Kill()
+        Start-Jekyll
     }
 }

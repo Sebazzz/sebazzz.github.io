@@ -1,2 +1,2 @@
 @echo off
-powershell -File build.ps1
+pwsh -NoProfile -File build.ps1
