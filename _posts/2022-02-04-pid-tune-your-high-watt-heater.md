@@ -93,7 +93,7 @@ So, I decreased `PID_MAX` from 255 to 100 - this did the trick. Getting *reachin
 ![PID tuning in progress](/images/blog/2022-02-04-pid-tune-your-high-watt-heater/pid-graph.gif)
 *Don't worry - during PID tuning the graph will shoot around the target temperature while the firmware learns how to control the heater*
 
-![PID tuning complete](/images/blog/2022-02-04-pid-tune-your-high-watt-heater/PID-Complete.png)
+![PID tuning complete](/images/blog/2022-02-04-pid-tune-your-high-watt-heater/PID-complete.png)
 *If you've called M303 with the U1 gcode you can immediately save the new PID results with `M500`*
 
 As you can see, after the PID tune I was able to maintain temperature perfectly.
