@@ -21,7 +21,7 @@ layout: default
 		
 		<div class="excerpt">
       {% if post.image %}
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-cover"><img src="{{ post.image | resize: "300x200" }}" alt="{{ post.title }}"></a>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-cover"><img src="{{ post.image | resize: "300x200" }}" alt="{{ post.title | xml_escape }}"></a>
       {% endif %}
 
 			{{ post.excerpt }}
