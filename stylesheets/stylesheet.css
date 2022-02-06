@@ -1108,7 +1108,7 @@ p + .highlighter-rouge {
 
 @media screen and (max-width: 800px) {
     .post-title { font-size: 36px; }
-    .post-cover { display:block; margin: 0 auto; }
+    .post-cover { display:block; margin: 0 auto; float: none; text-align: center;}
     .post-cover img { max-width: none; }
 }
 
