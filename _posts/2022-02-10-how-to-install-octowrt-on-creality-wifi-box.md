@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  'Unboxing a Creality Wifi Box and how to install Octoprint on it!'
-date:   2022-02-10 21:00:00 +0100
+date:   2022-02-10 20:00:00 +0100
 categories: 3d-printing
 image: /images/blog/2022-02-10-how-to-install-octowrt-on-creality-wifi-box/cover.jpg
 ---
