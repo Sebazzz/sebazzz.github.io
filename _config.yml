@@ -13,7 +13,7 @@ twitter:
 
 permalink: /blog/:year/:month/:day/:slug
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-feed
