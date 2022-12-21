@@ -7,6 +7,8 @@ url: "https://damsteen.nl" # the base hostname & protocol for your site
 twitter_username: sebazzz91
 github_username:  sebazzz
 linkedin_username: sebastiaandammann
+mastodon_username: sebazzz
+mastodon_instance: mastodon.nl
 
 twitter:
   username: sebazzz91
