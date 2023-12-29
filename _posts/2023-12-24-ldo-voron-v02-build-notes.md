@@ -60,7 +60,7 @@ First some general tips en tricks for undertaking the project.
 
 - If you have forgot to preload a nut, there is margin to forget *one* nut (see [Skirt mounting](#skirt)) for a picture.
 
-- The [Voron Github](https://github.com/VoronDesign/Voron-0/tree/Voron0.2r1) contains the most recent version of the manual.
+- The [Voron Github](https://github.com/VoronDesign/Voron-0/tree/Voron0.2r1) contains the most recent version of the manual. In addition, keep [the LDO Build Notes](https://docs.ldomotors.com/en/voron/voron02/build-faqv02) ready - note the page numbers deviate from the Voron manual at some point.
 
 ## Printing Voron V0.2 parts
 
@@ -137,7 +137,7 @@ The Voron assembly manual calls out "plastic standoffs" that may break easily. T
 
 ### Electronics
 
-A bunch of stepper motors don't do anything by themselves - you need electronics. The stepper motors are already pre-wired correctly, so you don't need to worry about that.
+A bunch of stepper motors don't do anything by themselves - you need electronics. The stepper motors are already pre-wired correctly, so you don't need to worry about that. Also [keep the LDO wiring guide](https://docs.ldomotors.com/en/voron/voron02/wiring_guide_rev_a) as a reference.
 
 ![Motherboard fuse](/images/blog/2023-12-29-ldo-voron-v02-build-notes/beware-the-fuse.jpg)
 *Beware of the fuse: Mine was loose in the packaging of the motherboard. At first I thought I was being careless and dislodged a ceramic capacitor, but this is a fuse and it wasn't properly held in the BTT SKR Pico mainboard. Some tweezers made quick work of it.*
