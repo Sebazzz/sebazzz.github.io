@@ -87,7 +87,7 @@ The necessary tools are included with the LDO kit. This also includes a ruler, w
 
 The linear rails are used on all axes of the motion system. If you're wondering why they are so hard to move on the rail: they are preloaded for a certain weight/force on the carriage, so if you just move them by hand, they are hard to move. It is likely not a quality issue what you're experiencing.
 
-One of the first things you'Il do is clean up shipping grease from the linear rails and then properly lubricate them. 
+One of the first things you'Il do is clean up shipping grease from the linear rails and then properly lubricate them. The [LDO greasing guide](https://docs.ldomotors.com/en/guides/rail_grease_guide) mentions "Some of the most commonly recommended lubricants by Voron community members are Mobilux EP1 or EP2, Superlube 21030, or white lithium grease". I picked Superlube 21030, since it is easy to get where I live.
 
 Before you do this **make sure that on each rail the rubber endstops are present and properly pressed in**, because you don't want the carriage to fall off the rail. The HIWIN X-axis rail does not have endstops included, so I pressed some tie-wraps through the holes to make sure the carriage couldn't fall off.
 
