@@ -48,6 +48,8 @@ Finally, on the bottom layer of the box we find two micro-USB cables and one mic
 
 Hackaday has published [earlier a complete technical teardown](https://hackaday.com/2020/12/28/teardown-creality-wifi-box/) on the Creality Wifi Box, and it took not long for solutions like [OctoWRT](https://github.com/ihrapsa/OctoWrt) to appear. OctoWRT is what we will use.
 
+*Update 2024-01-06: Unfortunately this particular fork of OctoWrt is no longer maintained, however, @shivajiva101 on Github contacted me. You can use his fork: https://github.com/shivajiva101/OctoWrt*
+
 *Note:* Octoprint is a supported solution on a Raspberry Pi 3 and higher - however it is _not supported_ on low powered devices like the Creality Wifi Box. What does "supported" mean in this case? Well - if you have performance issues - or any issues that could relate to performance - then you can't ask the authors to do something about it. It is all about managing expectations.
 
 ### Preparing the SD card
@@ -64,7 +66,7 @@ You need to format the microSD card as FAT32.
 
 We're first going to install **OpenWRT**, the base operating system, and then install Octoprint on top of it.
 
-Go to the [KlipperWRT repository](https://github.com/ihrapsa/KlipperWrt/tree/main/Firmware/OpenWrt_snapshot) and download one of the "*factory.bin" files and put it under a specific name - `cxsw_update.tar.bz2` - on the SD card.
+Go to the [OctoWrt repository](https://github.com/shivajiva101/OctoWrt/tree/main/firmware/OpenWrt_snapshot) ~~[KlipperWRT repository](https://github.com/ihrapsa/KlipperWrt/tree/main/Firmware/OpenWrt_snapshot)~~ and download one of the "*factory.bin" files and put it under a specific name - `cxsw_update.tar.bz2` - on the SD card.
 
 ![OpenWRT - Installation of OctoWRT on the Creality Wifi Box](/images/blog/2022-02-10-how-to-install-octowrt-on-creality-wifi-box/octo-02-wrt-inst-01.png)
 *I took file `fluiddWrt-FACTORY-ramips-mt76x8-creality_wb-01-squashfs-k5.10.46.bin` for this installation*
@@ -252,7 +254,7 @@ Next, we will format the microSD card with proper partitioning.
 
 ```shell
 cd /tmp
-wget https://github.com/ihrapsa/KlipperWrt/raw/main/scripts/1_format_extroot.sh
+wget https://github.com/shivajiva101/OctoWrt/raw/main/scripts/1_format_extroot.sh
 chmod +x 1_format_extroot.sh
 ./1_format_extroot.sh
 ```
@@ -557,9 +559,10 @@ If plugins run into compilation errors while downloading some plugins, you may b
 
 I hope have shown you in some more detail how to install OctoWrt and gave some more in-depth guidance along the way.
 
-OctoWrt would not be possible [without the work of ihrapsa](https://github.com/ihrapsa/OctoWrt/) on getting Octoprint working and [figgyc](https://github.com/figgyc) on getting OpenWRT to run on this device. I'd like to than them both for this!
+OctoWrt would not be possible [without the work of ihrapsa](https://github.com/ihrapsa/OctoWrt/) *and* [shivajiva101](https://github.com/shivajiva101/OctoWrt/) on getting Octoprint working and [figgyc](https://github.com/figgyc) on getting OpenWRT to run on this device. I'd like to than them both for this!
 
 Happy printing!
 
 ![Octoprint complete - Installation of OctoWRT on the Creality Wifi Box](/images/blog/2022-02-10-how-to-install-octowrt-on-creality-wifi-box/octo-complete.png)
 *The end result!*
+
